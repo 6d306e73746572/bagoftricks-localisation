@@ -1,0 +1,476 @@
+﻿<?xml version="1.0"?>
+<resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Localisation key="mainCategory_XP" value="Création de personnage, Progression &amp; Expérience" />
+  <Localisation key="mainCategory_Encumbrance" value="Encombrement &amp; Capacité de transport" />
+  <Localisation key="mainCategory_Rest" value="Repos &amp; Rations" />
+  <Localisation key="mainCategory_Money" value="Coût &amp; Argent" />
+  <Localisation key="mainCategory_PartyStats" value="Équipe - Statistiques &amp; Alignement" />
+  <Localisation key="mainCategory_EnemyStats" value="Ennemis - Statistiques" />
+  <Localisation key="mainCategory_Items" value="Objets &amp; équipement" />
+  <Localisation key="mainCategory_Buffs" value="Buffs" />
+  <Localisation key="mainCategory_SpellAbilityOptions" value="Options des Sorts &amp; Capacités" />
+  <Localisation key="mainCategory_MapTravel" value="Carte &amp; Voyage" />
+  <Localisation key="mainCategory_Kingdom" value="Royaume" />
+  <Localisation key="mainCategory_Dice" value="Jets de Dés" />
+  <Localisation key="mainCategory_CameraTools" value="Outils pour la caméra" />
+  <Localisation key="mainCategory_Misc" value="Divers" />
+  <Localisation key="mainCategory_Settings" value="Paramètres" />
+  <Localisation key="mainCategory_KeyBindings" value="Commandes au Clavier" />
+  <Localisation key="mainCategory_TaxCollector" value="Collecteur d&apos;Impôts" />
+  <Localisation key="header_UISoundTypes" value="Types de Sons UI" />
+  <Localisation key="header_TakeX" value="Obtenir X – jets de dés hors-combat" />
+  <Localisation key="header_CC" value="Création de Personnage" />
+  <Localisation key="header_Progression" value="Progression" />
+  <Localisation key="header_Experience" value="Expérience" />
+  <Localisation key="header_Multiplier" value="Multiplicateur" />
+  <Localisation key="header_UseCustomMultiplier" value="Utiliser un multiplicateur personnalisé" />
+  <Localisation key="header_CustomMultiplier" value="Multiplicateur Personnalisé" />
+  <Localisation key="header_RestLess" value="Moins de Repos - Meilleur Endurance" />
+  <Localisation key="header_AttributesBaseValues" value="Caractéristiques: Base (Total)" />
+  <Localisation key="header_SkillsRanks" value="Compétences: Rangs (Total)" />
+  <Localisation key="header_SocialSkillsBaseValues" value="Compétences Sociales: Base (Modifiées)" />
+  <Localisation key="header_StatsSaves" value="Sauvegardes: Bonus de Classe (Total)" />
+  <Localisation key="header_StatsCombat" value="Combat: Base (Modifiées)" />
+  <Localisation key="header_PartyMultipliers" value="Multiplicateur pour l&apos;équipe" />
+  <Localisation key="header_Attributes" value="Caractéristiques" />
+  <Localisation key="header_Skills" value="Compétences" />
+  <Localisation key="header_SocialSkills" value="Compétences Sociales" />
+  <Localisation key="header_Saves" value="Sauvegardes" />
+  <Localisation key="header_Combat" value="Combat" />
+  <Localisation key="header_Rank" value="Rang" />
+  <Localisation key="header_EnemyMultipliers" value="Ennemis - Multiplicateur" />
+  <Localisation key="header_SearchAndAddItems" value="Recherche &amp; Ajout d&apos;Objets" />
+  <Localisation key="header_ItemSearch" value="Recherche d&apos;Objet" />
+  <Localisation key="header_Search" value="Recherché" />
+  <Localisation key="header_SpellsPerDay" value="Sorts par jour" />
+  <Localisation key="header_RandomEncounterSettings" value="Rencontres Aléatoires - Paramètres" />
+  <Localisation key="header_BuildingTimeModifier" value="Modificateur du Temps de Construction" />
+  <Localisation key="header_BuildPoints" value="Points de construction" />
+  <Localisation key="header_Statistics" value="Statistiques" />
+  <Localisation key="header_Experimental" value="Expérimental" />
+  <Localisation key="header_Sounds" value="Sons" />
+  <Localisation key="header_GameConstants" value="Constantes du Jeu" />
+  <Localisation key="header_Language" value="Langue" />
+  <Localisation key="header_Level" value="Niveau" />
+  <Localisation key="label_CurrentMultiplier" value="Multiplicateur Actuel" />
+  <Localisation key="label_CurrentMoney" value="Argent Actuel" />
+  <Localisation key="label_CurrentAlignment" value="Alignement Actuel" />
+  <Localisation key="label_Location" value="Emplacement" />
+  <Localisation key="label_InStealth" value="en cachette" />
+  <Localisation key="label_ItemName" value="Nom" />
+  <Localisation key="label_ItemType" value="Type" />
+  <Localisation key="label_ItemDescription" value="Description" />
+  <Localisation key="label_ItemFlavourText" value="Histoire" />
+  <Localisation key="label_ItemCost" value="Coût" />
+  <Localisation key="label_ItemSellPrice" value="Prix de vente" />
+  <Localisation key="label_ItemWeight" value="Poids" />
+  <Localisation key="label_ObjectName" value="Nom d&apos;objet" />
+  <Localisation key="label_ObjectNameClean" value="Nom de l&apos;objet (Nettoyé)" />
+  <Localisation key="label_ItemSubtypeName" value="Nom du Sous-Type d&apos;Objet" />
+  <Localisation key="label_ItemSubtypeDescription" value="Description du Sous-Type d&apos;Objet" />
+  <Localisation key="label_ItemGuid" value="GUID" />
+  <Localisation key="label_ItemComment" value="Commentaire" />
+  <Localisation key="label_ItemIcon" value="Icône" />
+  <Localisation key="label_ItemIdentifyDC" value="Item Identify DC" />
+  <Localisation key="label_ItemInventoryPutSound" value="Inventaire d&apos;objets mettre le son" />
+  <Localisation key="label_ItemInventoryTakeSound" value="Inventaire d&apos;objets prendre le son" />
+  <Localisation key="label_ItemIsStackable" value="L&apos;Objet est empilable" />
+  <Localisation key="label_ItemIsNotable" value="L&apos;Objet est Remarquable" />
+  <Localisation key="label_ItemMiscellaneousType" value="Type d&apos;Objet divers" />
+  <Localisation key="label_ItemNonIdentifiedDescription" value="Description non identifiée" />
+  <Localisation key="label_ItemNonIdentifiedName" value="Nom non identifié" />
+  <Localisation key="label_AssetGuid" value="AssetGuid" />
+  <Localisation key="label_Amount" value="Quantités" />
+  <Localisation key="label_DisplayItemInformation" value="Afficher les informations sur l&apos;Objet" />
+  <Localisation key="label_Description" value="Description" />
+  <Localisation key="label_FlavourText" value="Histoire" />
+  <Localisation key="label_Armours" value="Armures" />
+  <Localisation key="label_Belts" value="Ceintures" />
+  <Localisation key="label_Footwear" value="Chaussures" />
+  <Localisation key="label_Gloves" value="Gants" />
+  <Localisation key="label_Headwear" value="Couvre-chef" />
+  <Localisation key="label_Keys" value="Clés" />
+  <Localisation key="label_MiscellaneousItems" value="Objets divers" />
+  <Localisation key="label_NeckItems" value="Colliers" />
+  <Localisation key="label_Notes" value="Remarques" />
+  <Localisation key="label_Rings" value="Anneaux" />
+  <Localisation key="label_Shields" value="Boucliers" />
+  <Localisation key="label_ShoulderItems" value="Épaulières" />
+  <Localisation key="label_UsableItems" value="Articles utilisables" />
+  <Localisation key="label_Weapons" value="Armes" />
+  <Localisation key="label_WristItems" value="Bracelets" />
+  <Localisation key="label_Results" value="Résultats" />
+  <Localisation key="label_TooManyResults_0" value="Plus que" />
+  <Localisation key="label_TooManyResults_1" value="résultats - modifiez la limite de résultats de recherche ou essayez d&apos;être plus précis!" />
+  <Localisation key="label_NumberOfActiveBuffs" value="Nombre de buffs actifs" />
+  <Localisation key="label_CurrentScene" value="Scène actuelle" />
+  <Localisation key="label_BuffName" value="Nom du buff" />
+  <Localisation key="label_BuffBlueprintName" value="Nom Blueprint du Buff" />
+  <Localisation key="label_BuffBlueprintAssetGuid" value="Blueprint AssetGuid du Buff" />
+  <Localisation key="label_BuffDescription" value="Description du buff" />
+  <Localisation key="label_Remove" value="Retirer" />
+  <Localisation key="label_SearchBy" value="Recherche par" />
+  <Localisation key="label_BuffComponents" value="Composants du Buff" />
+  <Localisation key="label_MilesTravelled" value="Miles parcourus" />
+  <Localisation key="label_NextEncounterRollAt" value="Lancé de Dés de Prochaine rencontre à" />
+  <Localisation key="label_TeleportKey" value="Touche de téléportation" />
+  <Localisation key="label_TogglePartyAlwaysRolls20Key" value="Touche d&apos;Activation/Désactivation – Toujours Obtenir 20" />
+  <Localisation key="label_CurrentValue" value="Valeur actuelle" />
+  <Localisation key="label_MilesUntilNextEncounterInfo" value="Cette valeur est ajoutée aux kilomètres actuels parcourus afin de déterminer le prochain jet de rencontre." />
+  <Localisation key="label_TeleportInfo" value="à pied et sur la carte du monde." />
+  <Localisation key="label_BuildingTimeInfo" value="Utilisez des valeurs négatives pour une réduction du temps de construction - appliqué uniquement aux constructions nouvellement démarrées!" />
+  <Localisation key="label_CurrentBuildingTimeModifier" value="Modificateur de temps de construction de bâtiment" />
+  <Localisation key="label_CurrentBuildPoints" value="Points de Construction actuels" />
+  <Localisation key="label_CurrentBaseBuildPointIncome" value="Revenu de base des Points de Construction" />
+  <Localisation key="label_AlwaysRoll20ForIntiativeInfo" value="affecte les amis et les ennemis!" />
+  <Localisation key="label_CameraTurnRate" value="Vitesse de rotation de la caméra" />
+  <Localisation key="label_CurrentRotation" value="Angle de Rotation" />
+  <Localisation key="label_CurrentDefaultRotation" value="Angle de Rotation par défaut" />
+  <Localisation key="label_RotateLeftKey" value="Touche - Tourner à gauche" />
+  <Localisation key="label_RotateRightKey" value="Touche - Tourner à droite" />
+  <Localisation key="label_ResetRotationKey" value="Touche – Réinitialiser l&apos;angle de rotation" />
+  <Localisation key="label_CurrentLowerZoomLimit" value="Limite de zoom inférieure actuelle" />
+  <Localisation key="label_CurrentUpperZoomLimit" value="Limite de zoom supérieure actuelle" />
+  <Localisation key="label_GlobalMapZoomLevelRestartButtonChange" value="Niveau de zoom sur la carte globale (après le redémarrage)" />
+  <Localisation key="label_GlobalMapZoomLevelRestart" value="Vous devez redémarrer le jeu pour que les modifications apportées au niveau de zoom sur la carte globale s&apos;appliquent!" />
+  <Localisation key="label_FocusCameraKey" value="Touche – Mise au point de la caméra" />
+  <Localisation key="label_CycleFocusKey" value="Touche – Cycle de mise au point" />
+  <Localisation key="label_CurrentFocus" value="Focus actuel" />
+  <Localisation key="label_CurrentGameLocale" value="Paramètres de jeu actuels" />
+  <Localisation key="label_CurrentGameID" value="Identifiant de jeu actuel" />
+  <Localisation key="label_Teleport" value="Se Téléporter" />
+  <Localisation key="label_RotateCameraLeft" value="Faire pivoter la caméra vers la gauche" />
+  <Localisation key="label_RotateCameraRight" value="Faire pivoter la caméra vers la droite" />
+  <Localisation key="label_ResetCameraRotation" value="Réinitialiser la rotation de la caméra" />
+  <Localisation key="label_FocusCamera" value="Suivre Personnage" />
+  <Localisation key="label_CycleFocus" value="Personnage suivant" />
+  <Localisation key="label_TogglePartyAlwaysRolls20" value="Activer/Désactiver – Le groupe obtient toujours 20" />
+  <Localisation key="label_CurrentSearchResultLimit" value="Limite des résultats de la recherche actuelle" />
+  <Localisation key="label_CurrentFlyingHeight" value="Hauteur de vol actuelle" />
+  <Localisation key="label_CurrentMinimalUnitSpeed" value="Vitesse unitaire minimale actuelle" />
+  <Localisation key="label_CurrentMinimalWeaponRange" value="Portée d&apos;armes minimale actuelle" />
+  <Localisation key="label_CurrentStealthDCIncrement" value="Incrément de DC furtif" />
+  <Localisation key="label_ResetCutsceneLock" value="Meilleur utilisé avec Focus Camera" />
+  <Localisation key="label_ResetCutsceneLockKey" value="Réinitialiser la touche de verrouillage des scènes coupées" />
+  <Localisation key="label_CurrentXP" value="XP actuel" />
+  <Localisation key="label_CurrentLevel" value="Niveau actuel" />
+  <Localisation key="label_CurrentSize" value="Taille actuelle" />
+  <Localisation key="label_IgnoreForbiddenFeaturesInfo" value="par exemple. Athéisme en essayant de devenir un clerc" />
+  <Localisation key="label_CraftMagicItemsSearchItemInfo" value="Les objets personnalisés du mod Craft Magic Items doivent être fabriqués au moins une fois avant de s&apos;afficher dans la recherche!" />
+  <Localisation key="label_ActionKey" value="Touche d&apos;action" />
+  <Localisation key="label_ActionKeyEnableExperimental" value="Activer le mode expérimental" />
+  <Localisation key="message_NotInGame" value="Chargez une sauvegarde!" />
+  <Localisation key="message_ExitCombat" value="Quittez le combat!" />
+  <Localisation key="message_NoEnemies" value="Il n&apos;y a pas d&apos;ennemis révélés!" />
+  <Localisation key="message_NoKingdom" value="Aucun royaume trouvé!" />
+  <Localisation key="message_NoFavourites" value="Aucun favori trouvé!" />
+  <Localisation key="message_NoValidGuids" value="Entrez des GUIDs valides!" />
+  <Localisation key="message_NoValidGuid" value="Entrez un GUID valide!" />
+  <Localisation key="message_NoResult" value="Pas de résultat!" />
+  <Localisation key="message_NoUnitSelected" value="Aucune unité sélectionnée!" />
+  <Localisation key="logMessage_Received" value="Reçu:" />
+  <Localisation key="logMessage_Removed" value="Enlevé:" />
+  <Localisation key="logMessage_Gold" value="Or" />
+  <Localisation key="logMessage_Enabled" value="Activée" />
+  <Localisation key="logMessage_Disabled" value="désactivé" />
+  <Localisation key="headerOption_MaxAbilityScoreAtCC" value="Maximum des caractéristiques à la création du personnage" />
+  <Localisation key="headerOption_AbilityPointsAtCCPlayer" value="Points de Caractéristiques à la création du personnage (Joueur [Défaut: 25])" />
+  <Localisation key="headerOption_AbilityPointsAtCCmerc" value="Points de Caractéristiques à la création du personnage (Mercenaire [défaut: 20])" />
+  <Localisation key="headerOption_AddCasterLevel" value="Ajouter un niveau de Lanceur de Sort (par défaut: 1)" />
+  <Localisation key="headerOption_NoRationsRequired" value="Aucune ration requise" />
+  <Localisation key="headerOption_MercenaryCostMultiplier" value="Multiplicateur du coût des mercenaires" />
+  <Localisation key="headerOption_ShowFavourites" value="Afficher les favoris" />
+  <Localisation key="headerOption_ShowItemSets" value="Afficher les ensembles d&apos;articles" />
+  <Localisation key="headerOption_TravelSpeedMultiplier" value="Multiplicateur de vitesse de déplacement" />
+  <Localisation key="headerOption_SettingsValue" value="Valeur des paramètres" />
+  <Localisation key="headerOption_ChanceOnGlobalMap" value="Chance sur la carte globale" />
+  <Localisation key="headerOption_ChanceWhenCamping" value="Chance en camping" />
+  <Localisation key="headerOption_ChanceWhenCampingAfterAttackDuringRest" value="Chance en camping après une attaque" />
+  <Localisation key="headerOption_HardEncounterChance" value="Rencontre difficile" />
+  <Localisation key="headerOption_HardEncounterMaxChance" value="Rencontre difficile Chance maximale" />
+  <Localisation key="headerOption_HardEncounterChanceIncreaseIncrements" value="Incrément d&apos;augmentation de chance de rencontre difficile" />
+  <Localisation key="headerOption_StalkerAmbushChances" value="Chance d&apos;embuscade" />
+  <Localisation key="headerOption_MilesUntilNextEncounterRoll" value="Milles jusqu&apos;à la prochaine rencontre alétoire" />
+  <Localisation key="headerOption_SafeMilesAfterEncounter" value="Miles sécurisés après une rencontre" />
+  <Localisation key="headerOption_SafeZoneSize" value="Taille de la zone de sécurité" />
+  <Localisation key="headerOption_EncounterPawnOffset" value="Décalage du pion de rencontre" />
+  <Localisation key="headerOption_EncounterPawnDistanceFromLocation" value="Distance du pion de rencontre" />
+  <Localisation key="headerOption_AvoidanceFailMargin" value="Se faufiler – Marge d&apos;échec" />
+  <Localisation key="headerOption_MinimalChallengeRatingBonus" value="Minimal Challenge Rating Bonus" />
+  <Localisation key="headerOption_MaximalChallengeRatingBonus" value="Maximal Challenge Rating Bonus" />
+  <Localisation key="headerOption_HardEncounterChallengeRatingBonus" value="Hard Encounter Challenge Rating Bonus" />
+  <Localisation key="headerOption_AdjustBy" value="Ajuster de" />
+  <Localisation key="headerOption_OverrideKingdomAlignmentResult" value="Ignorer le résultat de l&apos;alignement sur le royaume" />
+  <Localisation key="headerOption_Community" value="Communauté" />
+  <Localisation key="headerOption_Loyalty" value="Fidélité" />
+  <Localisation key="headerOption_Military" value="Militaire" />
+  <Localisation key="headerOption_Economy" value="Économie" />
+  <Localisation key="headerOption_Relations" value="Relations étrangères" />
+  <Localisation key="headerOption_Divine" value="Religion" />
+  <Localisation key="headerOption_Arcane" value="Magie" />
+  <Localisation key="headerOption_Stability" value="Stabilité" />
+  <Localisation key="headerOption_Culture" value="Culture" />
+  <Localisation key="headerOption_Espionage" value="Espionnage" />
+  <Localisation key="headerOption_CameraScrollSpeed" value="Vitesse de défilement de la caméra" />
+  <Localisation key="headerOption_SearchResultLimit" value="Limite de résultat de recherche" />
+  <Localisation key="headerOption_FlyingHeight" value="Hauteur de vol" />
+  <Localisation key="headerOption_UseSlider" value="Utilisez le curseur" />
+  <Localisation key="headerOption_VendorSellMultiplier" value="Multiplicateur de vente des vendeurs" />
+  <Localisation key="headerOption_CrittersInsteadOfBloodChance" value="Chance d&apos;avoir des bestioles au lieu du sang" />
+  <Localisation key="toggle_AddItemIdentified" value="Ajouter les articles identifiés" />
+  <Localisation key="toggle_AddMultipleItems" value="Ajouter plusieurs articles" />
+  <Localisation key="toggle_SearchCsvForCustomItemSets" value="Rechercher dans les fichiers .csv pour des Sets d&apos;Objets personnalisés" />
+  <Localisation key="toggle_SearchTxtForCustomItemSets" value="Rechercher dans les fichiers .txt pour des Sets d&apos;Objets personnalisés" />
+  <Localisation key="toggle_RememberLastEnteredGuids" value="Se souvenir des entrées GUIDs" />
+  <Localisation key="toggle_RememberOpenCategories" value="Se souvenir des catégories ouvertes" />
+  <Localisation key="toggle_RememberOpenSubMenus" value="Se souvenir des sous-menus ouverts et ses paramètres de recherche" />
+  <Localisation key="toggle_CreateCharStatsBackup" value="Créer une sauvegarde avant d&apos;importer des statistiques de personnage" />
+  <Localisation key="toggle_ShowDebugInfo" value="Afficher les informations de débogage" />
+  <Localisation key="button_PartyExperience" value="XP – Groupe" />
+  <Localisation key="button_Add6Rations" value="Ajouter 6 équipements et rations de camping " />
+  <Localisation key="button_Money" value="Argent" />
+  <Localisation key="button_SetAlignment" value="Définir l&apos;alignement sur" />
+  <Localisation key="button_Apply" value="Appliquer" />
+  <Localisation key="button_SetTo" value="Mettre à" />
+  <Localisation key="button_SetTo0" value="Mettre à 0" />
+  <Localisation key="button_SetAllTo0" value="Tout mettre à 0" />
+  <Localisation key="button_PressKey" value="Appuyez sur une touche" />
+  <Localisation key="button_ExportCharInfo" value="Exporter des informations de personnage (.txt)" />
+  <Localisation key="button_ImportStatsFrom" value="Importer des statistiques depuis" />
+  <Localisation key="button_Kill" value="Tuer" />
+  <Localisation key="button_Panic" value="Panique" />
+  <Localisation key="button_Freeze" value="Gel" />
+  <Localisation key="button_MakeCower" value="Faire chuter" />
+  <Localisation key="button_SetOnFire" value="Enflammer" />
+  <Localisation key="button_RevealFromStealth" value="Détecter (depuis le mode discret)" />
+  <Localisation key="button_KillAll" value="Tuer - Tous" />
+  <Localisation key="button_PanicAll" value="Panique – Tous" />
+  <Localisation key="button_FreezeAll" value="Gel – Tous" />
+  <Localisation key="button_MakeAllCower" value="Faire chuter – Tous" />
+  <Localisation key="button_SetAllOnFire" value="Enflammer – Tous" />
+  <Localisation key="button_RevealAllFromStealth" value="Détecter (depuis le mode discret) – Tous" />
+  <Localisation key="button_AddGuid" value="Ajouter Guid" />
+  <Localisation key="button_SetGuid" value="Set Guid" />
+  <Localisation key="button_Receive" value="Recevoir" />
+  <Localisation key="button_ExportItemInfo" value="Exporter l&apos;information sur l&apos;Objet (.txt)" />
+  <Localisation key="button_AddFavouritesToInventory" value="Ajouter des favoris à l&apos;inventaire" />
+  <Localisation key="button_ExportFavouritesGuids" value="Exporter les GUID favoris" />
+  <Localisation key="button_ExportFavouritesNames" value="Exporter les noms des favoris" />
+  <Localisation key="button_AddAllArmour" value="Ajouter toutes les armures" />
+  <Localisation key="button_AddAllBelts" value="Ajouter toutes les ceintures" />
+  <Localisation key="button_AddAllFootwear" value="Ajouter toutes les chaussures" />
+  <Localisation key="button_AddAllGloves" value="Ajouter tous les gants" />
+  <Localisation key="button_AddAllHandSimple" value="Ajouter tous les &apos;simple main&apos; (lanterne du premier monde)" />
+  <Localisation key="button_AddAllHeadwear" value="Ajouter tous les chapeaux" />
+  <Localisation key="button_AddAllKeys" value="Ajouter toutes les clés" />
+  <Localisation key="button_AddAllMiscellaneousItems" value="Ajouter tous les articles divers" />
+  <Localisation key="button_AddAllArtifactsAndRelics" value="Ajouter tous les artefacts et reliques" />
+  <Localisation key="button_AddAllNeckItems" value="Ajouter tous les objets du cou" />
+  <Localisation key="button_AddAllNotes" value="Ajouter toutes les notes" />
+  <Localisation key="button_AddAllRings" value="Ajouter toutes les bagues" />
+  <Localisation key="button_AddAllShields" value="Ajouter tous les boucliers" />
+  <Localisation key="button_AddAllShoulderItems" value="Ajouter tous les articles d&apos;épaule" />
+  <Localisation key="button_AddAllUsableItems" value="Ajouter tous les articles utilisables" />
+  <Localisation key="button_AddAllWeapons" value="Ajouter toutes les armes" />
+  <Localisation key="button_AddAllWristItems" value="Ajouter tous les bracelets" />
+  <Localisation key="button_CustomSets" value="Ensembles personnalisés" />
+  <Localisation key="button_LoadRefresh" value="Charger / Actualiser" />
+  <Localisation key="button_Filters" value="Filtres" />
+  <Localisation key="button_ResetFilters" value="Réinitialiser les filtres" />
+  <Localisation key="button_AddCurrentSearchResults" value="Ajouter les résultats de recherche actuels" />
+  <Localisation key="button_ExportCurrentSearchResultGuids" value="Exporter les résultats de recherche actuels" />
+  <Localisation key="button_ExportCurrentSearchResultNames" value="Exporter les noms des résultats de recherche actuels" />
+  <Localisation key="button_RemoveAllBuffs" value="Supprimer tous les buffs" />
+  <Localisation key="button_RemoveAllNegativeEffects" value="Supprimer tous les effets négatifs" />
+  <Localisation key="button_AllBuffs" value="Tous les buffs" />
+  <Localisation key="button_AddToParty" value="Ajouter au groupe" />
+  <Localisation key="button_AddFavouritesTo" value="Ajouter des favoris à" />
+  <Localisation key="button_Default" value="Défaut" />
+  <Localisation key="button_BaseBPIncome" value="PC – Revenu de base" />
+  <Localisation key="button_SetLowerZoomLimit" value="Définir la limite de zoom inférieure" />
+  <Localisation key="button_SetUpperZoomLimit" value="Définir la limite de zoom supérieure" />
+  <Localisation key="button_SetGlobalMapZoomLevel" value="Définir le niveau de zoom de la carte globale" />
+  <Localisation key="button_CreateGameHistoryLog" value="Créer un historique de jeu" />
+  <Localisation key="button_DumpKingdomState" value="Se décharger de l&apos;état du royaume" />
+  <Localisation key="button_FeatSelectionMultiplier" value="Feat Selection Multiplier" />
+  <Localisation key="button_SetToDefault" value="Définir par défaut" />
+  <Localisation key="button_SorcererSupreme" value="Sorcerer Supreme (mélanger et assortir des sorts)" />
+  <Localisation key="button_ResetToDefault" value="Réinitialiser aux valeurs par défaut" />
+  <Localisation key="button_MinimalUnitSpeed" value="Vitesse minimale de l&apos;unité" />
+  <Localisation key="button_MinimalWeaponRange" value="Portée d&apos;armes minimale" />
+  <Localisation key="button_StealthDCIncrement" value="Incrément de DC furtif" />
+  <Localisation key="button_InstantRest" value="Repos instantané" />
+  <Localisation key="button_RestoreSpellsAbilites" value="Restaurer les Sorts &amp; Capacités" />
+  <Localisation key="button_ResetCutsceneLock" value="Réinitialiser le verrou de la scène cinématique" />
+  <Localisation key="button_ReadyToLevel" value="Prêt à passer au niveau supérieur!" />
+  <Localisation key="button_AddAllArmourAndWeaponProficiencies" value="Ajouter toutes les compétences en armure et arme à" />
+  <Localisation key="button_SetSizeTo" value="Définir la taille à" />
+  <Localisation key="button_SetToOriginalSize" value="Régler à la taille originale" />
+  <Localisation key="button_CreateFallbackXML" value="Créer un XML de secours" />
+  <Localisation key="button_TeleportPartyToPlayer" value="Teleport Party To Player" />
+  <Localisation key="button_ChangePartyMembers" value="Changer les membres du groupe (uniquement sur les cartes locales)" />
+  <Localisation key="button_ReloadArea" value="Zone de rechargement" />
+  <Localisation key="button_TeleportEveryoneToPlayer" value="Téléporter tout le monde vers le joueur" />
+  <Localisation key="button_PostPartyChange" value="Activer les nouveaux membres du groupe et les téléporter vers le joueur" />
+  <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Le groupe obtient toujours 20" />
+  <Localisation key="buttonToggle_InfiniteSkillPoints" value="Points de compétences infinies" />
+  <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignorer les restrictions d&apos;alignement de classe" />
+  <Localisation key="buttonToggle_ExperienceMultiplier" value="Multiplicateur d&apos;expérience" />
+  <Localisation key="buttonToggle_UnlimitedItemCharges" value="Objets – Charges illimités" />
+  <Localisation key="buttonToggle_IgnoreEquipmentRestrictions" value="Ignorer les restrictions d&apos;équipement (alignement, classe, statistiques)" />
+  <Localisation key="buttonToggle_ShowEnemies" value="Montrer les ennemis" />
+  <Localisation key="buttonToggle_NoArcaneSpellFailure" value="Pas d&apos;échec des sorts arcaniques" />
+  <Localisation key="buttonToggle_UnlimitedCasting" value="Casting illimité" />
+  <Localisation key="buttonToggle_MetamagicZero" value="Définir le coût métamagique par défaut à zéro" />
+  <Localisation key="buttonToggle_IgnoreMaterialComponents" value="Ignorer les composants matériels" />
+  <Localisation key="buttonToggle_SpontaneousCastersCopyScrolls" value="Spontaneous Casters Copy Scrolls" />
+  <Localisation key="buttonToggle_UnlimitedAbilities" value="Capacités illimitées" />
+  <Localisation key="buttonToggle_MostlyUndetectableDuringStealth" value="Généralement indétectable pendant la furtivité" />
+  <Localisation key="buttonToggle_NoFriendlyFireAOE" value="Pas de tirs amicaux AOE" />
+  <Localisation key="buttonToggle_NoFriendlyFireAny" value="Pas de tirs amicaux (tous)" />
+  <Localisation key="buttonToggle_NoCooldown" value="Pas de temps de recharge" />
+  <Localisation key="buttonToggle_SetPartySpeedToFastestMember" value="Définir la vitesse du groupe à celle de son membre le plus rapide" />
+  <Localisation key="buttonToggle_RevealMapLocations" value="Révéler les emplacements sur la carte" />
+  <Localisation key="buttonToggle_EnableTeleport" value="Activer la téléportation" />
+  <Localisation key="buttonToggle_RandomEncounterPossible" value="Rencontres aléatoires possibles" />
+  <Localisation key="buttonToggle_AlwaysSucceedAtAvoidingEncounters" value="Toujours réussir à éviter les rencontres" />
+  <Localisation key="buttonToggle_InstantKingdomEvents" value="Évenements du Royaume – Instantanés" />
+  <Localisation key="buttonToggle_ForceSuccessTriumphs" value="Forcer  Réussite/ Réussite Critique" />
+  <Localisation key="buttonToggle_IgnoreBuildingRestrictions" value="Ignorer les restrictions de construction" />
+  <Localisation key="buttonToggle_EnableHotkey" value="Activer le raccourci clavier" />
+  <Localisation key="buttonToggle_EnemiesAlwaysRoll1" value="Les ennemis obtiennent toujours 1" />
+  <Localisation key="buttonToggle_AlwaysRoll20ForInitiative" value="Toujours obtenir 20 pour l&apos;initiative" />
+  <Localisation key="buttonToggle_CameraRotation" value="Rotation de la caméra" />
+  <Localisation key="buttonToggle_CameraScrollSpeed" value="Vitesse de défilement de la caméra" />
+  <Localisation key="buttonToggle_CameraZoomUnlocked" value="Zoom de la caméra débloqué" />
+  <Localisation key="buttonToggle_EnableFocusCamera" value="Activer la mise au point de la caméra" />
+  <Localisation key="buttonToggle_DisableCameraBounds" value="Désactiver les limites de la caméra" />
+  <Localisation key="buttonToggle_MoveCameraToPlayer" value="Déplacer la caméra vers le joueur" />
+  <Localisation key="buttonToggle_IgnoreDialogueRestrictions" value="Ignorer les restrictions de dialogue" />
+  <Localisation key="buttonToggle_NoInactiveCampsite" value="Ne pas quitter un camping inactif" />
+  <Localisation key="buttonToggle_EnableDLCContent" value="Activer le contenu DLC (uniquement s&apos;il est disponible sur votre système!)" />
+  <Localisation key="buttonToggle_FogOfWar" value="Brouillard de guerre (visuels uniquement)" />
+  <Localisation key="buttonToggle_FadeToBlack" value="Fondu au noir" />
+  <Localisation key="buttonToggle_ActiveSceneName" value="Active Scene Name" />
+  <Localisation key="buttonToggle_TaxCollector" value="Percepteurs d&apos;impôts" />
+  <Localisation key="buttonToggle_LogMessages" value="Journal des messages" />
+  <Localisation key="buttonToggle_FogOfWarFull" value="Brouillard de guerre" />
+  <Localisation key="buttonToggle_OverwriteFogOfWar" value="Écraser les paramètres de brouillard de guerre" />
+  <Localisation key="buttonToggle_SkipSpellSelection" value="Ignorer la sélection des sorts" />
+  <Localisation key="buttonToggle_VendorsSellFor0" value="Vendre pour 0 aux vendeurs" />
+  <Localisation key="buttonToggle_VendorsBuyFor0" value="Acheter pour 0 aux vendeurs" />
+  <Localisation key="buttonToggle_IgnoreForbiddenFeatures" value="Ignorer les fonctionnalités interdites lors du choix d&apos;une classe" />
+  <Localisation key="buttonToggle_SearchOnlyCraftMagicItems" value="Rechercher uniquement les objets créés par Craft Magic Items" />
+  <Localisation key="buttonToggle_EveryoneExceptPlayerFactionRolls1" value="Tout le monde, sauf la faction du joueur obtient toujours 1" />
+  <Localisation key="buttonToggle_experimentalIUnderstand" value="Je comprends" />
+  <Localisation key="buttonToggle_LogInfoToFile" value="Consigner les informations dans un fichier" />
+  <Localisation key="arrayItem_Alignments_NoChange" value="Pas de changement" />
+  <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotique Mauvais" />
+  <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutre Mauvais" />
+  <Localisation key="arrayItem_Alignments_LawfulEvil" value="Loyal Mauvais" />
+  <Localisation key="arrayItem_Alignments_ChaoticNeutral" value="Chaotique Neutre" />
+  <Localisation key="arrayItem_Alignments_TrueNeutral" value="Vrai Neutre" />
+  <Localisation key="arrayItem_Alignments_LawfulNeutral" value="Loyal Neutre" />
+  <Localisation key="arrayItem_Alignments_ChaoticGood" value="Chaotique Bon" />
+  <Localisation key="arrayItem_Alignments_NeutralGood" value="Neutre Bon" />
+  <Localisation key="arrayItem_Alignments_LawfulGood" value="Loyal Bon" />
+  <Localisation key="arrayItem_takeX_TakeCustomValue" value="Obtenir une valeur personnalisée" />
+  <Localisation key="arrayItem_takeX_Take20" value="Obtenir 20" />
+  <Localisation key="arrayItem_takeX_Take10" value="Obtenir 10" />
+  <Localisation key="arrayItem_takeX_Off" value="Off" />
+  <Localisation key="arrayItem_Size_Fine" value="Infime" />
+  <Localisation key="arrayItem_Size_Diminutive" value="Minuscule" />
+  <Localisation key="arrayItem_Size_Tiny" value="Très Petit" />
+  <Localisation key="arrayItem_Size_Small" value="Petit" />
+  <Localisation key="arrayItem_Size_Medium" value="Moyen" />
+  <Localisation key="arrayItem_Size_Large" value="Grand" />
+  <Localisation key="arrayItem_Size_Huge" value="Très Grand" />
+  <Localisation key="arrayItem_Size_Gargantuan" value="Gigantesque" />
+  <Localisation key="arrayItem_Size_Colossal" value="Colossal" />
+  <Localisation key="charStat_Strength" value="Force" />
+  <Localisation key="charStat_Dexterity" value="Dextérité" />
+  <Localisation key="charStat_Constitution" value="Constitution" />
+  <Localisation key="charStat_Intelligence" value="Intelligence" />
+  <Localisation key="charStat_Wisdom" value="Sagesse" />
+  <Localisation key="charStat_Charisma" value="Charisme" />
+  <Localisation key="charStat_Athletics" value="Athlétisme" />
+  <Localisation key="charStat_KnowledgeArcana" value="Érudition (mystères)" />
+  <Localisation key="charStat_KnowledgeWorld" value="Érudition (monde)" />
+  <Localisation key="charStat_LoreNature" value="Connaissance (nature)" />
+  <Localisation key="charStat_LoreReligion" value="Connaissance (sacré)" />
+  <Localisation key="charStat_Mobility" value="Mobilité" />
+  <Localisation key="charStat_Perception" value="Perception" />
+  <Localisation key="charStat_Persuasion" value="Éloquence" />
+  <Localisation key="charStat_Stealth" value="Discrétion" />
+  <Localisation key="charStat_Thievery" value="Doigts de Fée" />
+  <Localisation key="charStat_UseMagicDevice" value="Utilisation d&apos;objets magiques" />
+  <Localisation key="charStat_Bluff" value="Bluff" />
+  <Localisation key="charStat_Diplomacy" value="Diplomatie" />
+  <Localisation key="charStat_Intimidate" value="Intimider" />
+  <Localisation key="charStat_Fortitude" value="Courage" />
+  <Localisation key="charStat_Reflex" value="Réflexe" />
+  <Localisation key="charStat_Will" value="Volonté" />
+  <Localisation key="charStat_Initiative" value="Initiative" />
+  <Localisation key="charStat_BaseAttackBonus" value="Bonus de Base à l&apos;Attaque" />
+  <Localisation key="charStat_AdditionalAttackBonus" value="Bonus d&apos;attaque supplémentaire" />
+  <Localisation key="charStat_NumberOfAttacksOfOpportunity" value="Nombre d&apos;attaques d&apos;opportunité" />
+  <Localisation key="charStat_SneakAttack" value="Attaque furtive" />
+  <Localisation key="charStat_AdditionalDamage" value="Dommages supplémentaires" />
+  <Localisation key="charStat_AdditionalCombatManeuverBonus" value="Bonus de manœuvre de combat supplémentaire" />
+  <Localisation key="charStat_AdditionalCombatManeuverDefense" value="Défenses de manœuvre de combat supplémentaires" />
+  <Localisation key="charStat_ArmourClass" value="Classe d&apos;armure" />
+  <Localisation key="charStat_Reach" value="Atteindre" />
+  <Localisation key="charStat_HitPoints" value="Points de dommage" />
+  <Localisation key="charStat_Speed" value="Vitesse" />
+  <Localisation key="warning_Buffs" value="Assurez-vous de sauvegarder avant d&apos;ajouter ou de supprimer des buffs inconnus!" />
+  <Localisation key="warning_Experimental" value="Assurez-vous de sauvegarder et de créer des sauvegardes avant d&apos;utiliser l&apos;une de ces options!" />
+  <Localisation key="warning_Alignment" value="Soyez prudent lorsque vous changez d&apos;alignement!" />
+  <Localisation key="warning_TakeXAndPartyRoll20" value="Le groupe obtient toujours 20 et Obtenir X Hors-Combat sont tous-deux actifs! Le groupe obtiendra toujours 20!" />
+  <Localisation key="warning_InfiniteSkillPoints" value="(doit être désactivé après avoir dépensé les points de compétences pour pouvoir progresser)" />
+  <Localisation key="warning_UnresposiveAddingItems" value="Le jeu peut ne plus répondre lors de l&apos;ajout des éléments!" />
+  <Localisation key="warning_EkunQ2" value="Cet élément provoque des erreurs et ne peut donc pas être ajouté." />
+  <Localisation key="warning_SpellsPerDay" value="Sachez que des valeurs trop élevées peuvent casser l&apos;interface utilisateur du grimoire des lanceurs de sorts préparés!" />
+  <Localisation key="warning_ZoomLimits_0" value="est plus grand que la limite de zoom supérieure" />
+  <Localisation key="warning_ZoomLimits_1" value="Votre limite de zoom inférieure actuelle" />
+  <Localisation key="warning_ZoomLimits_2" value="En conséquence, les directions de défilement lors du zoom seront inversées!" />
+  <Localisation key="warning_FeatSelectionMultiplier_0" value="Peut causer des problèmes d&apos;interface utilisateur." />
+  <Localisation key="warning_FeatSelectionMultiplier_1" value="Pour résoudre ces problèmes, vous devez modifier le fichier party.json et supprimer toutes les entrées m_selectionsByLevel au-delà de la première." />
+  <Localisation key="warning_FeatSelectionMultiplier_2" value="Par exemple. m_selectionsByLevel: [&quot;item1&quot;, &quot;item2&quot;, &quot;item3&quot; ...] -&gt; m_selectionsByLevel: [&quot;item1&quot;]" />
+  <Localisation key="warning_SorcererSupreme_0" value="Peut empêcher les personnages de bas niveau de dépasser la sélection de sorts." />
+  <Localisation key="warning_SorcererSupreme_1" value="Vous pouvez utiliser le bouton ci-dessous pour progresser au-delà temporairement." />
+  <Localisation key="warning_IgnoreClassAlignment" value="ne désactive pas la capacité de restriction d&apos;alignement!" />
+  <Localisation key="warning_XPAndScaleXPActive" value="Il est recommandé de désactiver le multiplicateur XP de Bag Of Tricks lors de l&apos;utilisation de ScaleXP!" />
+  <Localisation key="warning_ActionKeyExperimentalMode" value="Le mode expérimental comprend des fonctionnalités qui peuvent casser le jeu et causer des plantages!" />
+  <Localisation key="misc_items" value="objets" />
+  <Localisation key="misc_times" value="fois" />
+  <Localisation key="misc_item" value="objet" />
+  <Localisation key="misc_time" value="temps" />
+  <Localisation key="misc_Enable" value="Activer" />
+  <Localisation key="misc_Disable" value="Désactiver" />
+  <Localisation key="misc_Hide" value="Cacher" />
+  <Localisation key="misc_Display" value="Afficher" />
+  <Localisation key="misc_Add" value="Ajouter" />
+  <Localisation key="misc_To" value="à" />
+  <Localisation key="misc_Play" value="Jouer" />
+  <Localisation key="misc_Yes" value="Oui" />
+  <Localisation key="misc_No" value="Non" />
+  <Localisation key="misc_Next" value="Suivant" />
+  <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) provoque des erreurs et ne sera donc pas ajouté." />
+  <Localisation key="taxCollector_Lord" value="Seigneur" />
+  <Localisation key="taxCollector_Lady" value="Dame" />
+  <Localisation key="taxCollector_Excellence" value="Excellence" />
+  <Localisation key="taxCollector_GreetingInitial_0_0" value="Salutations mon" />
+  <Localisation key="taxCollector_GreetingInitial_0_1" value="Salutations votre" />
+  <Localisation key="taxCollector_GreetingInitial_1" value="Ou souhaitez-vous être abordé différemment?" />
+  <Localisation key="taxCollector_GreetingInitial_2" value="S&apos;il vous plaît dites-moi, comment dois-je m&apos;adresser à vous à l&apos;avenir?" />
+  <Localisation key="taxCollector_ButtonAddresseMe" value="Appellez-moi" />
+  <Localisation key="taxCollector_GreetingInitial_3" value="Brillant! Commençons!" />
+  <Localisation key="taxCollector_GreetingReturn_0_0" value="Bienvenue" />
+  <Localisation key="taxCollector_GreetingReturn_0_1" value="Bienvenue" />
+  <Localisation key="taxCollector_GreetingReturn_1_0" value="Que souhaitez-vous faire?" />
+  <Localisation key="taxCollector_ButtonCollectTaxes" value="Collecter les impôts" />
+  <Localisation key="taxCollector_NothingToCollect_0_0" value="Mes excuses, les percepteurs d&apos;impôts ne sont pas encore revenus. Réessayez plus tard!" />
+  <Localisation key="taxCollector_Money" value="Argent" />
+  <Localisation key="taxCollector_BuildPoints" value="Points de Construction" />
+  <Localisation key="taxCollector_Collected_0_0" value="Et voilà!" />
+</resources>

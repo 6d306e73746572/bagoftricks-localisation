@@ -17,7 +17,7 @@
   <Localisation key="mainCategory_Settings" value="Paramètres" />
   <Localisation key="mainCategory_KeyBindings" value="Commandes au Clavier" />
   <Localisation key="mainCategory_TaxCollector" value="Percepteurs d&apos;Impôts" />
-  <Localisation key="mainCategory_Feats" value="Feats" />
+  <Localisation key="mainCategory_Feats" value="Dons" />
   <Localisation key="header_UISoundTypes" value="Types de Sons UI" />
   <Localisation key="header_TakeX" value="Obtenir X – jets de dés hors-combat" />
   <Localisation key="header_CC" value="Création de Personnage" />
@@ -296,7 +296,7 @@
   <Localisation key="button_SetGlobalMapZoomLevel" value="Définir le niveau de zoom de la carte globale" />
   <Localisation key="button_CreateGameHistoryLog" value="Créer un historique de jeu" />
   <Localisation key="button_DumpKingdomState" value="Rabaisser l&apos;état du royaume" />
-  <Localisation key="button_FeatSelectionMultiplier" value="Feat Selection – Multiplicateur" />
+  <Localisation key="button_FeatSelectionMultiplier" value="Sélection de Dons – Multiplicateur" />
   <Localisation key="button_SetToDefault" value="Définir par défaut" />
   <Localisation key="button_SorcererSupreme" value="Sorcerer Supreme (mélanger et assortir des sorts)" />
   <Localisation key="button_ResetToDefault" value="Réinitialiser aux valeurs par défaut" />
@@ -368,7 +368,7 @@
   <Localisation key="buttonToggle_SkipSpellSelection" value="Ignorer la sélection des sorts" />
   <Localisation key="buttonToggle_VendorsSellFor0" value="Vendre pour 0 aux vendeurs" />
   <Localisation key="buttonToggle_VendorsBuyFor0" value="Acheter pour 0 aux vendeurs" />
-  <Localisation key="buttonToggle_IgnoreForbiddenFeatures" value="Ignorer les fonctionnalités interdites lors du choix d&apos;une classe" />
+  <Localisation key="buttonToggle_IgnoreForbiddenFeatures" value="Ignorer les Dons interdits lors du choix d&apos;une classe" />
   <Localisation key="buttonToggle_SearchOnlyCraftMagicItems" value="Rechercher uniquement les objets créés par Craft Magic Items" />
   <Localisation key="buttonToggle_EveryoneExceptPlayerFactionRolls1" value="Tout le monde, sauf la faction du joueur obtient toujours 1" />
   <Localisation key="buttonToggle_experimentalIUnderstand" value="Je comprends" />
@@ -462,7 +462,7 @@
   <Localisation key="warning_ActionKeyExperimentalMode" value="Le mode expérimental comprend des fonctionnalités qui peuvent faire planter le jeu !" />
   <Localisation key="warning_GameVersion" value="Versiondu Jeu" />
   <Localisation key="warning_Mod" value="Mod" />
-  <Localisation key="warning_Feats_0" value="Sauvegardez votre partie avant l&apos;ajout de fonctionnalités" />
+  <Localisation key="warning_Feats_0" value="Sauvegardez votre partie avant l&apos;ajout de Dons" />
   <Localisation key="warning_Feats_1" value="Ajouter trop de maniement d&apos;armes peut bugger l&apos;Interface de jeu" />
   <Localisation key="misc_items" value="objets" />
   <Localisation key="misc_times" value="fois" />

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Localisation key="locale" value="frFr" />
   <Localisation key="mainCategory_XP" value="Création de personnage, Progression &amp; Expérience" />
   <Localisation key="mainCategory_Encumbrance" value="Encombrement &amp; Capacité de transport" />
   <Localisation key="mainCategory_Rest" value="Repos &amp; Rations" />
@@ -119,7 +120,9 @@
   <Localisation key="label_CurrentValue" value="Valeur actuelle" />
   <Localisation key="label_MilesUntilNextEncounterInfo" value="Cette valeur est ajoutée aux miles actuels parcourus afin de déterminer le prochain jet de rencontre." />
   <Localisation key="label_TeleportInfo" value="à pied et sur la carte du monde." />
-  <Localisation key="label_BuildingTimeInfo" value="Utilisez des valeurs négatives pour une réduction du temps de construction - appliqué uniquement aux nouvelles constructions!" />
+  <Localisation key="label_BuildingTimeInfo" value="Utilisez des valeurs négatives pour une réduction du temps de construction - appliqué uniquement aux nouvelles 
+
+constructions!" />
   <Localisation key="label_CurrentBuildingTimeModifier" value="Modificateur de temps de construction de bâtiment" />
   <Localisation key="label_CurrentBuildPoints" value="Points de Construction actuels" />
   <Localisation key="label_CurrentBaseBuildPointIncome" value="Revenu de base des Points de Construction" />
@@ -133,7 +136,9 @@
   <Localisation key="label_CurrentLowerZoomLimit" value="Limite de zoom inférieure actuelle" />
   <Localisation key="label_CurrentUpperZoomLimit" value="Limite de zoom supérieure actuelle" />
   <Localisation key="label_GlobalMapZoomLevelRestartButtonChange" value="Niveau de zoom sur la carte globale (après le redémarrage)" />
-  <Localisation key="label_GlobalMapZoomLevelRestart" value="Vous devez redémarrer le jeu pour que les modifications apportées au niveau de zoom sur la carte globale s&apos;appliquent!" />
+  <Localisation key="label_GlobalMapZoomLevelRestart" value="Vous devez redémarrer le jeu pour que les modifications apportées au niveau de zoom sur la carte globale 
+
+s&apos;appliquent!" />
   <Localisation key="label_FocusCameraKey" value="Touche – Suivre Personnage" />
   <Localisation key="label_CycleFocusKey" value="Touche – Personnage suivant" />
   <Localisation key="label_CurrentFocus" value="Focus actuel" />
@@ -156,8 +161,9 @@
   <Localisation key="label_CurrentXP" value="XP actuel" />
   <Localisation key="label_CurrentLevel" value="Niveau actuel" />
   <Localisation key="label_CurrentSize" value="Taille actuelle" />
-  <Localisation key="label_IgnoreForbiddenFeaturesInfo" value="par ex. Athéisme pour un prêtre" />
-  <Localisation key="label_CraftMagicItemsSearchItemInfo" value="Les objets personnalisés du mod Craft Magic Items doivent être fabriqués au moins une fois avant de s&apos;afficher dans la recherche!" />
+  <Localisation key="label_CraftMagicItemsSearchItemInfo" value="Les objets personnalisés du mod Craft Magic Items doivent être fabriqués au moins une fois avant de 
+
+s&apos;afficher dans la recherche!" />
   <Localisation key="label_ActionKey" value="Touche d&apos;action" />
   <Localisation key="label_ActionKeyEnableExperimental" value="Activer le mode expérimental" />
   <Localisation key="label_FeatDescription" value="Description" />
@@ -448,13 +454,19 @@
   <Localisation key="warning_InfiniteSkillPoints" value="(doit être désactivé après avoir dépensé les points de compétences pour pouvoir progresser)" />
   <Localisation key="warning_UnresposiveAddingItems" value="Le jeu peut ne plus répondre lors de l&apos;ajout des objets!" />
   <Localisation key="warning_EkunQ2" value="Cet élément provoque des erreurs et ne peut donc pas être ajouté." />
-  <Localisation key="warning_SpellsPerDay" value="Sachez que des valeurs trop élevées peuvent casser l&apos;interface utilisateur du grimoire des lanceurs de sorts préparés!" />
+  <Localisation key="warning_SpellsPerDay" value="Sachez que des valeurs trop élevées peuvent casser l&apos;interface utilisateur du grimoire des lanceurs de sorts 
+
+préparés!" />
   <Localisation key="warning_ZoomLimits_0" value="est plus grand que la limite de zoom supérieure" />
   <Localisation key="warning_ZoomLimits_1" value="Votre limite de zoom inférieure actuelle" />
   <Localisation key="warning_ZoomLimits_2" value="En conséquence, les directions de défilement lors du zoom seront inversées!" />
   <Localisation key="warning_FeatSelectionMultiplier_0" value="Peut causer des problèmes d&apos;interface utilisateur." />
-  <Localisation key="warning_FeatSelectionMultiplier_1" value="Pour résoudre ces problèmes, vous devez modifier le fichier party.json et supprimer toutes les entrées m_selectionsByLevel au-delà de la première." />
-  <Localisation key="warning_FeatSelectionMultiplier_2" value="Par exemple. m_selectionsByLevel: [&quot;item1&quot;, &quot;item2&quot;, &quot;item3&quot; ...] -&gt; m_selectionsByLevel: [&quot;item1&quot;]" />
+  <Localisation key="warning_FeatSelectionMultiplier_1" value="Pour résoudre ces problèmes, vous devez modifier le fichier party.json et supprimer toutes les entrées 
+
+m_selectionsByLevel au-delà de la première." />
+  <Localisation key="warning_FeatSelectionMultiplier_2" value="Par exemple. m_selectionsByLevel: [&quot;item1&quot;, &quot;item2&quot;, &quot;item3&quot; ...] -&gt; 
+
+m_selectionsByLevel: [&quot;item1&quot;]" />
   <Localisation key="warning_SorcererSupreme_0" value="Peut empêcher les personnages de bas niveau de dépasser la sélection de sorts." />
   <Localisation key="warning_SorcererSupreme_1" value="Vous pouvez utiliser le bouton ci-dessous pour progresser au-delà temporairement." />
   <Localisation key="warning_IgnoreClassAlignment" value="ne désactive pas la restriction d&apos;alignement!" />

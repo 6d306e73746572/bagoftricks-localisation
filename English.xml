@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Localisation key="locale" value="enGB" />
+  <Localisation key="locale" value="enGB" />
   <Localisation key="mainCategory_XP" value="Character Creation, Progression &amp;  Experience" />
   <Localisation key="mainCategory_Encumbrance" value="Encumbrance &amp; Carrying Capacity" />
   <Localisation key="mainCategory_Rest" value="Rest &amp; Rations" />

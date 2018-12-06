@@ -123,7 +123,6 @@
   <Localisation key="label_TogglePartyAlwaysRolls20Key" value="Toggle Party Always Rolls 20 Key" />
   <Localisation key="label_CurrentValue" value="Current Value" />
   <Localisation key="label_MilesUntilNextEncounterInfo" value="This value is added to the current miles travelled in order to determine the next encounter roll." />
-  <Localisation key="label_TeleportInfo" value="On foot and on the global map." />
   <Localisation key="label_BuildingTimeInfo" value="Use negative values for a build time reduction - only applied to newly started constructions!" />
   <Localisation key="label_CurrentBuildingTimeModifier" value="Current Building Time Modifier" />
   <Localisation key="label_CurrentBuildPoints" value="Current Build Points" />
@@ -398,6 +397,8 @@
   <Localisation key="buttonToggle_ShowOnlyClassSkills" value="Show Only Class Skills" />
   <Localisation key="buttonToggle_ShowTooltips" value="Show Tooltips" />
   <Localisation key="buttonToggle_NoLevelUpRestirctions" value="Always Be Able To Level Up" />
+  <Localisation key="buttonToggle_NeverRoll1" value="Never Roll 1" />
+  <Localisation key="buttonToggle_NeverRoll20" value="Never Roll 20" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -439,6 +440,9 @@
   <Localisation key="arrayItem_FeatParam_WeaponMastery" value="Weapon Mastery" />
   <Localisation key="arrayItem_FeatParam_WeaponSpecialization" value="Weapon Specialization" />
   <Localisation key="arrayItem_FeatParam_WeaponSpecializationGreater" value="Greater Weapon Specialization" />
+  <Localisation key="arrayItem_NeverRollX_Everyone" value="Everyone" />
+  <Localisation key="arrayItem_NeverRollX_OnlyParty" value="Only The Party" />
+  <Localisation key="arrayItem_NeverRollX_OnlyEnemies" value="Only Enemies" />
   <Localisation key="charStat_Strength" value="Strength" />
   <Localisation key="charStat_Dexterity" value="Dexterity" />
   <Localisation key="charStat_Constitution" value="Constitution" />
@@ -497,8 +501,12 @@
   <Localisation key="warning_Mod" value="Mod" />
   <Localisation key="warning_Feats_0" value="Make sure to save before adding or removing unfamiliar feats!" />
   <Localisation key="warning_Feats_1" value="Adding too many weapon proficiencies may cause UI issues!" />
-  <Localisation key="warning_toggleNoLevelUpRestirctions" value="A character level above 20 will cause the spell book UI to break.&#xA;You can use the Reset Character Level in the Party Statistics &amp; Alignment menu to make it usable again." />
+  <Localisation key="warning_toggleNoLevelUpRestirctions" value="A character level above 20 will cause the spell book UI to break.&#xA;You can use the Reset Character Level option to make it usable again." />
   <Localisation key="warning_SetCharacterLevel" value="Your experience points will be set to the lowest value for the chosen level!" />
+  <Localisation key="warning_SettingsXML_0" value="If you are using the mod for the first time ignore this message." />
+  <Localisation key="warning_SettingsXML_1" value="Since there were major changes to the Settings.xml&#xA;it is highly recommended to the delete the Settings.xml file&#xA;in your 'Pathfinder Kingmaker\Mods\BagOfTricks' folder before continuing to use the mod!" />
+  <Localisation key="warning_NeverRoll1AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 1." />
+  <Localisation key="warning_NeverRoll20AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 20." />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
@@ -508,11 +516,84 @@
   <Localisation key="tooltip_IgnoreClassAlignment" value="﻿Ignore alignment restrictions for classes." />
   <Localisation key="tooltip_IgnoreForbiddenFeatures" value="﻿Ignore forbidden feats when choosing a class e.g. Atheism when trying to become a Cleric." />
   <Localisation key="tooltip_ExperienceMultiplier" value="Enables a multiplier for all gained experience points." />
+  <Localisation key="tooltip_Multiplier" value="Use the slider to set a multiplier." />
   <Localisation key="tooltip_CustomMultiplier" value="Allows to set a custom multiplier." />
-  <Localisation key="tooltip_ShowAllWeaponCategories" value="﻿Enabling this options will allow you to add versions of feats the game doesn't normally include e.g. Fencing Grace (Greatclub)." />
+  <Localisation key="tooltip_InstantRest" value="Applies all the effects of a rest immediately to the party." />
+  <Localisation key="tooltip_NoRationsRequired" value="Disables to need for rations when resting." />
+  <Localisation key="tooltip_Add6Rations" value="Adds six rations to the party's inventory." />
+  <Localisation key="tooltip_MercenaryCostMultiplier" value="Use the input field to set a multiplier for the cost for recruiting a mercenary." />
+  <Localisation key="tooltip_VendorSellMultiplier" value="Enables a multiplier for goods sold to vendors." />
+  <Localisation key="tooltip_VendorsSellFor0" value="All items sold are worth 0." />
+  <Localisation key="tooltip_VendorsBuyFor0" value="All items bought are worth 0." />
   <Localisation key="tooltip_ResetCharacterLevel" value="﻿Resets the character level to match your current experience points (at most level 20)." />
   <Localisation key="tooltip_SetCharacterLevel" value="﻿Sets the character level to the chosen value." />
-  <Localisation key="tooltip_RestoreSpellsAbilitiesAfterCombat" value="All spells and abilities are restored after every combat." />
+  <Localisation key="tooltip_SetAlignment" value="Set the selected character's alignment to the one chosen from the selection grid." />
+  <Localisation key="tooltip_SetSize" value="Set the selected character's size to the one chosen from the selection grid." />
+  <Localisation key="tooltip_SetToOriginalSize" value="Revert the selected character back to their original size." />
+  <Localisation key="tooltip_Statistics" value="Use the input field or the +/- buttons to alter the statistics." />
+  <Localisation key="tooltip_ShowOnlyClassSkills" value="Switch between displaying all skills or only class skills." />
+  <Localisation key="tooltip_PartyMultipliers" value="Use the slider to set a multiplier for the chosen party statistics." />
+  <Localisation key="tooltip_ExportCharInfo" value="Creates a .txt file with all the selected character's statistics in the Characters folder.&#xA;This file can be edited and imported." />
+  <Localisation key="tooltip_ImportStatsFrom" value="Imports all the statistics for the selected character from a .txt file." />
+  <Localisation key="tooltip_UnlimitedItemCharges" value="Usable items have unlimited charges." />
+  <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Disables equipment restrictions (Alignment, Class, Statistics)." />
+  <Localisation key="tooltip_AddItemIdentified" value="Items added through this menu will be added in an identified state." />
+  <Localisation key="tooltip_AssetGuid" value="If you don't know an item's Guid you can use the search function below." />
+  <Localisation key="tooltip_AddMultipleItems" value="Allows you to insert multiple Guid separated by commas." />
+  <Localisation key="tooltip_ShowEnemies" value="Display enemies instead of party members." />
+  <Localisation key="tooltip_ShowAllWeaponCategories" value="﻿Enabling this options will allow you to add versions of feats the game doesn't normally include e.g. Fencing Grace (Greatclub)." />
+  <Localisation key="tooltip_RestoreSpellsAbilites" value="Restore your party's spells and abilities﻿." />
+  <Localisation key="tooltip_NoArcaneSpellFailure" value="﻿Disables arcane spell failure for your party." />
+  <Localisation key="tooltip_UnlimitedCasting" value="﻿Unlimited spell casts for you party." />
+  <Localisation key="tooltip_MetamagicZero" value="Sets the default Metamagic cost to zero." />
+  <Localisation key="tooltip_IgnoreMaterialComponents" value="Disables material component requirements." />
+  <Localisation key="tooltip_SpontaneousCastersCopyScrolls" value="﻿Allows spontaneous casters to copy spells from scrolls." />
+  <Localisation key="tooltip_UnlimitedAbilities" value="Unlimited ability uses for you party." />
+  <Localisation key="tooltip_RestoreSpellsAbilitiesAfterCombat" value="All spells and abilities are automatically restored after every combat." />
+  <Localisation key="tooltip_MostlyUndetectableDuringStealth" value="﻿Remain (mostly) undetectable while in stealth." />
+  <Localisation key="tooltip_NoFriendlyFireAOE" value="Disables friendly fire when using area off effect spells or abilities." />
+  <Localisation key="tooltip_NoFriendlyFireAny" value="Disables friendly fire of any type." />
+  <Localisation key="tooltip_NoCooldown" value="Disables cooldowns (certain delays will still occur)." />
+  <Localisation key="tooltip_SpellsPerDay" value="Use the slider or a custom multiplier to set the amount of spells per day / memorised spells." />
+  <Localisation key="tooltip_SetPartySpeedToFastestMember" value="Sets the speed of the whole party to match the speed of the fastest party member." />
+  <Localisation key="tooltip_RevealMapLocations" value="Reveals all global map locations." />
+  <Localisation key="tooltip_EnableTeleport" value="Teleport the party to the current mouse position with a key press (on foot and on the global map)." />
+  <Localisation key="tooltip_TeleportPartyToPlayer" value="Teleports the party to the player character." />
+  <Localisation key="tooltip_TravelSpeedMultiplier" value="Use the input field to set a multiplier for the global map travel speed." />
+  <Localisation key="tooltip_RandomEncounterSettings" value="Use the toggles, slider and input files to configure random encounter to your liking." />
+  <Localisation key="tooltip_RandomEncounterPossible" value="Disables random encounters on the global map." />
+  <Localisation key="tooltip_AlwaysSucceedAtAvoidingEncounters" value="Avoiding random encounters will always be successful." />
+  <Localisation key="tooltip_OverrideKingdomAlignmentResult" value="﻿Overrides kingdom alignment result." />
+  <Localisation key="tooltip_InstantKingdomEvents" value="﻿﻿Instantly complete kingdom events." />
+  <Localisation key="tooltip_ForceSuccessTriumphs" value="﻿﻿﻿Force success/triumph for the result of kingdom events." />
+  <Localisation key="tooltip_IgnoreBuildingRestrictions" value="﻿﻿﻿Ignore kingdom building restrictions." />
+  <Localisation key="tooltip_PartyAlwaysRolls20" value="Every roll on a d20 by the party will result in a natural 20." />
+  <Localisation key="tooltip_EnablePartyAlwaysRoll20Hotkey" value="Enable a hotkey to toggle Party Always Rolls 20." />
+  <Localisation key="tooltip_EnemiesAlwaysRoll1" value="Every roll on a d20 by the enemies will result in a natural 1." />
+  <Localisation key="tooltip_EveryoneExceptPlayerFactionRolls1" value="Every roll on a d20 by anyone except the members of the player faction will result in a natural 1." />
+  <Localisation key="tooltip_NeverRoll1" value="Rolls of 1 on a d20 never occur.&#xA;Can be set to affect everyone, only the party or only enemies." />
+  <Localisation key="tooltip_NeverRoll20" value="Rolls of 20 on a d20 never occur.&#xA;Can be set to affect everyone, only the party or only enemies." />
+  <Localisation key="tooltip_AlwaysRoll20ForInitiative" value="﻿Everyone including your enemies rolls 20 for initiative." />
+  <Localisation key="tooltip_TakeX" value="﻿﻿D20 rolls made out of combat will result in the set value i.e. 10, 20 or a custom one." />
+  <Localisation key="tooltip_CameraRotation" value="Enables camera rotation." />
+  <Localisation key="tooltip_CameraScrollSpeed" value="Enables the option to change the scroll speed of the camera." />
+  <Localisation key="tooltip_CameraZoomUnlocked" value="Enables editing the camera zoom limits." />
+  <Localisation key="tooltip_EnableFocusCamera" value="Enables focusing the camera on party members and cycling through them via hotkey." />
+  <Localisation key="tooltip_DisableCameraBounds" value="Disables the camera bounds and allows you to free move the camera." />
+  <Localisation key="tooltip_MoveCameraToPlayer" value="Centers the camera on the player character." />
+  <Localisation key="tooltip_ResetCutsceneLock" value="﻿﻿Allows you to move during cutscenes.&#xA;Best used together with Focus Camera to override the game's focus." />
+  <Localisation key="tooltip_EnableResetCutsceneLockHotkey" value="Enables to toggle the Reset Cutscene Lock option via hotkey." />
+  <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of action via hotkey." />
+  <Localisation key="tooltip_ActionKeyEnableExperimental" value="Experimental Mode includes features that can break the game and cause crashes!" />
+  <Localisation key="tooltip_LogInfoToFile" value="Enables logging the gathered information to the BagOfTricks.log file in the BagOfTricks folder." />
+  <Localisation key="tooltip_OverwriteFogOfWar" value="Allows to completely disable fog of war or only its visuals." />
+  <Localisation key="tooltip_IgnoreDialogueRestrictions" value="﻿﻿Removes dialogue restrcitons." />
+  <Localisation key="tooltip_NoInactiveCampsite" value="﻿Disables leaving an inactive campsite." />
+  <Localisation key="tooltip_EnableDLCContent" value="﻿﻿Enables DLC content if it is on your system." />
+  <Localisation key="tooltip_TaxCollector" value="The Tax Collector will collect build points and money (based on your character and kingdom stats) for you while you are gone." />
+  <Localisation key="tooltip_ShowTooltips" value="﻿﻿Disables the display of tooltips by the mod." />
+  <Localisation key="tooltip_LogMessages" value="﻿Disables in-game log messages created by the mod." />
+  <Localisation key="tooltip_CreateFallbackXML" value="Creates a .xml file of the fallback localisation." />
   <Localisation key="misc_items" value="items" />
   <Localisation key="misc_times" value="times" />
   <Localisation key="misc_item" value="item" />

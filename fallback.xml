@@ -19,6 +19,7 @@
   <Localisation key="mainCategory_KeyBindings" value="Key Bindings" />
   <Localisation key="mainCategory_TaxCollector" value="Tax Collector" />
   <Localisation key="mainCategory_Feats" value="Feats" />
+  <Localisation key="mainCategory_FavouriteFunctions" value="Favourite Functions" />
   <Localisation key="header_UISoundTypes" value="UI Sound Types" />
   <Localisation key="header_TakeX" value="Take X" />
   <Localisation key="header_CC" value="Character Creation" />
@@ -347,7 +348,7 @@
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
   <Localisation key="buttonToggle_ExperienceMultiplier" value="Experience Multiplier" />
   <Localisation key="buttonToggle_UnlimitedItemCharges" value="Unlimited Item Charges" />
-  <Localisation key="buttonToggle_IgnoreEquipmentRestrictions" value="Ignore Equipment Restrictions (Alignment, Class, Statistics)" />
+  <Localisation key="buttonToggle_IgnoreEquipmentRestrictions" value="Ignore Equipment Restrictions" />
   <Localisation key="buttonToggle_ShowEnemies" value="Show Enemies" />
   <Localisation key="buttonToggle_NoArcaneSpellFailure" value="No Arcane Spell Failure" />
   <Localisation key="buttonToggle_UnlimitedCasting" value="Unlimited Casting" />
@@ -399,6 +400,11 @@
   <Localisation key="buttonToggle_NoLevelUpRestirctions" value="Always Be Able To Level Up" />
   <Localisation key="buttonToggle_NeverRoll1" value="Never Roll 1" />
   <Localisation key="buttonToggle_NeverRoll20" value="Never Roll 20" />
+  <Localisation key="buttonToggle_InstantRestAfterCombat" value="Instant Rest After Combat" />
+  <Localisation key="buttonToggle_FullHitdiceEachLevel" value="Add Full Hit Die Value On Level Up" />
+  <Localisation key="buttonToggle_RollHitDiceEachLevel" value="Roll Hit Die Value On Level Up" />
+  <Localisation key="buttonToggle_RollWithAdvantage" value="Roll With Advantage" />
+  <Localisation key="buttonToggle_RollWithDisadvantage" value="Roll With Disadvantage" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -503,13 +509,16 @@
   <Localisation key="warning_Feats_1" value="Adding too many weapon proficiencies may cause UI issues!" />
   <Localisation key="warning_toggleNoLevelUpRestirctions" value="A character level above 20 will cause the spell book UI to break.&#xA;You can use the Reset Character Level option to make it usable again." />
   <Localisation key="warning_SetCharacterLevel" value="Your experience points will be set to the lowest value for the chosen level!" />
-  <Localisation key="warning_SettingsXML_0" value="If you are using the mod for the first time ignore this message." />
+  <Localisation key="warning_SettingsXML_0" value="If you are using the mod for the first time you can ignore this message." />
   <Localisation key="warning_SettingsXML_1" value="Since there were major changes to the Settings.xml&#xA;it is highly recommended to the delete the Settings.xml file&#xA;in your 'Pathfinder Kingmaker\Mods\BagOfTricks' folder before continuing to use the mod!" />
   <Localisation key="warning_NeverRoll1AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 1." />
   <Localisation key="warning_NeverRoll20AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 20." />
+  <Localisation key="warning_AlsoEnabled" value="is also enabled!" />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
+  <Localisation key="tooltip_FullHitdiceEachLevel" value="Removes the halving of the hit die value by the game when adding hit point on level up." />
+  <Localisation key="tooltip_RollHitDiceEachLevel" value="Instead of adding half the hit die value every level up the added value is determined by a roll." />
   <Localisation key="tooltip_AddCasterLevel" value="﻿Use the input field to set the caster level." />
   <Localisation key="tooltip_NoLevelUpRestirctions" value="You can level up even when you don't meet the experience requirements or are already level 20.&#xA;The UI indicators won't immediately update to show that a level up is available/unavailable." />
   <Localisation key="tooltip_InfiniteSkillPoints" value="﻿Gain infinite skill points." />
@@ -519,6 +528,7 @@
   <Localisation key="tooltip_Multiplier" value="Use the slider to set a multiplier." />
   <Localisation key="tooltip_CustomMultiplier" value="Allows to set a custom multiplier." />
   <Localisation key="tooltip_InstantRest" value="Applies all the effects of a rest immediately to the party." />
+  <Localisation key="tooltip_InstantRestAfterCombat" value="Applies all the effects of a rest automatically after every combat." />
   <Localisation key="tooltip_NoRationsRequired" value="Disables to need for rations when resting." />
   <Localisation key="tooltip_Add6Rations" value="Adds six rations to the party's inventory." />
   <Localisation key="tooltip_MercenaryCostMultiplier" value="Use the input field to set a multiplier for the cost for recruiting a mercenary." />
@@ -536,7 +546,7 @@
   <Localisation key="tooltip_ExportCharInfo" value="Creates a .txt file with all the selected character's statistics in the Characters folder.&#xA;This file can be edited and imported." />
   <Localisation key="tooltip_ImportStatsFrom" value="Imports all the statistics for the selected character from a .txt file." />
   <Localisation key="tooltip_UnlimitedItemCharges" value="Usable items have unlimited charges." />
-  <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Disables equipment restrictions (Alignment, Class, Statistics)." />
+  <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Disables equipment restrictions (Alignment, Class, Statistics and Proficiencies)." />
   <Localisation key="tooltip_AddItemIdentified" value="Items added through this menu will be added in an identified state." />
   <Localisation key="tooltip_AssetGuid" value="If you don't know an item's Guid you can use the search function below." />
   <Localisation key="tooltip_AddMultipleItems" value="Allows you to insert multiple Guid separated by commas." />
@@ -573,6 +583,8 @@
   <Localisation key="tooltip_EveryoneExceptPlayerFactionRolls1" value="Every roll on a d20 by anyone except the members of the player faction will result in a natural 1." />
   <Localisation key="tooltip_NeverRoll1" value="Rolls of 1 on a d20 never occur.&#xA;Can be set to affect everyone, only the party or only enemies." />
   <Localisation key="tooltip_NeverRoll20" value="Rolls of 20 on a d20 never occur.&#xA;Can be set to affect everyone, only the party or only enemies." />
+  <Localisation key="tooltip_RollWithAdvantage" value="Two d20s are rolled instead of one and the highest one is taken as the result.&#xA;Can be set to affect everyone, only the party or only enemies." />
+  <Localisation key="tooltip_RollWithDisadvantage" value="Two d20s are rolled instead of one and the lowest one is taken as the result.&#xA;Can be set to affect everyone, only the party or only enemies." />
   <Localisation key="tooltip_AlwaysRoll20ForInitiative" value="﻿Everyone including your enemies rolls 20 for initiative." />
   <Localisation key="tooltip_TakeX" value="﻿﻿D20 rolls made out of combat will result in the set value i.e. 10, 20 or a custom one." />
   <Localisation key="tooltip_CameraRotation" value="Enables camera rotation." />

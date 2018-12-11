@@ -615,7 +615,7 @@
   <Localisation key="tooltip_MoveCameraToPlayer" value="Centers the camera on the player character." />
   <Localisation key="tooltip_ResetCutsceneLock" value="﻿﻿Allows you to move during cutscenes.&#xA;Best used together with Focus Camera to override the game's focus." />
   <Localisation key="tooltip_EnableResetCutsceneLockHotkey" value="Enables to toggle the Reset Cutscene Lock option via hotkey." />
-  <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of via hotkey." />
+  <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
   <Localisation key="tooltip_TimeScale" value="Changes the time scale of the whole game." />
   <Localisation key="tooltip_StopGameTime" value="Stops the passing of time on local maps, on the global map and through actions (e.g. resting).&#xA;Quest timers won't advance." />
   <Localisation key="tooltip_NoDamageFromEnemies" value="Enemies don't deal damage to the party." />

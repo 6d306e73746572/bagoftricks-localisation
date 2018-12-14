@@ -189,6 +189,8 @@
   <Localisation key="label_WearinessPerAttempt" value="Hours Worth Of Weariness Per Attempt" />
   <Localisation key="label_TeleportUnit" value="Teleport Unit" />
   <Localisation key="label_LockPicks" value="Lock Picks" />
+  <Localisation key="label_CurrentRegionCR" value="Current Region's CR" />
+  <Localisation key="label_UnityModManagerButtonIndex" value="Unity Mod Manger Button Position" />
   <Localisation key="message_NotInGame" value="Load into the game!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -434,6 +436,13 @@
   <Localisation key="buttonToggle_RepeatableLockPickingWeariness" value="Lock Picking Causes Weariness" />
   <Localisation key="buttonToggle_NoIngredientsRequired" value="Ignore Cooking Ingredient Requirements" />
   <Localisation key="buttonToggle_RepeatableLockPickingLockPicks" value="Use Lock Picks (Proof Of Concept!)" />
+  <Localisation key="buttonToggle_UnityModManagerButton" value="Add Unity Mod Manager Button To ESC Menu" />
+  <Localisation key="buttonToggle_DamageDealtMultipliers" value="Damage Dealt Multipliers" />
+  <Localisation key="buttonToggle_PartyDamageDealtMultiplier" value="Damage Dealt By Party Multiplier" />
+  <Localisation key="buttonToggle_EnemiesDamageDealtMultiplier" value="Damage Dealt By Enemies Multipliers" />
+  <Localisation key="buttonToggle_ScaleInventoryMoney" value="Scale Money Display (Inventory)" />
+  <Localisation key="buttonToggle_RepeatableLockPickingLockPicksInventoryText" value="Show Lock Picks In Inventory" />
+  <Localisation key="buttonToggle_ShowClassDataOptions" value="Class Data Options (Set Level)" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -464,6 +473,7 @@
   <Localisation key="arrayItem_ActionKeyMain_EditStats" value="Edit Stats" />
   <Localisation key="arrayItem_ActionKeyMain_MakeControllable" value="Make Controllable" />
   <Localisation key="arrayItem_ActionKeyMain_AddToParty" value="Add To Party" />
+  <Localisation key="arrayItem_ActionKeyMain_SpawnEnemy" value="Spawn Enemy" />
   <Localisation key="arrayItem_ActionKeyKill_Kill" value="Kill" />
   <Localisation key="arrayItem_ActionKeyKill_ForceKill" value="Force Kill" />
   <Localisation key="arrayItem_FeatParam_FencingGrace" value="Fencing Grace" />
@@ -543,6 +553,7 @@
   <Localisation key="warning_NeverRoll1AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 1." />
   <Localisation key="warning_NeverRoll20AndPartyRoll20" value="Party Always Rolls 20 is active either disable it or Never Roll 20." />
   <Localisation key="warning_AlsoEnabled" value="is also enabled!" />
+  <Localisation key="warning_CurrentlyNotReversible" value="Currently not reversible!" />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
@@ -569,10 +580,12 @@
   <Localisation key="tooltip_VendorSellMultiplier" value="Enables a multiplier for goods sold to vendors." />
   <Localisation key="tooltip_VendorsSellFor0" value="All items sold are worth 0." />
   <Localisation key="tooltip_VendorsBuyFor0" value="All items bought are worth 0." />
-  <Localisation key="tooltip_RepeatableLockPicking" value="Locks can be pick repeatedly." />
+  <Localisation key="tooltip_RepeatableLockPicking" value="Locks can be picked repeatedly.&#xA;Required for Lock Picking Causes Weariness and Use Lock Pick" />
   <Localisation key="tooltip_RepeatableLockPickingWeariness" value="Each attempt at picking a lock causes weariness.&#xA;Below the value can be customized (1.0 = 1 hour of weariness per attempt)." />
   <Localisation key="tooltip_1EqualsHourWeariness" value="1.0 = 1 hour of weariness per attempt." />
   <Localisation key="tooltip_RepeatableLockPickingLockPicks" value="This is a simple proof of concept of a lock pick system.&#xA;Your party has a limited set of lock picks based on their Trickery.&#xA;During rests (currently only camping) the party members skilled in Trickery will create new lock picks. The amount is based on skill rolls.&#xA;Due to this being a proof of concept the amount of lock picks isn't saved and will reset to 5 after the game is exited.&#xA;Also currently all saves/characters use the same pool of lock picks.&#xA;If you use this feature please provide feedback!" />
+  <Localisation key="tooltip_RepeatableLockPickingLockPicksInventoryText" value="Display the amount of lock picks in the inventory screen.&#xA;Requires to load a save or change the area in order to take effect." />
+  <Localisation key="tooltip_ShowClassDataOptions" value="Allows to change the class level independent of leveling and to add normally unavailable classes.&#xA;Save often and use with caution!" />
   <Localisation key="tooltip_ResetCharacterLevel" value="﻿Resets the character level to match your current experience points (at most level 20)." />
   <Localisation key="tooltip_SetCharacterLevel" value="﻿Sets the character level to the chosen value." />
   <Localisation key="tooltip_SetAlignment" value="Set the selected character's alignment to the one chosen from the selection grid." />
@@ -634,11 +647,17 @@
   <Localisation key="tooltip_MoveCameraToPlayer" value="Centers the camera on the player character." />
   <Localisation key="tooltip_ResetCutsceneLock" value="﻿﻿Allows you to move during cutscenes.&#xA;Best used together with Focus Camera to override the game's focus." />
   <Localisation key="tooltip_EnableResetCutsceneLockHotkey" value="Enables to toggle the Reset Cutscene Lock option via hotkey." />
+  <Localisation key="tooltip_UnityModManagerButton" value="﻿﻿Adds a button which opens the Unity Mod Manager UI to the ESC menu.&#xA;Requires to load a save or change the area in order to take effect." />
+  <Localisation key="tooltip_UnityModManagerButtonIndex" value="Adjusts the position of the button (0 = bottom, 6 = top).&#xA;Requires to load a save or change the area in order to take effect." />
+  <Localisation key="tooltip_ScaleInventoryMoney" value="Dynamically scales the size of the money display to fit larger amounts properly." />
   <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
   <Localisation key="tooltip_TimeScale" value="Changes the time scale of the whole game." />
   <Localisation key="tooltip_StopGameTime" value="Stops the passing of time on local maps, on the global map and through actions (e.g. resting).&#xA;Quest timers won't advance." />
   <Localisation key="tooltip_NoDamageFromEnemies" value="Enemies don't deal damage to the party." />
   <Localisation key="tooltip_PartyOneHitKill" value="Party members kill their target with a single blow (if they hit and are using the correct damage type)." />
+  <Localisation key="tooltip_DamageDealtMultipliers" value="Enables the setting of multipliers to the damage dealt by the party and enemies." />
+  <Localisation key="tooltip_PartyDamageDealtMultiplier" value="Enables damage dealt by the party multiplier." />
+  <Localisation key="tooltip_EnemiesDamageDealtMultiplier" value="Enables damage dealt by enemies multiplier." />
   <Localisation key="tooltip_AllDoorContainersUnlocked" value="They will still be display as if they were locked, but any character will be able to open them.&#xA;This might grant you access to places you shouldn't be able to reach!" />
   <Localisation key="tooltip_ActionKeyEnableExperimental" value="Experimental Mode includes features that can break the game and cause crashes!" />
   <Localisation key="tooltip_LogInfoToFile" value="Enables logging the gathered information to the BagOfTricks.log file in the BagOfTricks folder." />
@@ -667,6 +686,8 @@
   <Localisation key="misc_Next" value="Next" />
   <Localisation key="misc_None" value="None" />
   <Localisation key="misc_Left" value="left" />
+  <Localisation key="misc_UnityModManager" value="Unity Mod Manager" />
+  <Localisation key="misc_Bandit" value="Bandit" />
   <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) causes errors and thus won't be added." />
   <Localisation key="taxCollector_Lord" value="Lord" />
   <Localisation key="taxCollector_Lady" value="Lady" />

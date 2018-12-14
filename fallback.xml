@@ -443,6 +443,7 @@
   <Localisation key="buttonToggle_ScaleInventoryMoney" value="Scale Money Display (Inventory)" />
   <Localisation key="buttonToggle_RepeatableLockPickingLockPicksInventoryText" value="Show Lock Picks In Inventory" />
   <Localisation key="buttonToggle_ShowClassDataOptions" value="Class Data Options (Set Level)" />
+  <Localisation key="buttonToggle_NoBurnKineticist" value="No Burn (Kineticist)" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -603,7 +604,7 @@
   <Localisation key="tooltip_AddMultipleItems" value="Allows you to insert multiple Guid separated by commas." />
   <Localisation key="tooltip_ShowEnemies" value="Display enemies instead of party members." />
   <Localisation key="tooltip_ShowAllWeaponCategories" value="﻿Enabling this options will allow you to add versions of feats the game doesn't normally include e.g. Fencing Grace (Greatclub)." />
-  <Localisation key="tooltip_RestoreSpellsAbilites" value="Restore your party's spells and abilities﻿." />
+  <Localisation key="tooltip_RestoreSpellsAbilites" value="Restore your party's spells and abilities﻿.&#xA;Does not affect Burn - use Instant Rest instead." />
   <Localisation key="tooltip_NoArcaneSpellFailure" value="﻿Disables arcane spell failure for your party." />
   <Localisation key="tooltip_UnlimitedCasting" value="﻿Unlimited spell casts for you party." />
   <Localisation key="tooltip_MetamagicZero" value="Sets the default Metamagic cost to zero." />
@@ -615,6 +616,7 @@
   <Localisation key="tooltip_NoFriendlyFireAOE" value="Disables friendly fire when using area off effect spells or abilities." />
   <Localisation key="tooltip_NoFriendlyFireAny" value="Disables friendly fire of any type." />
   <Localisation key="tooltip_NoCooldown" value="Disables cooldowns (certain delays will still occur)." />
+  <Localisation key="tooltip_NoBurnKineticist" value="The Burn Cost is either completely removed or not applied." />
   <Localisation key="tooltip_SpellsPerDay" value="Use the slider or a custom multiplier to set the amount of spells per day / memorised spells." />
   <Localisation key="tooltip_SetPartySpeedToFastestMember" value="Sets the speed of the whole party to match the speed of the fastest party member." />
   <Localisation key="tooltip_RevealMapLocations" value="Reveals all global map locations." />

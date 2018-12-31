@@ -224,6 +224,7 @@
   <Localisation key="message_NoSpellbooksFound" value="No spellbooks found!" />
   <Localisation key="message_NoSpellsFound" value="No spells found!" />
   <Localisation key="message_AddAbilitiesAsSpells" value="The abilities will be added to the current spellbook at the selected spell level." />
+  <Localisation key="message_RecreateUnitDescriptor" value="Requires you to reload the area (e.g. leave and enter again)." />
   <Localisation key="logMessage_Received" value="Received:" />
   <Localisation key="logMessage_Removed" value="Removed:" />
   <Localisation key="logMessage_Gold" value="Gold" />
@@ -376,6 +377,7 @@
   <Localisation key="button_AddToFavourites" value="Add To Favourites" />
   <Localisation key="button_RemoveFromFavourites" value="Remove From Favourites" />
   <Localisation key="button_LevelUp" value="Level Up" />
+  <Localisation key="button_Downgrade" value="Downgrade" />
   <Localisation key="button_MakeClassSkills" value="Make Class Skill" />
   <Localisation key="button_Confirm" value="Confirm" />
   <Localisation key="button_AllFeats" value="All Feats" />
@@ -386,6 +388,8 @@
   <Localisation key="button_LearnAllCookingRecipes" value="Learn All Cooking Recipes" />
   <Localisation key="button_AllAbilities" value="All Abilities" />
   <Localisation key="button_SetPartysCurrentHitPointsTo" value="Set Party's Current Hit Points To" />
+  <Localisation key="button_SetPrimaryHandAttacksTo" value="Set Extra Primary Hand Attacks To" />
+  <Localisation key="button_SetSecondaryHandAttacksTo" value="Set Extra Secondary Hand Attacks To" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -473,6 +477,10 @@
   <Localisation key="buttonToggle_ShowPetInventory" value="Show Pet Inventory" />
   <Localisation key="buttonToggle_AnimationCloseUMM" value="Close Unity Mod Manger Interface When Animations Plays" />
   <Localisation key="buttonToggle_InstantCooldownMainChar" value="Main Character Has No Cooldown" />
+  <Localisation key="buttonToggle_DexBonusLimit99" value="Set Maximal Dexterity Bonus Limit To 99" />
+  <Localisation key="buttonToggle_PassSkillChecksIndividual" value="Always Pass Skill Checks" />
+  <Localisation key="buttonToggle_ItemsWeighZero" value="No Item Weight" />
+  <Localisation key="buttonToggle_ExtraAttacksParty" value="Extra Attacks Per Round" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -505,6 +513,7 @@
   <Localisation key="arrayItem_ActionKeyMain_AddToParty" value="Add To Party" />
   <Localisation key="arrayItem_ActionKeyMain_SpawnEnemy" value="Spawn Enemy" />
   <Localisation key="arrayItem_ActionKeyMain_RotateUnit" value="Rotate Unit" />
+  <Localisation key="arrayItem_ActionKeyMain_RecreateUnitDescriptor" value="Recreate Unit Descriptor" />
   <Localisation key="arrayItem_ActionKeyKill_Kill" value="Kill" />
   <Localisation key="arrayItem_ActionKeyKill_ForceKill" value="Force Kill" />
   <Localisation key="arrayItem_FeatParam_FencingGrace" value="Fencing Grace" />
@@ -598,6 +607,9 @@
   <Localisation key="warning_CantripsRemoval" value="Even when removed cantrips will still remain useable!" />
   <Localisation key="warning_NewSpellsAdded" value="In order to use newly added spells you either have to rest or use" />
   <Localisation key="warning_NewSpellsAddedAlt" value="In order to use newly added spells you might either have to rest or use" />
+  <Localisation key="warning_UpgradeSetllement" value="Upgrading settlements through this menu won't count towards quest goals!&#xA;A downgrade option is available in the experimental section (-&gt; Misc)." />
+  <Localisation key="warning_RandomEncounterPossible" value="Turning off random encounters completely will cause you to miss certain encounters required for quests and thus break them!" />
+  <Localisation key="warning_StopGameTime" value="Can cause issues with summons, buffs and debuffs!&#xA;To pause the kingdom timeline without any of these issues use the Kingdom Resolution mod." />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
@@ -641,6 +653,8 @@
   <Localisation key="tooltip_PartyMultipliers" value="Use the slider to set a multiplier for the chosen party statistics." />
   <Localisation key="tooltip_ExportCharInfo" value="Creates a .txt file with all the selected character's statistics in the Characters folder.&#xA;This file can be edited and imported." />
   <Localisation key="tooltip_ImportStatsFrom" value="Imports all the statistics for the selected character from a .txt file." />
+  <Localisation key="tooltip_ItemsWeighZero" value="The weight of all items is set to 0." />
+  <Localisation key="tooltip_DexBonusLimit99" value="Sets the maximal Dexterity Bonus limit of all armours to 99." />
   <Localisation key="tooltip_UnlimitedItemCharges" value="Usable items have unlimited charges." />
   <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Disables equipment restrictions (Alignment, Class, Statistics and Proficiencies)." />
   <Localisation key="tooltip_AddItemIdentified" value="Items added through this menu will be added in an identified state." />
@@ -677,6 +691,7 @@
   <Localisation key="tooltip_InstantKingdomEvents" value="﻿﻿Instantly complete kingdom events." />
   <Localisation key="tooltip_ForceSuccessTriumphs" value="﻿﻿﻿Force success/triumph for the result of kingdom events." />
   <Localisation key="tooltip_IgnoreBuildingRestrictions" value="﻿﻿﻿Ignore kingdom building restrictions." />
+  <Localisation key="tooltip_PassSkillChecksIndividual" value="Allows you to pick individual skills which will always pass when checked." />
   <Localisation key="tooltip_MainCharacterRolls20" value="Every roll on a d20 by the main character will result in a natural 20." />
   <Localisation key="tooltip_PartyAlwaysRolls20" value="Every roll on a d20 by the party will result in a natural 20." />
   <Localisation key="tooltip_EnablePartyAlwaysRoll20Hotkey" value="Enable a hotkey to toggle Party Always Rolls 20." />
@@ -702,6 +717,7 @@
   <Localisation key="tooltip_ShowPetInventory" value="Allows to view a pet's inventory by selecting it and pressing the inventory key." />
   <Localisation key="tooltip_ScaleInventoryMoney" value="Dynamically scales the size of the money display to fit larger amounts properly." />
   <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
+  <Localisation key="tooltip_ExtraAttacksParty" value="All party members gain the set number of extra main attacks for the primary and secondary hand." />
   <Localisation key="tooltip_TimeScale" value="Changes the time scale of the whole game." />
   <Localisation key="tooltip_StopGameTime" value="Stops the passing of time on local maps, on the global map and through actions (e.g. resting).&#xA;Quest timers won't advance." />
   <Localisation key="tooltip_NoDamageFromEnemies" value="Enemies don't deal damage to the party." />
@@ -744,6 +760,8 @@
   <Localisation key="misc_SnakeMode" value="Snake Mode" />
   <Localisation key="misc_Learn" value="Learn" />
   <Localisation key="misc_AtLevel" value="At Level" />
+  <Localisation key="misc_AlwaysPass" value="Always Pass" />
+  <Localisation key="misc_Checks" value="Checks" />
   <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) causes errors and thus won't be added." />
   <Localisation key="taxCollector_Lord" value="Lord" />
   <Localisation key="taxCollector_Lady" value="Lady" />

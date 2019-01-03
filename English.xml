@@ -481,6 +481,7 @@
   <Localisation key="buttonToggle_PassSkillChecksIndividual" value="Always Pass Skill Checks" />
   <Localisation key="buttonToggle_ItemsWeighZero" value="No Item Weight" />
   <Localisation key="buttonToggle_ExtraAttacksParty" value="Extra Attacks Per Round" />
+  <Localisation key="buttonToggle_AlignmentFix" value="Neutral Alignment Shifts Don't Cause Movement On The Law/Chaos Axis" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -510,6 +511,7 @@
   <Localisation key="arrayItem_ActionKeyMain_BuffFromFavourites" value="Buff From Favourites" />
   <Localisation key="arrayItem_ActionKeyMain_EditStats" value="Edit Stats" />
   <Localisation key="arrayItem_ActionKeyMain_MakeControllable" value="Make Controllable" />
+  <Localisation key="arrayItem_ActionKeyMain_SpawnCritters" value="Spawn Critters" />
   <Localisation key="arrayItem_ActionKeyMain_AddToParty" value="Add To Party" />
   <Localisation key="arrayItem_ActionKeyMain_SpawnEnemy" value="Spawn Enemy" />
   <Localisation key="arrayItem_ActionKeyMain_RotateUnit" value="Rotate Unit" />
@@ -714,6 +716,7 @@
   <Localisation key="tooltip_AnimationCloseUMM" value="Closes the Unity Mod Manager interface once a play button is pressed." />
   <Localisation key="tooltip_UnityModManagerButton" value="﻿﻿Adds a button which opens the Unity Mod Manager UI to the ESC menu.&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_UnityModManagerButtonIndex" value="Adjusts the position of the button (0 = bottom, 6 = top).&#xA;Requires to load a save or change the area in order to take effect." />
+  <Localisation key="tooltip_AlignmentFix" value="E.g. when being Lawful Neutral a Neutral Good alignment shift&#xA;will bring you towards Lawful Good instead of Neutral Good" />
   <Localisation key="tooltip_ShowPetInventory" value="Allows to view a pet's inventory by selecting it and pressing the inventory key." />
   <Localisation key="tooltip_ScaleInventoryMoney" value="Dynamically scales the size of the money display to fit larger amounts properly." />
   <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
@@ -737,7 +740,7 @@
   <Localisation key="tooltip_ShowTooltips" value="﻿﻿Disables the display of tooltips by the mod." />
   <Localisation key="tooltip_LogMessages" value="﻿Disables in-game log messages created by the mod." />
   <Localisation key="tooltip_CreateFallbackXML" value="Creates a .xml file of the fallback localisation." />
-  <Localisation key="tooltip_SnakeMode" value="ssssssssssssssssssssssssssssssssssss" />
+  <Localisation key="tooltip_SnakeMode" value="sssSsssSssssSSsssssSSSsssssSSssssSsssSsssave" />
   <Localisation key="tooltip_SpellFavourites" value="Spells are added to the Abilities Favourites" />
   <Localisation key="misc_items" value="items" />
   <Localisation key="misc_times" value="times" />
@@ -758,6 +761,7 @@
   <Localisation key="misc_UnityModManager" value="Unity Mod Manager" />
   <Localisation key="misc_Bandit" value="Bandit" />
   <Localisation key="misc_SnakeMode" value="Snake Mode" />
+  <Localisation key="misc_BagOfSnakeModes" value="Bag Of Snake Modes" />
   <Localisation key="misc_Learn" value="Learn" />
   <Localisation key="misc_AtLevel" value="At Level" />
   <Localisation key="misc_AlwaysPass" value="Always Pass" />

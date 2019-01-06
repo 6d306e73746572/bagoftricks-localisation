@@ -390,6 +390,7 @@
   <Localisation key="button_SetPartysCurrentHitPointsTo" value="Set Party's Current Hit Points To" />
   <Localisation key="button_SetPrimaryHandAttacksTo" value="Set Extra Primary Hand Attacks To" />
   <Localisation key="button_SetSecondaryHandAttacksTo" value="Set Extra Secondary Hand Attacks To" />
+  <Localisation key="button_SetSpeedOnSummon" value="Set Speed When Summoned To" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -482,6 +483,8 @@
   <Localisation key="buttonToggle_ItemsWeighZero" value="No Item Weight" />
   <Localisation key="buttonToggle_ExtraAttacksParty" value="Extra Attacks Per Round" />
   <Localisation key="buttonToggle_AlignmentFix" value="Neutral Alignment Shifts Don't Cause Movement On The Law/Chaos Axis" />
+  <Localisation key="buttonToggle_SpellbookAbilityAlignmentChecks" value="Ignore Spellbook And Ability Alignment Checks" />
+  <Localisation key="buttonToggle_SetSpeedOnSummon" value="Set Speed When Summoned" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -588,7 +591,7 @@
   <Localisation key="warning_FeatSelectionMultiplier_2" value="You can find an in depth guide on how to fix it on the mod page under Resources." />
   <Localisation key="warning_SorcererSupreme_0" value="Can prevent low level characters from progressing past the spell selection." />
   <Localisation key="warning_SorcererSupreme_1" value="You can use the button below to progress past it temporarily." />
-  <Localisation key="warning_IgnoreClassAlignment" value="Does not disable the alignment restrictions for abilities and feats!" />
+  <Localisation key="warning_IgnoreClassAlignment" value="Does not disable the alignment restrictions for abilities and feats!&#xA;Use &lt;b&gt;Ignore Spellbook And Ability Alignment Checks&lt;/b&gt; to get around the ability/spellbook limitations (-&gt; Spell &amp; Ability Options)" />
   <Localisation key="warning_XPAndScaleXPActive" value="It is recommended to keep Bag Of Tricks' XP Multiplier off while using ScaleXP!" />
   <Localisation key="warning_ActionKeyExperimentalMode" value="Experimental Mode includes features that can break the game and cause crashes!" />
   <Localisation key="warning_GameVersion" value="Game Version" />
@@ -665,6 +668,7 @@
   <Localisation key="tooltip_ShowEnemies" value="Display enemies instead of party members." />
   <Localisation key="tooltip_ShowAllWeaponCategories" value="﻿Enabling this options will allow you to add versions of feats the game doesn't normally include e.g. Fencing Grace (Greatclub)." />
   <Localisation key="tooltip_RestoreSpellsAbilites" value="Restore your party's spells and abilities﻿.&#xA;Does not affect Burn - use Instant Rest instead." />
+  <Localisation key="tooltip_SpellbookAbilityAlignmentChecks" value="Disable alignment checks for spellbooks access and when using ability&#xA;e.g. allowing you to use Paladin abilities while being Chaotic Evil." />
   <Localisation key="tooltip_NoArcaneSpellFailure" value="﻿Disables arcane spell failure for your party." />
   <Localisation key="tooltip_UnlimitedCasting" value="﻿Unlimited spell casts for you party." />
   <Localisation key="tooltip_MetamagicZero" value="Sets the default Metamagic cost to zero." />
@@ -721,6 +725,7 @@
   <Localisation key="tooltip_ScaleInventoryMoney" value="Dynamically scales the size of the money display to fit larger amounts properly." />
   <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
   <Localisation key="tooltip_ExtraAttacksParty" value="All party members gain the set number of extra main attacks for the primary and secondary hand." />
+  <Localisation key="tooltip_SetSpeedOnSummon" value="The speed of all creatures summoned by the party will be set to the chosen value.&#xA;Does not apply to already summoned ones!" />
   <Localisation key="tooltip_TimeScale" value="Changes the time scale of the whole game." />
   <Localisation key="tooltip_StopGameTime" value="Stops the passing of time on local maps, on the global map and through actions (e.g. resting).&#xA;Quest timers won't advance." />
   <Localisation key="tooltip_NoDamageFromEnemies" value="Enemies don't deal damage to the party." />

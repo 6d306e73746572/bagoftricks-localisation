@@ -336,6 +336,7 @@
   <Localisation key="button_AddAllWristItems" value="Add All Wrist Items" />
   <Localisation key="button_CustomSets" value="Custom Sets" />
   <Localisation key="button_LoadRefresh" value="Load / Refresh" />
+  <Localisation key="button_LoadRefreshAvailableLanguages" value="Load / Refresh Available Languages" />
   <Localisation key="button_Filters" value="Filters" />
   <Localisation key="button_ResetFilters" value="Reset Filters" />
   <Localisation key="button_AddCurrentSearchResults" value="Add Current Search Results" />
@@ -485,6 +486,7 @@
   <Localisation key="buttonToggle_AlignmentFix" value="Neutral Alignment Shifts Don't Cause Movement On The Law/Chaos Axis" />
   <Localisation key="buttonToggle_SpellbookAbilityAlignmentChecks" value="Ignore Spellbook And Ability Alignment Checks" />
   <Localisation key="buttonToggle_SetSpeedOnSummon" value="Set Speed When Summoned" />
+  <Localisation key="buttonToggle_EnableFocusCameraSelectedUnit" value="Enable Focus On Selected Portrait" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -533,6 +535,7 @@
   <Localisation key="arrayItem_NeverRollX_Everyone" value="Everyone" />
   <Localisation key="arrayItem_NeverRollX_OnlyParty" value="Only The Party" />
   <Localisation key="arrayItem_NeverRollX_OnlyEnemies" value="Only Enemies" />
+  <Localisation key="arrayItem_NeverRollX_OnlyMainChar" value="Only The Main Character" />
   <Localisation key="arrayItem_UnityEntityData_Party" value="Active Party" />
   <Localisation key="arrayItem_UnityEntityData_ControllableCharacters" value="Controllable Characters" />
   <Localisation key="arrayItem_UnityEntityData_ActiveCompanions" value="Active Companions" />
@@ -713,6 +716,7 @@
   <Localisation key="tooltip_CameraScrollSpeed" value="Enables the option to change the scroll speed of the camera." />
   <Localisation key="tooltip_CameraZoomUnlocked" value="Enables editing the camera zoom limits." />
   <Localisation key="tooltip_EnableFocusCamera" value="Enables focusing the camera on party members and cycling through them via hotkey." />
+  <Localisation key="tooltip_EnableFocusCameraSelectedUnit" value="Selecting a character's portrait will cause the camera to focus on them." />
   <Localisation key="tooltip_DisableCameraBounds" value="Disables the camera bounds and allows you to free move the camera." />
   <Localisation key="tooltip_MoveCameraToPlayer" value="Centers the camera on the player character." />
   <Localisation key="tooltip_ResetCutsceneLock" value="﻿﻿Allows you to move during cutscenes.&#xA;Best used together with Focus Camera to override the game's focus." />

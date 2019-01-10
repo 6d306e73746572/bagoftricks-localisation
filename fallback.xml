@@ -491,7 +491,7 @@
   <Localisation key="buttonToggle_SpellbookAbilityAlignmentChecks" value="Ignore Spellbook And Ability Alignment Checks" />
   <Localisation key="buttonToggle_SetSpeedOnSummon" value="Set Creature's Speed When Summoned" />
   <Localisation key="buttonToggle_EnableFocusCameraSelectedUnit" value="Enable Focus On Selected Portrait" />
-  <Localisation key="buttonToggle_ClaimResources" value="Claim All Revealed Resource In Your Lands" />
+  <Localisation key="buttonToggle_ClaimResources" value="Claim All Revealed Resources In Your Lands" />
   <Localisation key="buttonToggle_NoResourcesClaimCost" value="No Resource Claim Cost" />
   <Localisation key="buttonToggle_FreezeTimedQuestAt90Days" value="Freeze Timed Quest At 90 Days Left" />
   <Localisation key="buttonToggle_PreventQuestFailure" value="Prevent Quest Failure" />

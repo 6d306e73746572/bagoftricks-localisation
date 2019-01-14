@@ -65,6 +65,7 @@
   <Localisation key="label_CurrentMultiplier" value="Current Multiplier" />
   <Localisation key="label_CurrentMoney" value="Current Money" />
   <Localisation key="label_CurrentAlignment" value="Current Alignment" />
+  <Localisation key="label_CurrentCasterLevel" value="Current Caster Level" />
   <Localisation key="label_Location" value="Location" />
   <Localisation key="label_InStealth" value="in stealth" />
   <Localisation key="label_ItemName" value="Item Name" />
@@ -290,12 +291,14 @@
   <Localisation key="toggle_ShowKnownSpells" value="Show Known Spells" />
   <Localisation key="toggle_ShowAllLearnableSpells" value="Show All Learnable Spells" />
   <Localisation key="toggle_AddAbilitiesAsSpells" value="Add Abilities/Spells From Favourites As Spells" />
+  <Localisation key="toggle_AddSpellsbooks" value="Add Spellbooks" />
   <Localisation key="button_PartyExperience" value="Party Experience" />
   <Localisation key="button_Add6Rations" value="Add 6 camping supplies and rations" />
   <Localisation key="button_Money" value="Money" />
   <Localisation key="button_SetAlignment" value="Set Alignment To" />
   <Localisation key="button_Apply" value="Apply" />
   <Localisation key="button_SetTo" value="Set To" />
+  <Localisation key="button_SetRankTo" value="Set Rank To" />
   <Localisation key="button_SetTo0" value="Set To 0" />
   <Localisation key="button_SetAllTo0" value="Set All To 0" />
   <Localisation key="button_PressKey" value="Press Key" />
@@ -396,6 +399,8 @@
   <Localisation key="button_SetSecondaryHandAttacksTo" value="Set Extra Secondary Hand Attacks To" />
   <Localisation key="button_SetSpeedOnSummon" value="Set Creatures's Speed When Summoned To" />
   <Localisation key="button_AdvanceGameTimeBy" value="Advance Game Time By" />
+  <Localisation key="button_RemoveSpellbook" value="Remove Spellbook" />
+  <Localisation key="button_AddCasterLevelTo" value="Add Caster Level To" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -502,6 +507,8 @@
   <Localisation key="buttonToggle_AllHitsAreCritical" value="All Attacks Are Critical Hits" />
   <Localisation key="buttonToggle_PassSavingThrowIndividual" value="Always Pass Saving Throws" />
   <Localisation key="buttonToggle_NoAttacksOfOpportunity" value="No Attacks Of Opportunity" />
+  <Localisation key="buttonToggle_CookingAndHuntingInDungeons" value="Allow Cooking And Hunting In Dungeons" />
+  <Localisation key="buttonToggle_ArmourChecksPenalty0" value="Set Armour Check Penalty To 0" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -633,6 +640,9 @@
   <Localisation key="warning_UpgradeSetllement" value="Upgrading settlements through this menu won't count towards quest goals!&#xA;A downgrade option is available in the experimental section (-&gt; Misc)." />
   <Localisation key="warning_RandomEncounterPossible" value="Turning off random encounters completely will cause you to miss certain encounters required for quests and thus break them!" />
   <Localisation key="warning_StopGameTime" value="Can cause issues with summons, buffs and debuffs!&#xA;To pause the kingdom timeline without any of these issues use the Kingdom Resolution mod." />
+  <Localisation key="warning_AddSpellsbooks" value="The in-game Spellbook Screen can't display more than five spellbooks!&#xA;Spellbooks added through this menu aren't fully functional (e.g. no cantrips)!" />
+  <Localisation key="warning_TakeX" value="Combat related rolls made before combat has started are still affected by TakeX (e.g. an attack on an unsuspecting enemy)." />
+  <Localisation key="warning_UnlimitedCasting" value="Unlimited Casting is known to crash/freeze the game after the final fight of this scene.&#xA;Thus it is highly recommended to deactivate it temporarily!" />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
@@ -653,6 +663,7 @@
   <Localisation key="tooltip_NoIngredientsRequired" value="Disables cooking ingredient requirements." />
   <Localisation key="tooltip_InstantRest" value="Applies all the effects of a rest immediately to the party." />
   <Localisation key="tooltip_InstantRestAfterCombat" value="Applies all the effects of a rest automatically after every combat." />
+  <Localisation key="tooltip_CookingAndHuntingInDungeons" value="Allows to hunt and cook during rests in dungeons." />
   <Localisation key="tooltip_NoRationsRequired" value="Disables to need for rations when resting." />
   <Localisation key="tooltip_Add6Rations" value="Adds six rations to the party's inventory." />
   <Localisation key="tooltip_MercenaryCostMultiplier" value="Use the input field to set a multiplier for the cost for recruiting a mercenary." />
@@ -678,6 +689,7 @@
   <Localisation key="tooltip_ImportStatsFrom" value="Imports all the statistics for the selected character from a .txt file." />
   <Localisation key="tooltip_ItemsWeighZero" value="The weight of all items is set to 0." />
   <Localisation key="tooltip_DexBonusLimit99" value="Sets the maximal Dexterity Bonus limit of all armours to 99." />
+  <Localisation key="tooltip_ArmourChecksPenalty0" value="Sets the Armour Check Penalty of all armours to 0." />
   <Localisation key="tooltip_UnlimitedItemCharges" value="Usable items have unlimited charges." />
   <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Disables equipment restrictions (Alignment, Class, Statistics and Proficiencies)." />
   <Localisation key="tooltip_AddItemIdentified" value="Items added through this menu will be added in an identified state." />

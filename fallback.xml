@@ -70,6 +70,7 @@
   <Localisation key="header_About" value="About" />
   <Localisation key="header_KingdomAlignment" value="Kingdom Alignment" />
   <Localisation key="header_PartySpeed" value="Kingdom Alignment" />
+  <Localisation key="header_Achievements" value="Achievements" />
   <Localisation key="label_CurrentMultiplier" value="Current Multiplier" />
   <Localisation key="label_CurrentMoney" value="Current Money" />
   <Localisation key="label_CurrentAlignment" value="Current Alignment" />
@@ -216,6 +217,7 @@
   <Localisation key="label_AdvanceGameTime" value="Advance Game Time" />
   <Localisation key="label_UI" value="User Interface" />
   <Localisation key="label_NoAttacksOfOpportunity" value="Attacks of opportunity &lt;b&gt;targeting&lt;/b&gt; the selection will be prevented." />
+  <Localisation key="label_SmartConsoleInfo" value="Type &lt;b&gt;'help'&lt;/b&gt; into the Smart Console to get a list of all console commands." />
   <Localisation key="message_NotInGame" value="Load into the game!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -845,6 +847,8 @@
   <Localisation key="misc_Saves" value="Saves" />
   <Localisation key="misc_Days" value="Days" />
   <Localisation key="misc_Sell" value="Sell" />
+  <Localisation key="misc_Unlock" value="Unlock" />
+  <Localisation key="misc_UnlockAll" value="Unlock All" />
   <Localisation key="encumbrance_Light" value="Light" />
   <Localisation key="encumbrance_Medium" value="Medium" />
   <Localisation key="encumbrance_Heavy" value="Heavy" />

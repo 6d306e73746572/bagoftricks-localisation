@@ -112,6 +112,8 @@
   <Localisation key="label_Keys" value="Keys" />
   <Localisation key="label_MiscellaneousItems" value="Miscellaneous Items" />
   <Localisation key="label_NeckItems" value="Neck Items" />
+  <Localisation key="label_Neckwear" value="Neckwear" />
+  <Localisation key="label_NonUsable" value="Non Usable" />
   <Localisation key="label_Notes" value="Notes" />
   <Localisation key="label_Rings" value="Rings" />
   <Localisation key="label_Shields" value="Shields" />
@@ -130,6 +132,7 @@
   <Localisation key="label_BuffBlueprintAssetGuid" value="Buff Blueprint AssetGuid" />
   <Localisation key="label_BuffDescription" value="Buff Description" />
   <Localisation key="label_Remove" value="Remove" />
+  <Localisation key="label_RemoveAll" value="Remove All" />
   <Localisation key="label_SearchBy" value="Search by" />
   <Localisation key="label_BuffComponents" value="Buff Components" />
   <Localisation key="label_MilesTravelled" value="Miles Travelled" />
@@ -218,6 +221,8 @@
   <Localisation key="label_UI" value="User Interface" />
   <Localisation key="label_NoAttacksOfOpportunity" value="Attacks of opportunity &lt;b&gt;targeting&lt;/b&gt; the selection will be prevented." />
   <Localisation key="label_SmartConsoleInfo" value="Type &lt;b&gt;'help'&lt;/b&gt; into the Smart Console to get a list of all console commands." />
+  <Localisation key="label_Weather" value="Weather" />
+  <Localisation key="label_Intensity" value="Intensity" />
   <Localisation key="message_NotInGame" value="Load into the game!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -303,10 +308,15 @@
   <Localisation key="toggle_AddAbilitiesAsSpells" value="Add Abilities/Spells From Favourites As Spells" />
   <Localisation key="toggle_AddSpellsbooks" value="Add Spellbooks" />
   <Localisation key="toggle_MoveFavourites" value="Rearrange Favourite Functions" />
+  <Localisation key="toggle_ShowInventory" value="Show Inventory" />
+  <Localisation key="toggle_SpawnRandomEnemy" value="Spawn Random Hostile Unit" />
   <Localisation key="button_PartyExperience" value="Party Experience" />
   <Localisation key="button_Add6Rations" value="Add 6 camping supplies and rations" />
   <Localisation key="button_Money" value="Money" />
   <Localisation key="button_SetAlignment" value="Set Alignment To" />
+  <Localisation key="button_AlignmentCantBeSetTo" value="Alignment Can't Be Set To" />
+  <Localisation key="button_AlignmentUseShiftInstead" value="Use Shift Instead!" />
+  <Localisation key="button_ShiftAlignmentTowards" value="Shift Alignment Towards" />
   <Localisation key="button_Apply" value="Apply" />
   <Localisation key="button_SetTo" value="Set To" />
   <Localisation key="button_SetRankTo" value="Set Rank To" />
@@ -420,6 +430,7 @@
   <Localisation key="button_RevealAllWaypoints" value="All Waypoints" />
   <Localisation key="button_RevealAllHiddenLocations" value="All Hidden Locations" />
   <Localisation key="button_RevealAllSystemWaypoints" value="All System Waypoints" />
+  <Localisation key="button_ChangeWeather" value="Change Weather" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -462,6 +473,7 @@
   <Localisation key="buttonToggle_FadeToBlack" value="Fade To Black" />
   <Localisation key="buttonToggle_ActiveSceneName" value="Active Scene Name" />
   <Localisation key="buttonToggle_LogMessages" value="Log Messages" />
+  <Localisation key="buttonToggle_BoTScrollbar" value="Scrollbar" />
   <Localisation key="buttonToggle_FogOfWarFull" value="Fog Of War" />
   <Localisation key="buttonToggle_OverwriteFogOfWar" value="Overwrite Fog Of War Settings" />
   <Localisation key="buttonToggle_SkipSpellSelection" value="Skip Spell Selection" />
@@ -532,6 +544,8 @@
   <Localisation key="buttonToggle_SetEncumbrance" value="Set Encumbrance" />
   <Localisation key="buttonToggle_InstantPartyChange" value="Instantly Swap Party Members" />
   <Localisation key="buttonToggle_LogToUMM" value="Log To Unity Mod Manager" />
+  <Localisation key="buttonToggle_EnableToggleHUD" value="Enable Toggle HUD" />
+  <Localisation key="buttonToggle_ToggleHUD" value="Toggle HUD" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -542,6 +556,10 @@
   <Localisation key="arrayItem_Alignments_ChaoticGood" value="Chaotic Good" />
   <Localisation key="arrayItem_Alignments_NeutralGood" value="Neutral Good" />
   <Localisation key="arrayItem_Alignments_LawfulGood" value="Lawful Good" />
+  <Localisation key="arrayItem_Alignments_Good" value="Good" />
+  <Localisation key="arrayItem_Alignments_Evil" value="Evil" />
+  <Localisation key="arrayItem_Alignments_Lawful" value="Lawful" />
+  <Localisation key="arrayItem_Alignments_Chaotic" value="Chaotic" />
   <Localisation key="arrayItem_takeX_TakeCustomValue" value="Take Custom Value" />
   <Localisation key="arrayItem_takeX_Take20" value="Take 20" />
   <Localisation key="arrayItem_takeX_Take10" value="Take 10" />
@@ -588,6 +606,9 @@
   <Localisation key="arrayItem_UnityEntityData_Mercenaries" value="Mercenaries (Custom Companions)" />
   <Localisation key="arrayItem_UnityEntityData_Pets" value="Pets" />
   <Localisation key="arrayItem_UnityEntityData_Enemies" value="Enemies" />
+  <Localisation key="arrayItem_Weather_Normal" value="Normal" />
+  <Localisation key="arrayItem_Weather_Rain" value="Rain" />
+  <Localisation key="arrayItem_Weather_Snow" value="Snow" />
   <Localisation key="charStat_Strength" value="Strength" />
   <Localisation key="charStat_Dexterity" value="Dexterity" />
   <Localisation key="charStat_Constitution" value="Constitution" />
@@ -705,6 +726,7 @@
   <Localisation key="tooltip_ResetCharacterLevel" value="﻿Resets the character level to match your current experience points (at most level 20)." />
   <Localisation key="tooltip_SetCharacterLevel" value="﻿Sets the character level to the chosen value." />
   <Localisation key="tooltip_SetAlignment" value="Set the selected character's alignment to the one chosen from the selection grid.&#xA;&quot;You've performed a [x] action.&quot; will be displayed irregardless of the unit affected." />
+  <Localisation key="tooltip_ShiftAlignmentTowards" value="Shifts the selected character's alignment towards the one chosen from the selection grid by the set value." />
   <Localisation key="tooltip_SetSize" value="Set the selected character's size to the one chosen from the selection grid." />
   <Localisation key="tooltip_SetToOriginalSize" value="Revert the selected character back to their original size." />
   <Localisation key="tooltip_Statistics" value="Use the input field or the +/- buttons to alter the statistics." />
@@ -812,9 +834,11 @@
   <Localisation key="tooltip_PreventQuestFailure" value="﻿While active quests won't fail." />
   <Localisation key="tooltip_DevTools" value="Enables the built-in development tools (e.g. console).&#xA;Requires a restart to fully take effect." />
   <Localisation key="tooltip_LogToUMM" value="Writes all Smart Console logs to the Unity Mod Manger log." />
+  <Localisation key="tooltip_ToggleHUD" value="Enables toggling of the HUD via hotkey." />
   <Localisation key="tooltip_TaxCollector" value="The Tax Collector will collect build points and money (based on your character and kingdom stats) for you while you are gone." />
   <Localisation key="tooltip_ShowTooltips" value="﻿﻿Disables the display of tooltips by the mod." />
   <Localisation key="tooltip_LogMessages" value="﻿Disables in-game log messages created by the mod." />
+  <Localisation key="tooltip_BoTScrollbar" value="﻿Enables a scrollbar in the mod's menu allowing the category buttons to be visible at all time.&#xA;Don't enable this if you have a lot of mods installed!" />
   <Localisation key="tooltip_CreateFallbackXML" value="Creates a .xml file of the fallback localisation." />
   <Localisation key="tooltip_SnakeMode" value="sssSsssSssssSSsssssSSSsssssSSssssSsssSsssave" />
   <Localisation key="tooltip_SpellFavourites" value="Spells are added to the Abilities Favourites" />
@@ -849,6 +873,9 @@
   <Localisation key="misc_Sell" value="Sell" />
   <Localisation key="misc_Unlock" value="Unlock" />
   <Localisation key="misc_UnlockAll" value="Unlock All" />
+  <Localisation key="misc_By" value="By" />
+  <Localisation key="misc_All" value="All" />
+  <Localisation key="misc_Other" value="Other" />
   <Localisation key="encumbrance_Light" value="Light" />
   <Localisation key="encumbrance_Medium" value="Medium" />
   <Localisation key="encumbrance_Heavy" value="Heavy" />

@@ -15,6 +15,7 @@
   <Localisation key="mainCategory_Dice" value="Dice Rolls" />
   <Localisation key="mainCategory_CameraTools" value="Camera Tools" />
   <Localisation key="mainCategory_DevTools" value="Development Tools" />
+  <Localisation key="mainCategory_BlueprintModding" value="Blueprint Modding" />
   <Localisation key="mainCategory_Misc" value="Misc" />
   <Localisation key="mainCategory_KeyBindings" value="Key Bindings" />
   <Localisation key="mainCategory_TaxCollector" value="Tax Collector" />
@@ -223,6 +224,7 @@
   <Localisation key="label_SmartConsoleInfo" value="Type &lt;b&gt;'help'&lt;/b&gt; into the Smart Console to get a list of all console commands." />
   <Localisation key="label_Weather" value="Weather" />
   <Localisation key="label_Intensity" value="Intensity" />
+  <Localisation key="label_ItemModdingInfo" value="JSON files named after the AssetGUID of the item you wish to edit have to be placed inside of the ModifiedBlueprints folder (e.g. 'efa6c2ee9e630384188a50b1ce6600fe.json'.&#xA;Currently only m_Cost (int) and m_Weight (float) are supported.&#xA;Either remove values you don't want to change or set them to null.&#xA;An example files is included in the folder.&#xA;The AsserGUIDs can be acquired through the spacehamster's JSON Blueprint Dump on github or you can directly edit them through the item search." />
   <Localisation key="message_NotInGame" value="Load into the game!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -243,6 +245,7 @@
   <Localisation key="message_NoSpellsFound" value="No spells found!" />
   <Localisation key="message_AddAbilitiesAsSpells" value="The abilities will be added to the current spellbook at the selected spell level." />
   <Localisation key="message_RecreateUnitDescriptor" value="Requires you to reload the area (e.g. leave and enter again)." />
+  <Localisation key="message_NoModItems" value="No modified blueprints found!" />
   <Localisation key="logMessage_Received" value="Received:" />
   <Localisation key="logMessage_Removed" value="Removed:" />
   <Localisation key="logMessage_Gold" value="Gold" />
@@ -310,6 +313,7 @@
   <Localisation key="toggle_MoveFavourites" value="Rearrange Favourite Functions" />
   <Localisation key="toggle_ShowInventory" value="Show Inventory" />
   <Localisation key="toggle_SpawnRandomEnemy" value="Spawn Random Hostile Unit" />
+  <Localisation key="toggle_ShowModifiedItems" value="Show Modified Blueprints" />
   <Localisation key="button_PartyExperience" value="Party Experience" />
   <Localisation key="button_Add6Rations" value="Add 6 camping supplies and rations" />
   <Localisation key="button_Money" value="Money" />
@@ -431,6 +435,7 @@
   <Localisation key="button_RevealAllHiddenLocations" value="All Hidden Locations" />
   <Localisation key="button_RevealAllSystemWaypoints" value="All System Waypoints" />
   <Localisation key="button_ChangeWeather" value="Change Weather" />
+  <Localisation key="button_RemoveItemModification" value="Remove Item Modification" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -595,6 +600,8 @@
   <Localisation key="arrayItem_FeatParam_WeaponMastery" value="Weapon Mastery" />
   <Localisation key="arrayItem_FeatParam_WeaponSpecialization" value="Weapon Specialization" />
   <Localisation key="arrayItem_FeatParam_WeaponSpecializationGreater" value="Greater Weapon Specialization" />
+  <Localisation key="arrayItem_FeatParam_SpellFocus" value="Spell Focus" />
+  <Localisation key="arrayItem_FeatParam_GreaterSpellFocus" value="Greater Spell Focus" />
   <Localisation key="arrayItem_NeverRollX_Everyone" value="Everyone" />
   <Localisation key="arrayItem_NeverRollX_OnlyParty" value="Only The Party" />
   <Localisation key="arrayItem_NeverRollX_OnlyEnemies" value="Only Enemies" />
@@ -832,8 +839,9 @@
   <Localisation key="tooltip_IgnoreDialogueRestrictions" value="﻿﻿Removes dialogue restrcitons." />
   <Localisation key="tooltip_NoInactiveCampsite" value="﻿Disables leaving an inactive campsite." />
   <Localisation key="tooltip_PreventQuestFailure" value="﻿While active quests won't fail." />
-  <Localisation key="tooltip_DevTools" value="Enables the built-in development tools (e.g. console).&#xA;Requires a restart to fully take effect." />
+  <Localisation key="tooltip_DevTools" value="Enables the built-in development tools (e.g. console) and adds new commands.&#xA;Requires a restart to fully take effect." />
   <Localisation key="tooltip_LogToUMM" value="Writes all Smart Console logs to the Unity Mod Manger log." />
+  <Localisation key="tooltip_BlueprintModding" value="Enables the modification of existing blueprints by loading files from the ModifiedBlueprints directory." />
   <Localisation key="tooltip_ToggleHUD" value="Enables toggling of the HUD via hotkey." />
   <Localisation key="tooltip_TaxCollector" value="The Tax Collector will collect build points and money (based on your character and kingdom stats) for you while you are gone." />
   <Localisation key="tooltip_ShowTooltips" value="﻿﻿Disables the display of tooltips by the mod." />
@@ -876,11 +884,13 @@
   <Localisation key="misc_By" value="By" />
   <Localisation key="misc_All" value="All" />
   <Localisation key="misc_Other" value="Other" />
+  <Localisation key="misc_RequiresRestart" value="Requires a restart to fully take effect." />
   <Localisation key="encumbrance_Light" value="Light" />
   <Localisation key="encumbrance_Medium" value="Medium" />
   <Localisation key="encumbrance_Heavy" value="Heavy" />
   <Localisation key="encumbrance_Overload" value="Overload" />
   <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) causes errors and thus won't be added." />
+  <Localisation key="error_NotFound" value="not found!" />
   <Localisation key="taxCollector_Lord" value="Lord" />
   <Localisation key="taxCollector_Lady" value="Lady" />
   <Localisation key="taxCollector_Excellence" value="Excellence" />

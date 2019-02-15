@@ -554,6 +554,7 @@
   <Localisation key="buttonToggle_EnableToggleHUD" value="Enable Toggle HUD" />
   <Localisation key="buttonToggle_ToggleHUD" value="Toggle HUD" />
   <Localisation key="buttonToggle_NoNegativeLevels" value="No Negative Levels" />
+  <Localisation key="buttonToggle_AutoEquipConsumables" value="Automatically Refill Consumables In Belt/Quick Solts" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -818,11 +819,12 @@
   <Localisation key="tooltip_UnityModManagerButton" value="﻿﻿Adds a button which opens the Unity Mod Manager UI to the ESC menu.&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_UnityModManagerButtonIndex" value="Adjusts the position of the button (0 = bottom, 6 = top).&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_AlignmentFix" value="E.g. when being Lawful Neutral a Neutral Good alignment shift&#xA;will bring you towards Lawful Good instead of Neutral Good" />
+  <Localisation key="tooltip_AutoEquipConsumables" value="The belt/quick slots will automatically be refilled after an items is used.&#xA;But only if another item of the same type is available in the party's inventory." />
   <Localisation key="tooltip_ShowPetInventory" value="Allows to view a pet's inventory by selecting it and pressing the inventory key." />
   <Localisation key="tooltip_ScaleInventoryMoney" value="Dynamically scales the size of the money display to fit larger amounts properly." />
   <Localisation key="tooltip_SortSpellbooksAlphabetically" value="Sorts the spellbooks on the Spellbooks Screen alphabetically." />
   <Localisation key="tooltip_SortSpellsAlphabetically" value="Sorts the spells on the Spellbooks Screen alphabetically." />
-  <Localisation key="tooltip_NoNegativeLevels" value="Prevents party members from gaining negative level.&#xA;The game will still display level drain messages in the battle log." />
+  <Localisation key="tooltip_NoNegativeLevels" value="Prevents party members from gaining negative levels.&#xA;The game will still display level drain messages in the battle log." />
   <Localisation key="tooltip_FreezeTimedQuestAt90Days" value="Freezes the time left on timed quest at 90 days.&#xA;Once turned off timed quest will return to their normal state i.e. they will react as if time has progressed while the option was active.&#xA;Thus it is recommended to complete timed quest before turning it off or making sure that there is still time left." />
   <Localisation key="tooltip_ActionKey" value="﻿﻿The action key can be set to perform a range of actions via hotkey." />
   <Localisation key="tooltip_NoAttacksOfOpportunity" value="The selected group won't be the target of attacks of opportunity." />

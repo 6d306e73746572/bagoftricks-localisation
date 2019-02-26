@@ -213,6 +213,8 @@
   <Localisation key="label_AbilityBlueprintAssetGuid" value="Ability Blueprint AssetGuid" />
   <Localisation key="label_CustomName" value="Custom Name" />
   <Localisation key="label_CurrentCustomName" value="Current Custom Name" />
+  <Localisation key="label_CurrentCustomGender" value="Current Custom Gender" />
+  <Localisation key="label_CurrentDefaultGender" value="Current Default Gender" />
   <Localisation key="label_BlueprintCharacterName" value="Blueprint Character Name" />
   <Localisation key="label_Spellbooks" value="Spellbooks" />
   <Localisation key="label_SpellListLevel" value="Spell List Level" />
@@ -225,6 +227,7 @@
   <Localisation key="label_Weather" value="Weather" />
   <Localisation key="label_Intensity" value="Intensity" />
   <Localisation key="label_ItemModdingInfo" value="JSON files named after the AssetGUID of the item you wish to edit have to be placed inside of the ModifiedBlueprints folder (e.g. 'efa6c2ee9e630384188a50b1ce6600fe.json'.&#xA;Either remove values you don't want to change or set them to null.&#xA;Example files for each supported category are included in the ModifiedBlueprints folder.&#xA;The AsserGUIDs can be acquired from spacehamster's JSON Blueprint Dump on github or you can directly edit most values through the item search or this menu.&#xA;&lt;b&gt;Adding enchantments of the wrong type might cause display issues in the inventory!&lt;/b&gt;" />
+  <Localisation key="label_CustomGender" value="Custom Gender" />
   <Localisation key="message_NotInGame" value="Load into the game!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -555,6 +558,10 @@
   <Localisation key="buttonToggle_ToggleHUD" value="Toggle HUD" />
   <Localisation key="buttonToggle_NoNegativeLevels" value="No Negative Levels" />
   <Localisation key="buttonToggle_AutoEquipConsumables" value="Automatically Refill Consumables In Belt/Quick Solts" />
+  <Localisation key="buttonToggle_IgnorePrerequisites" value="Ignore Class And Feat Restrictions" />
+  <Localisation key="buttonToggle_IgnoreCasterTypeSpellLevel" value="Ignore Caster Type And Spell Level Restrictions" />
+  <Localisation key="buttonToggle_IgnoreForbiddenArchetype" value="Ignore Forbidden Archetypes" />
+  <Localisation key="buttonToggle_IgnorePrerequisiteStatValue" value="Ignore Required Stat Values" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -672,6 +679,7 @@
   <Localisation key="warning_SorcererSupreme_0" value="Can prevent low level characters from progressing past the spell selection." />
   <Localisation key="warning_SorcererSupreme_1" value="You can use the button below to progress past it temporarily." />
   <Localisation key="warning_IgnoreClassAlignment" value="Does not disable the alignment restrictions for abilities and feats!&#xA;Use &lt;b&gt;Ignore Spellbook And Ability Alignment Checks&lt;/b&gt; to get around the ability/spellbook limitations (-&gt; Spell &amp; Ability Options)" />
+  <Localisation key="warning_CustomGender" value="Changing gender causes visual glitches!" />
   <Localisation key="warning_XPAndScaleXPActive" value="It is recommended to keep Bag Of Tricks' XP Multiplier off while using ScaleXP!" />
   <Localisation key="warning_ActionKeyExperimentalMode" value="Experimental Mode includes features that can break the game and cause crashes!" />
   <Localisation key="warning_GameVersion" value="Game Version" />
@@ -708,6 +716,10 @@
   <Localisation key="tooltip_AddCasterLevel" value="﻿Use the input field to set the caster level." />
   <Localisation key="tooltip_NoLevelUpRestirctions" value="You can level up even when you don't meet the experience requirements or are already level 20.&#xA;The UI indicators won't immediately update to show that a level up is available/unavailable." />
   <Localisation key="tooltip_InfiniteSkillPoints" value="﻿Gain infinite skill points." />
+  <Localisation key="tooltip_IgnorePrerequisites" value="﻿Ignore restrictions when picking classes and feats.&#xA;If you pick a Prestiege Class at character creation you will start without equipment&#xA;and might lack important Weapon Proficiencies!" />
+  <Localisation key="tooltip_IgnoreCasterTypeSpellLevel" value="﻿Ignore caster type and spell level restrictions." />
+  <Localisation key="tooltip_IgnoreForbiddenArchetype" value="﻿Ignore forbidden Archetypes." />
+  <Localisation key="tooltip_IgnorePrerequisiteStatValue" value="﻿Ignore required stat values." />
   <Localisation key="tooltip_IgnoreClassAlignment" value="﻿Ignore alignment restrictions for classes." />
   <Localisation key="tooltip_IgnoreForbiddenFeatures" value="﻿Ignore forbidden feats when choosing a class e.g. Atheism when trying to become a Cleric." />
   <Localisation key="tooltip_IgnorenFeaturePrerequisites" value="Ignore feat prerequisites when choosing a class (e.g. allows to become a Cleric of Groetus).&#xA;If this option doesn't work try Ignore Feat Prerequisites (List) When Choosing A Class" />
@@ -733,6 +745,7 @@
   <Localisation key="tooltip_RepeatableLockPickingLockPicks" value="This is a simple proof of concept of a lock pick system.&#xA;Your party has a limited set of lock picks based on their Trickery.&#xA;During rests (currently only camping) the party members skilled in Trickery will create new lock picks. The amount is based on skill rolls.&#xA;If you use this feature please provide feedback!" />
   <Localisation key="tooltip_RepeatableLockPickingLockPicksInventoryText" value="Display the amount of lock picks in the inventory screen.&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_CustomName" value="Requires to load a save or change the area in order to fully take effect." />
+  <Localisation key="tooltip_CustomGender" value="Allows you to set a switch a characters gender.&#xA;Causes visual glitches!" />
   <Localisation key="tooltip_ShowClassDataOptions" value="Allows to change the class level independent of leveling and to add normally unavailable classes.&#xA;Save often and use with caution!" />
   <Localisation key="tooltip_ResetCharacterLevel" value="﻿Resets the character level to match your current experience points (at most level 20)." />
   <Localisation key="tooltip_SetCharacterLevel" value="﻿Sets the character level to the chosen value." />

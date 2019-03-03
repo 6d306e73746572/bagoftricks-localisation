@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Localisation key="locale" value="enGB" />
+  <Localisation key="contributors" value="-" />
+  <Localisation key="contributors_text" value="Contributors for the selected language" />
   <Localisation key="mainCategory_XP" value="Character Creation, Progression &amp;  Experience" />
   <Localisation key="mainCategory_Encumbrance" value="Encumbrance &amp; Carrying Capacity" />
   <Localisation key="mainCategory_Rest" value="Rest &amp; Rations" />
@@ -716,7 +718,7 @@
   <Localisation key="tooltip_AddCasterLevel" value="﻿Use the input field to set the caster level." />
   <Localisation key="tooltip_NoLevelUpRestirctions" value="You can level up even when you don't meet the experience requirements or are already level 20.&#xA;The UI indicators won't immediately update to show that a level up is available/unavailable." />
   <Localisation key="tooltip_InfiniteSkillPoints" value="﻿Gain infinite skill points." />
-  <Localisation key="tooltip_IgnorePrerequisites" value="﻿Ignore restrictions when picking classes and feats.&#xA;If you pick a Prestiege Class at character creation you will start without equipment&#xA;and might lack important Weapon Proficiencies!" />
+  <Localisation key="tooltip_IgnorePrerequisites" value="﻿Ignore restrictions when picking classes and feats.&#xA;If you pick a Prestige Class at character creation you will start without equipment&#xA;and might lack important Weapon Proficiencies!" />
   <Localisation key="tooltip_IgnoreCasterTypeSpellLevel" value="﻿Ignore caster type and spell level restrictions." />
   <Localisation key="tooltip_IgnoreForbiddenArchetype" value="﻿Ignore forbidden Archetypes." />
   <Localisation key="tooltip_IgnorePrerequisiteStatValue" value="﻿Ignore required stat values." />
@@ -745,7 +747,7 @@
   <Localisation key="tooltip_RepeatableLockPickingLockPicks" value="This is a simple proof of concept of a lock pick system.&#xA;Your party has a limited set of lock picks based on their Trickery.&#xA;During rests (currently only camping) the party members skilled in Trickery will create new lock picks. The amount is based on skill rolls.&#xA;If you use this feature please provide feedback!" />
   <Localisation key="tooltip_RepeatableLockPickingLockPicksInventoryText" value="Display the amount of lock picks in the inventory screen.&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_CustomName" value="Requires to load a save or change the area in order to fully take effect." />
-  <Localisation key="tooltip_CustomGender" value="Allows you to set a switch a characters gender.&#xA;Causes visual glitches!" />
+  <Localisation key="tooltip_CustomGender" value="Allows you to set a switch a character's gender.&#xA;Causes visual glitches!" />
   <Localisation key="tooltip_ShowClassDataOptions" value="Allows to change the class level independent of leveling and to add normally unavailable classes.&#xA;Save often and use with caution!" />
   <Localisation key="tooltip_ResetCharacterLevel" value="﻿Resets the character level to match your current experience points (at most level 20)." />
   <Localisation key="tooltip_SetCharacterLevel" value="﻿Sets the character level to the chosen value." />

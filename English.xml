@@ -443,6 +443,7 @@
   <Localisation key="button_ChangeWeather" value="Change Weather" />
   <Localisation key="button_RemoveItemModification" value="Remove Item Modification" />
   <Localisation key="button_PatchManually" value="Patch Manually" />
+  <Localisation key="button_RestoreAllItemCharges" value="Restore All Item Charges" />
   <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party Always Rolls 20" />
   <Localisation key="buttonToggle_InfiniteSkillPoints" value="Infinite Skill Points" />
   <Localisation key="buttonToggle_IgnoreClassAlignment" value="Ignore Class Alignment Restrictions" />
@@ -564,6 +565,7 @@
   <Localisation key="buttonToggle_IgnoreCasterTypeSpellLevel" value="Ignore Caster Type And Spell Level Restrictions" />
   <Localisation key="buttonToggle_IgnoreForbiddenArchetype" value="Ignore Forbidden Archetypes" />
   <Localisation key="buttonToggle_IgnorePrerequisiteStatValue" value="Ignore Required Stat Values" />
+  <Localisation key="buttonToggle_SpiderBegone" value="Spiders Begone!" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -859,6 +861,7 @@
   <Localisation key="tooltip_OverwriteFogOfWar" value="Allows to completely disable fog of war or only its visuals." />
   <Localisation key="tooltip_IgnoreDialogueRestrictions" value="﻿﻿Removes dialogue restrcitons." />
   <Localisation key="tooltip_NoInactiveCampsite" value="﻿Disables leaving an inactive campsite." />
+  <Localisation key="tooltip_SpiderBegone" value="﻿Swaps the models of spiders with wolves and spider swarms with rat swarms.&#xA;Note that this doesn't affect the small non-interactable spiders!&#xA;A game restart/reload is highly recommended after changing the setting!" />
   <Localisation key="tooltip_PreventQuestFailure" value="﻿While active quests won't fail." />
   <Localisation key="tooltip_DevTools" value="Enables the built-in development tools (e.g. console) and adds new commands.&#xA;Requires a restart to fully take effect." />
   <Localisation key="tooltip_LogToUMM" value="Writes all Smart Console logs to the Unity Mod Manger log." />

@@ -570,6 +570,7 @@
   <Localisation key="buttonToggle_IgnoreForbiddenArchetype" value="Ignore Forbidden Archetypes" />
   <Localisation key="buttonToggle_IgnorePrerequisiteStatValue" value="Ignore Required Stat Values" />
   <Localisation key="buttonToggle_SpiderBegone" value="Spiders Begone!" />
+  <Localisation key="buttonToggle_ShowAreaName" value="Show Area Name" />
   <Localisation key="arrayItem_Alignments_NoChange" value="No Change" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotic Evil" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutral Evil" />
@@ -840,6 +841,7 @@
   <Localisation key="tooltip_ResetCutsceneLock" value="﻿﻿Allows you to move during cutscenes.&#xA;Best used together with Focus Camera to override the game's focus." />
   <Localisation key="tooltip_EnableResetCutsceneLockHotkey" value="Enables to toggle the Reset Cutscene Lock option via hotkey." />
   <Localisation key="tooltip_AnimationCloseUMM" value="Closes the Unity Mod Manager interface once a play button is pressed." />
+  <Localisation key="tooltip_ShowAreaName" value="Displays the current area's name at the top of the screen." />
   <Localisation key="tooltip_UnityModManagerButton" value="﻿﻿Adds a button which opens the Unity Mod Manager UI to the ESC menu.&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_UnityModManagerButtonIndex" value="Adjusts the position of the button (0 = bottom, 6 = top).&#xA;Requires to load a save or change the area in order to take effect." />
   <Localisation key="tooltip_AlignmentFix" value="E.g. when being Lawful Neutral a Neutral Good alignment shift&#xA;will bring you towards Lawful Good instead of Neutral Good" />

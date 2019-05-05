@@ -424,6 +424,7 @@
   <Localisation key="button_ResetCharacterLevel" value="Reset Character Level" />
   <Localisation key="button_SetCharacterLevel" value="Set Character Level To" />
   <Localisation key="button_RestoreSpellsAbilitiesAfterCombat" value="Restore Spells &amp; Abilities After Combat" />
+  <Localisation key="button_RestoreItemChargesAfterCombat" value="Restore Item Charges After Combat" />
   <Localisation key="button_Upgrade" value="Upgrade" />
   <Localisation key="button_LearnAllCookingRecipes" value="Learn All Cooking Recipes" />
   <Localisation key="button_AllAbilities" value="All Abilities" />
@@ -483,6 +484,8 @@
   <Localisation key="buttonToggle_DisableCameraBounds" value="Disable Camera Bounds" />
   <Localisation key="buttonToggle_MoveCameraToPlayer" value="Move Camera To Player" />
   <Localisation key="buttonToggle_IgnoreDialogueRestrictions" value="Ignore Dialogue Restrictions" />
+  <Localisation key="buttonToggle_ReverseCasterAlignmentChecks" value="Reverse Caster Alignment Checks" />
+  <Localisation key="buttonToggle_PreventAlignmentChanges" value="Prevent Alignment Changes" />
   <Localisation key="buttonToggle_NoInactiveCampsite" value="Don't Leave An Inactive Campsite" />
   <Localisation key="buttonToggle_EnableDLCContent" value="Enable DLC Content (only if it is available on your system!)" />
   <Localisation key="buttonToggle_FogOfWar" value="Fog Of War (Visuals Only)" />
@@ -562,6 +565,7 @@
   <Localisation key="buttonToggle_InstantPartyChange" value="Instantly Swap Party Members" />
   <Localisation key="buttonToggle_LogToUMM" value="Log To Unity Mod Manager" />
   <Localisation key="buttonToggle_EnableToggleHUD" value="Enable Toggle HUD" />
+  <Localisation key="buttonToggle_DisplayObjectInfo" value="Display Object Info" />
   <Localisation key="buttonToggle_ToggleHUD" value="Toggle HUD" />
   <Localisation key="buttonToggle_NoNegativeLevels" value="No Negative Levels" />
   <Localisation key="buttonToggle_AutoEquipConsumables" value="Automatically Refill Consumables In Belt/Quick Solts" />
@@ -716,6 +720,7 @@
   <Localisation key="warning_TakeX" value="Combat related rolls made before combat has started are still affected by TakeX (e.g. an attack on an unsuspecting enemy)." />
   <Localisation key="warning_UnlimitedCasting" value="Unlimited Casting is known to crash/freeze the game after the final fight of this scene.&#xA;Thus it is highly recommended to deactivate it temporarily!" />
   <Localisation key="warning_NoDamageFromEnemies" value="If you haven't cleared all combat encounters in this area is highly recommended to temporarily disable 'Enemies Don't Deal Damage To The Party' in this area!&#xA;Otherwise a companion quest might break!" />
+  <Localisation key="warning_PreventAlignmentChanges" value="Prevent Alignment Changes is active!" />
   <Localisation key="tooltip_SetEncumbrance" value="Sets the encumbrance for individual characters and the party as a whole to the chosen value." />
   <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Use the input field to set the maximal ability score at character creation." />
   <Localisation key="tooltip_MinAbilityScoreAtCC" value="Use the input field to set the minimal ability score at character creation." />
@@ -790,6 +795,7 @@
   <Localisation key="tooltip_SpontaneousCastersCopyScrolls" value="﻿Allows spontaneous casters to copy spells from scrolls." />
   <Localisation key="tooltip_UnlimitedAbilities" value="Unlimited ability uses for you party." />
   <Localisation key="tooltip_RestoreSpellsAbilitiesAfterCombat" value="All spells and abilities are automatically restored after every combat." />
+  <Localisation key="tooltip_RestoreItemChargesAfterCombat" value="All items are automatically recharged after every combat." />
   <Localisation key="tooltip_MostlyUndetectableDuringStealth" value="﻿Remain (mostly) undetectable while in stealth." />
   <Localisation key="tooltip_NoFriendlyFireAOE" value="Disables friendly fire when using area off effect spells or abilities." />
   <Localisation key="tooltip_NoFriendlyFireAny" value="Disables friendly fire of any type." />
@@ -868,7 +874,9 @@
   <Localisation key="tooltip_LogInfoToFile" value="Enables logging the gathered information to the BagOfTricks.log file in the BagOfTricks folder." />
   <Localisation key="tooltip_ShowUnitInfoBox" value="Displays a info box with unit statistics." />
   <Localisation key="tooltip_OverwriteFogOfWar" value="Allows to completely disable fog of war or only its visuals." />
-  <Localisation key="tooltip_IgnoreDialogueRestrictions" value="﻿﻿Removes dialogue restrcitons." />
+  <Localisation key="tooltip_IgnoreDialogueRestrictions" value="﻿﻿Removes dialogue restrictions." />
+  <Localisation key="tooltip_ReverseCasterAlignmentChecks" value="﻿﻿Reverses caster alignment checks e.g. when summoning monsters with an evil character you will summon the good variant." />
+  <Localisation key="tooltip_PreventAlignmentChanges" value="﻿﻿Prevents any changes made to a character's alignment." />
   <Localisation key="tooltip_NoInactiveCampsite" value="﻿Disables leaving an inactive campsite." />
   <Localisation key="tooltip_SpiderBegone" value="﻿Swaps the models of spiders with wolves and spider swarms with rat swarms.&#xA;Note that this doesn't affect the small non-interactable spiders!&#xA;A game restart/reload is highly recommended after changing the setting!" />
   <Localisation key="tooltip_PreventQuestFailure" value="﻿While active quests won't fail." />
@@ -877,6 +885,7 @@
   <Localisation key="tooltip_BlueprintModding" value="Enables the modification of existing blueprints by loading files from the ModifiedBlueprints directory." />
   <Localisation key="tooltip_PatchManually" value="Applies the item modification immediately." />
   <Localisation key="tooltip_ToggleHUD" value="Enables toggling of the HUD via hotkey." />
+  <Localisation key="tooltip_DisplayObjectInfo" value="Displays an object's name and GUID when hovering your cursor over it." />
   <Localisation key="tooltip_TaxCollector" value="The Tax Collector will collect build points and money (based on your character and kingdom stats) for you while you are gone." />
   <Localisation key="tooltip_ShowTooltips" value="﻿﻿Disables the display of tooltips by the mod." />
   <Localisation key="tooltip_LogMessages" value="﻿Disables in-game log messages created by the mod." />

@@ -794,6 +794,7 @@
   <Localisation key="tooltip_IgnoreMaterialComponents" value="Disables material component requirements." />
   <Localisation key="tooltip_SpontaneousCastersCopyScrolls" value="﻿Allows spontaneous casters to copy spells from scrolls." />
   <Localisation key="tooltip_UnlimitedAbilities" value="Unlimited ability uses for you party." />
+  <Localisation key="tooltip_RestoreSpellsAbilitiesAfterCombat" value="All spells and abilities are automatically restored after every combat." />
   <Localisation key="tooltip_RestoreItemChargesAfterCombat" value="All items are automatically recharged after every combat." />
   <Localisation key="tooltip_MostlyUndetectableDuringStealth" value="﻿Remain (mostly) undetectable while in stealth." />
   <Localisation key="tooltip_NoFriendlyFireAOE" value="Disables friendly fire when using area off effect spells or abilities." />

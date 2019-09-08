@@ -240,6 +240,9 @@
   <Localisation key="label_CrisisPoints" value="Crisis Points" />
   <Localisation key="label_CurrentCrisisPoints" value="Current Crisis Points" />
   <Localisation key="label_CombatDifficulty" value="combat difficulty" />
+  <Localisation key="label_RegionREInformation" value="Current Region's Random Encounter Information" />
+  <Localisation key="label_EncounterChanceReduced" value="Encounter Chance Reduced" />
+  <Localisation key="label_EncounterChanceInformation" value="Note that these settings are not the only parameters for random encounter chance calculation.&#xA;The actual chances for the current region can be seen in the box above." />
   <Localisation key="message_NotInGame" value="The mod can't be accessed from the main menu.&#xA;Either load a save file or start a new character!" />
   <Localisation key="message_ExitCombat" value="Exit Combat!" />
   <Localisation key="message_NoEnemies" value="There are no revealed enemies!" />
@@ -261,6 +264,7 @@
   <Localisation key="message_AddAbilitiesAsSpells" value="The abilities will be added to the current spellbook at the selected spell level." />
   <Localisation key="message_RecreateUnitDescriptor" value="Requires you to reload the area (e.g. leave and enter again)." />
   <Localisation key="message_NoModItems" value="No modified blueprints found!" />
+  <Localisation key="message_NoRegion" value="No region found!&#xA; Try again further into the game or on the global map." />
   <Localisation key="logMessage_Received" value="Received:" />
   <Localisation key="logMessage_Removed" value="Removed:" />
   <Localisation key="logMessage_Gold" value="Gold" />
@@ -278,6 +282,7 @@
   <Localisation key="headerOption_TravelSpeedMultiplier" value="Travel Time Scale Multiplier" />
   <Localisation key="headerOption_SettingsValue" value="Settings Value" />
   <Localisation key="headerOption_ChanceOnGlobalMap" value="Chance On Global Map" />
+  <Localisation key="headerOption_HardEncounterChanceOnGlobalMap" value="Hard Encounter Chance On Global Map" />
   <Localisation key="headerOption_ChanceWhenCamping" value="Chance When Camping" />
   <Localisation key="headerOption_ChanceWhenCampingAfterAttackDuringRest" value="Chance When Camping After Attack During Rest" />
   <Localisation key="headerOption_HardEncounterChance" value="Hard Encounter Chance" />

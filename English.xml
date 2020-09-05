@@ -522,7 +522,7 @@
   <Localisation key="buttonToggle_NoFriendlyFireAOE" value="No Friendly Fire AOE" />
   <Localisation key="buttonToggle_NoFriendlyFireAny" value="No Friendly Fire (Any)" />
   <Localisation key="buttonToggle_NoCooldown" value="No Cooldown" />
-  <Localisation key="buttonToggle_SetPartySpeedToFastestMember" value="Set Party Speed To Fastest Member" />
+  <Localisation key="buttonToggle_SetPartySpeedToFastestMember" value="Set Maximal Party Speed To Fastest Member" />
   <Localisation key="buttonToggle_PartyMovementSpeedMultiplier" value="Party Movement Speed Multiplier" />
   <Localisation key="buttonToggle_RevealMapLocations" value="Reveal Map Locations" />
   <Localisation key="buttonToggle_EnableTeleport" value="Enable Teleport" />
@@ -814,7 +814,7 @@
   <Localisation key="tooltip_MinAbilityScoreAtCC" value="Use the input field to set the minimal ability score at character creation." />
   <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="﻿Use the input field to set the ability points at character creation for the player." />
   <Localisation key="tooltip_AbilityPointsAtCCmerc" value="﻿Use the input field to set the ability points at character creation for mercenaries." />
-  <Localisation key="tooltip_FullHitdiceEachLevel" value="Removes the halving of the hit die value by the game when adding hit point on level up." />
+  <Localisation key="tooltip_FullHitdiceEachLevel" value="Removes the halving of the hit die value by the game when adding hit points on level up." />
   <Localisation key="tooltip_RollHitDiceEachLevel" value="Instead of adding half the hit die value every level up the added value is determined by a roll." />
   <Localisation key="tooltip_AddCasterLevel" value="﻿Use the input field to set the caster level." />
   <Localisation key="tooltip_NoLevelUpRestirctions" value="You can level up even when you don't meet the experience requirements or are already level 20.&#xA;The UI indicators won't immediately update to show that a level up is available/unavailable." />
@@ -901,7 +901,7 @@
   <Localisation key="tooltip_NoTempHPKineticist" value="Removes the temporary hit point reduction caused by burn.&#xA;Requires you to return to the main menu and reload your save game!" />
   <Localisation key="tooltip_SpellsPerDay" value="Use the slider or a custom multiplier to set the amount of spells per day / memorised spells." />
   <Localisation key="tooltip_InstantPartyChange" value="Swapping party members on the global map happens instantly." />
-  <Localisation key="tooltip_SetPartySpeedToFastestMember" value="Sets the speed of the whole party to match the speed of the fastest party member." />
+  <Localisation key="tooltip_SetPartySpeedToFastestMember" value="Sets the maximal party speed to match the speed of the fastest party member." />
   <Localisation key="tooltip_PartyMovementSpeedMultiplier" value="Multiplies the movement speed of all party members by the set value." />
   <Localisation key="tooltip_ClaimResources" value="Claims all revealed resources in your lands.&#xA;Note that the claims will still cost you BP!" />
   <Localisation key="tooltip_NoResourcesClaimCost" value="Sets the cost for claiming resources to 0." />

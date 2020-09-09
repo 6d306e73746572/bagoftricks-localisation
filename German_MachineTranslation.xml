@@ -1,0 +1,1086 @@
+<?xml version="1.0"?>
+<resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Localisation key="locale" value="deDE" />
+  <Localisation key="contributors" value="-" />
+  <Localisation key="contributors_text" value="Mitwirkende für die ausgewählte Sprache" />
+  <Localisation key="mainCategory_XP" value="Charaktererstellung, Fortschritt &amp; Erfahrung" />
+  <Localisation key="mainCategory_Encumbrance" value="Belastung &amp; Tragfähigkeit" />
+  <Localisation key="mainCategory_Rest" value="Rast &amp; Verpflegung" />
+  <Localisation key="mainCategory_Money" value="Kosten &amp; Geld" />
+  <Localisation key="mainCategory_PartyStats" value="Party-Optionen" />
+  <Localisation key="mainCategory_EnemyStats" value="Feindstatistik" />
+  <Localisation key="mainCategory_Items" value="Gegenstände &amp; Ausrüstung" />
+  <Localisation key="mainCategory_Buffs" value="Buffs" />
+  <Localisation key="mainCategory_SpellAbilityOptions" value="Zauber &amp; Fähigkeitsoptionen" />
+  <Localisation key="mainCategory_MapTravel" value="Karte &amp; Reisen" />
+  <Localisation key="mainCategory_Kingdom" value="Königreich" />
+  <Localisation key="mainCategory_Dice" value="Würfelwürfe" />
+  <Localisation key="mainCategory_CameraTools" value="Kamera-Tools" />
+  <Localisation key="mainCategory_DevTools" value="Entwicklungswerkzeuge" />
+  <Localisation key="mainCategory_BlueprintModding" value="Blueprint Modding" />
+  <Localisation key="mainCategory_Misc" value="Sonstiges" />
+  <Localisation key="mainCategory_KeyBindings" value="Tastenbelegungen" />
+  <Localisation key="mainCategory_TaxCollector" value="Steuereintreiber" />
+  <Localisation key="mainCategory_Feats" value="Kunststücke" />
+  <Localisation key="mainCategory_AddAbilities" value="Fähigkeiten" />
+  <Localisation key="mainCategory_SpellsAndSpellbooks" value="Zauber &amp; Zauberbücher" />
+  <Localisation key="mainCategory_BeneathTheStolenLands" value="Unter den gestohlenen Ländern" />
+  <Localisation key="mainCategory_SpawnUnits" value="Spawn-Einheiten" />
+  <Localisation key="mainCategory_FavouriteFunctions" value="Lieblingsfunktionen" />
+  <Localisation key="mainCategory_Cheats" value="Cheats" />
+  <Localisation key="mainCategory_Mods" value="Modifikationen" />
+  <Localisation key="mainCategory_Tools" value="Werkzeuge" />
+  <Localisation key="mainCategory_Settings" value="die Einstellungen" />
+  <Localisation key="header_UISoundTypes" value="UI-Soundtypen" />
+  <Localisation key="header_TakeX" value="Nimm X." />
+  <Localisation key="header_CC" value="Charaktererstellung" />
+  <Localisation key="header_Progression" value="Fortschreiten" />
+  <Localisation key="header_Experience" value="Erfahrung" />
+  <Localisation key="header_Multiplier" value="Multiplikator" />
+  <Localisation key="header_UseCustomMultiplier" value="Verwenden Sie den benutzerdefinierten Multiplikator" />
+  <Localisation key="header_CustomMultiplier" value="Benutzerdefinierter Multiplikator" />
+  <Localisation key="header_RestLess" value="Weniger ausruhen - Langsamere Müdigkeit" />
+  <Localisation key="header_AttributesBaseValues" value="Attribute: Basiswerte (Gesamtwerte)" />
+  <Localisation key="header_SkillsRanks" value="Fähigkeiten: Ränge (Gesamtwerte)" />
+  <Localisation key="header_SocialSkillsBaseValues" value="Soziale Fähigkeiten: Grundwerte (modifizierte Werte)" />
+  <Localisation key="header_StatsSaves" value="Speichert: Klassenboni (Gesamtwerte)" />
+  <Localisation key="header_StatsCombat" value="Kampf: Basiswerte (modifizierte Werte)" />
+  <Localisation key="header_PartyMultipliers" value="Party-Multiplikatoren" />
+  <Localisation key="header_Attributes" value="Attribute" />
+  <Localisation key="header_Skills" value="Kompetenzen" />
+  <Localisation key="header_SocialSkills" value="Soziale Fähigkeiten" />
+  <Localisation key="header_Saves" value="Speichert" />
+  <Localisation key="header_Combat" value="Kampf" />
+  <Localisation key="header_Rank" value="Rang" />
+  <Localisation key="header_EnemyMultipliers" value="Feindliche Multiplikatoren" />
+  <Localisation key="header_SearchAndAddItems" value="Suchen Sie nach &amp; Add Items" />
+  <Localisation key="header_ItemSearch" value="Gegestandsuche" />
+  <Localisation key="header_Search" value="Suche" />
+  <Localisation key="header_SpellsPerDay" value="Zauber pro Tag / Gespeicherte Zauber" />
+  <Localisation key="header_RandomEncounterSettings" value="Zufällige Begegnungseinstellungen" />
+  <Localisation key="header_BuildingTimeModifier" value="Bauzeitmodifikator" />
+  <Localisation key="header_BuildPoints" value="Punkte bauen" />
+  <Localisation key="header_Statistics" value="Statistiken" />
+  <Localisation key="header_Experimental" value="Experimental" />
+  <Localisation key="header_Sounds" value="Geräusche" />
+  <Localisation key="header_GameConstants" value="Spielkonstanten" />
+  <Localisation key="header_Language" value="Sprache" />
+  <Localisation key="header_Level" value="Niveau" />
+  <Localisation key="header_RomanceCounters" value="Romantikzähler" />
+  <Localisation key="header_Alignment" value="Ausrichtung" />
+  <Localisation key="header_Size" value="Größe" />
+  <Localisation key="header_TimeScale" value="Zeitstrahl" />
+  <Localisation key="header_Animations" value="Animationen abspielen" />
+  <Localisation key="header_CarryingCapacity" value="Tragfähigkeit" />
+  <Localisation key="header_About" value="Über" />
+  <Localisation key="header_KingdomAlignment" value="Königreichsausrichtung" />
+  <Localisation key="header_PartySpeed" value="Königreichsausrichtung" />
+  <Localisation key="header_Achievements" value="Erfolge" />
+  <Localisation key="label_CurrentMultiplier" value="Aktueller Multiplikator" />
+  <Localisation key="label_CurrentMoney" value="Aktuelles Geld" />
+  <Localisation key="label_CurrentAlignment" value="Aktuelle Ausrichtung" />
+  <Localisation key="label_CurrentCasterLevel" value="Aktuelle Zauberndenstufe" />
+  <Localisation key="label_Location" value="Ort" />
+  <Localisation key="label_InStealth" value="im Verborgenen" />
+  <Localisation key="label_ItemName" value="Gegestandname" />
+  <Localisation key="label_ItemType" value="Gegenstandsart" />
+  <Localisation key="label_ItemDescription" value="Gegestandbeschreibung" />
+  <Localisation key="label_ItemFlavourText" value="Item Flavour Text" />
+  <Localisation key="label_ItemCost" value="Gegenstandskosten" />
+  <Localisation key="label_ItemSellPrice" value="Gegestand Verkaufspreis" />
+  <Localisation key="label_ItemWeight" value="Gegestandgewicht" />
+  <Localisation key="label_ObjectName" value="Objektname" />
+  <Localisation key="label_ObjectNameClean" value="Objektname (gereinigt)" />
+  <Localisation key="label_ItemSubtypeName" value="Name des Element-Subtyps" />
+  <Localisation key="label_ItemSubtypeDescription" value="Element Subtyp Beschreibung" />
+  <Localisation key="label_ItemGuid" value="Gegestand Guid" />
+  <Localisation key="label_ItemComment" value="Gegestand Kommentar" />
+  <Localisation key="label_ItemIcon" value="Item Icon" />
+  <Localisation key="label_ItemIdentifyDC" value="Element DC identifizieren" />
+  <Localisation key="label_ItemInventoryPutSound" value="Item Inventory Put Sound" />
+  <Localisation key="label_ItemInventoryTakeSound" value="Item Inventory Take Sound" />
+  <Localisation key="label_ItemIsStackable" value="Gegestand ist stapelbar" />
+  <Localisation key="label_ItemIsNotable" value="Gegestand ist bemerkenswert" />
+  <Localisation key="label_ItemMiscellaneousType" value="Gegestandt Verschiedenes Typ" />
+  <Localisation key="label_ItemNonIdentifiedDescription" value="Gegestand nicht identifiziert Beschreibung" />
+  <Localisation key="label_ItemNonIdentifiedName" value="Gegestand nicht identifizierter Name" />
+  <Localisation key="label_AssetGuid" value="AssetGuid" />
+  <Localisation key="label_Amount" value="Menge" />
+  <Localisation key="label_DisplayItemInformation" value="Gegestandsinformationen anzeigen" />
+  <Localisation key="label_Description" value="Beschreibung" />
+  <Localisation key="label_FlavourText" value="Geschmackstext" />
+  <Localisation key="label_Armours" value="Rüstungen" />
+  <Localisation key="label_Belts" value="Gürtel" />
+  <Localisation key="label_Footwear" value="Schuhwerk" />
+  <Localisation key="label_Gloves" value="Handschuhe" />
+  <Localisation key="label_Headwear" value="Kopfbedeckung" />
+  <Localisation key="label_Keys" value="Schlüssel" />
+  <Localisation key="label_MiscellaneousItems" value="Verschiedene Gegestände" />
+  <Localisation key="label_NeckItems" value="Hals Gegestände" />
+  <Localisation key="label_Neckwear" value="Krawatten" />
+  <Localisation key="label_NonUsable" value="Nicht verwendbar" />
+  <Localisation key="label_Notes" value="Anmerkungen" />
+  <Localisation key="label_Rings" value="Ringe" />
+  <Localisation key="label_Shields" value="Schilde" />
+  <Localisation key="label_ShoulderItems" value="Schulterstücke" />
+  <Localisation key="label_UsableItems" value="Verwendbare Gegenstände" />
+  <Localisation key="label_Weapons" value="Waffen" />
+  <Localisation key="label_WristItems" value="Gegenstände am Handgelenk" />
+  <Localisation key="label_Results" value="Ergebnisse" />
+  <Localisation key="label_TooManyResults_0" value="Mehr als" />
+  <Localisation key="label_TooManyResults_1" value="Ergebnisse - Ändern Sie das Suchergebnislimit oder versuchen Sie es genauer!" />
+  <Localisation key="label_NumberOfActiveBuffs" value="Anzahl der aktiven Buffs" />
+  <Localisation key="label_CurrentScene" value="Aktuelle Szene" />
+  <Localisation key="label_BuffName" value="Buff Name" />
+  <Localisation key="label_BuffObjectName" value="Buff Objektname" />
+  <Localisation key="label_BuffGuid" value="Buff Guid" />
+  <Localisation key="label_BuffDescription" value="Buff Beschreibung" />
+  <Localisation key="label_BuffTickTime" value="Buff Tick Time" />
+  <Localisation key="label_Remove" value="Entfernen" />
+  <Localisation key="label_RemoveAll" value="Alles entfernen" />
+  <Localisation key="label_SearchBy" value="Suche nach" />
+  <Localisation key="label_BuffComponents" value="Buff-Komponenten" />
+  <Localisation key="label_MilesTravelled" value="Meilen reisten" />
+  <Localisation key="label_NextEncounterRollAt" value="Nächste Begegnungsrolle bei" />
+  <Localisation key="label_TeleportKey" value="Teleportschlüssel" />
+  <Localisation key="label_CurrentValue" value="Aktueller Wert" />
+  <Localisation key="label_MilesUntilNextEncounterInfo" value="Dieser Wert wird zu den aktuell zurückgelegten Meilen addiert, um den nächsten Begegnungswurf zu bestimmen." />
+  <Localisation key="label_BuildingTimeInfo" value="Verwenden Sie negative Werte für eine Reduzierung der Bauzeit - gilt nur für neu gestartete Konstruktionen!" />
+  <Localisation key="label_CurrentBuildingTimeModifier" value="Aktueller Bauzeitmodifikator" />
+  <Localisation key="label_CurrentBuildPoints" value="Aktuelle Erstellungspunkte" />
+  <Localisation key="label_CurrentBaseBuildPointIncome" value="Aktuelles Basis-Build-Point-Einkommen" />
+  <Localisation key="label_AlwaysRoll20ForIntiativeInfo" value="betrifft Freunde und Feinde!" />
+  <Localisation key="label_CameraTurnRate" value="Kameradrehzahl" />
+  <Localisation key="label_CurrentRotation" value="Aktuelle Drehung" />
+  <Localisation key="label_CurrentDefaultRotation" value="Aktuelle Standardrotation" />
+  <Localisation key="label_RotateLeftKey" value="Linke Taste drehen" />
+  <Localisation key="label_RotateRightKey" value="Rechtsschlüssel drehen" />
+  <Localisation key="label_ResetRotationKey" value="Drehschlüssel zurücksetzen" />
+  <Localisation key="label_CurrentLowerZoomLimit" value="Aktuelle untere Zoomgrenze" />
+  <Localisation key="label_CurrentUpperZoomLimit" value="Aktuelle obere Zoomgrenze" />
+  <Localisation key="label_GlobalMapZoomLevelRestartButtonChange" value="Zoomstufe der globalen Karte (nach dem Neustart)" />
+  <Localisation key="label_GlobalMapZoomLevelRestart" value="Sie müssen das Spiel neu starten, damit die Änderungen an der globalen Karten-Zoomstufe angewendet werden können!" />
+  <Localisation key="label_FocusCameraKey" value="Kamerataste fokussieren" />
+  <Localisation key="label_CycleFocusKey" value="Zyklusfokus-Taste" />
+  <Localisation key="label_CurrentFocus" value="Aktueller Fokus" />
+  <Localisation key="label_CurrentGameLocale" value="Aktuelles Gebietsschema des Spiels" />
+  <Localisation key="label_CurrentGameID" value="Aktuelle Spiel-ID" />
+  <Localisation key="label_Teleport" value="Teleportieren" />
+  <Localisation key="label_RotateCameraLeft" value="Kamera nach links drehen" />
+  <Localisation key="label_RotateCameraRight" value="Kamera nach rechts drehen" />
+  <Localisation key="label_ResetCameraRotation" value="Kameradrehung zurücksetzen" />
+  <Localisation key="label_FocusCamera" value="Fokuskamera" />
+  <Localisation key="label_CycleFocus" value="Zyklusfokus" />
+  <Localisation key="label_TogglePartyAlwaysRolls20" value="Party umschalten rollt immer 20" />
+  <Localisation key="label_CurrentSearchResultLimit" value="Aktuelles Suchergebnislimit" />
+  <Localisation key="label_CurrentFlyingHeight" value="Aktuelle Flughöhe" />
+  <Localisation key="label_CurrentMinimalUnitSpeed" value="Aktuelle minimale Einheitsgeschwindigkeit" />
+  <Localisation key="label_CurrentMinimalWeaponRange" value="Aktuelle minimale Waffenreichweite" />
+  <Localisation key="label_CurrentStealthDCIncrement" value="Aktuelles Stealth-DC-Inkrement" />
+  <Localisation key="label_ResetCutsceneLock" value="Am besten zusammen mit der Fokuskamera verwenden" />
+  <Localisation key="label_ResetCutsceneLockKey" value="Cutscene-Sperrschlüssel zurücksetzen" />
+  <Localisation key="label_CurrentXP" value="Aktuelle XP" />
+  <Localisation key="label_CurrentLevel" value="Aktuelles Level" />
+  <Localisation key="label_CurrentSize" value="Momentane Größe" />
+  <Localisation key="label_CraftMagicItemsSearchItemInfo" value="Benutzerdefinierte Gegenstände aus dem Mod 'Craft-Magic-Items' müssen mindestens einmal hergestellt werden, bevor sie in der Suche angezeigt werden!" />
+  <Localisation key="label_ActionKey" value="Aktionsschlüssel" />
+  <Localisation key="label_ActionKeyEnableExperimental" value="Aktivieren Sie den experimentellen Modus" />
+  <Localisation key="label_FeatDescription" value="Feat Beschreibung" />
+  <Localisation key="label_FeatName" value="Feat Name" />
+  <Localisation key="label_FeatGUID" value="Feat GUID" />
+  <Localisation key="label_FeatObjectName" value="Feat Objektname" />
+  <Localisation key="label_FeatBlueprintAssetGuid" value="Feat Blueprint AssetGuid" />
+  <Localisation key="label_FeatRank" value="Feat Rang" />
+  <Localisation key="label_SelectLanguage" value="Bitte wählen Sie Ihre Sprache" />
+  <Localisation key="label_ShowSpoilers" value="Spoiler anzeigen" />
+  <Localisation key="label_RomanceCounter" value="Romantikzähler" />
+  <Localisation key="label_CounterValue" value="Zählerwert" />
+  <Localisation key="label_LowerCutoff" value="Unterer Cutoff" />
+  <Localisation key="label_UpperCutoff" value="Oberer Cutoff" />
+  <Localisation key="label_ShowAllWeaponCategories" value="Alle Waffenkategorien anzeigen" />
+  <Localisation key="label_ParametrizedFeats" value="Parametrisierte Leistungen" />
+  <Localisation key="label_SearchInfoParametrizedFeats" value="Wenn Sie bei der Suche keine Leistung finden können, versuchen Sie die Option Parametrisierte Leistungen." />
+  <Localisation key="label_BlueprintName" value="Blueprint Name" />
+  <Localisation key="label_UnitName" value="Einheitenname" />
+  <Localisation key="label_UnitType" value="Gerätetyp" />
+  <Localisation key="label_UnitGUID" value="Einheit GUID" />
+  <Localisation key="label_Race" value="Rennen" />
+  <Localisation key="label_Gender" value="Geschlecht" />
+  <Localisation key="label_WeaponName" value="Waffenname" />
+  <Localisation key="label_WeaponDamage" value="Waffenschaden" />
+  <Localisation key="label_ChallengeRating" value="Herausforderungsbewertung" />
+  <Localisation key="label_SpawnHostileBandits1" value="Spawn feindliche Banditen" />
+  <Localisation key="label_SpawnHostileBandits2" value="Nicht möglich, solange Spawn-Einheiten aus Einheitenfavoriten / gespeicherten Einheiten aktiv sind!" />
+  <Localisation key="label_EditingInExperimental" value="Die Werte können im Untermenü Experimentell bearbeitet werden." />
+  <Localisation key="label_KingdomName" value="Königreichsname" />
+  <Localisation key="label_ArtisanMasterPieceChance" value="Artisan Masterpiece Chance" />
+  <Localisation key="label_WearinessPerAttempt" value="Stunden der Müdigkeit pro Versuch" />
+  <Localisation key="label_TeleportUnit" value="Teleport-Einheit" />
+  <Localisation key="label_LockPicks" value="Dietriche" />
+  <Localisation key="label_CurrentRegionCR" value="CR der aktuellen Region" />
+  <Localisation key="label_UnityModManagerButtonIndex" value="Position der Unity Mod Manager-Schaltfläche" />
+  <Localisation key="label_AbilityDescription" value="Fähigkeitsbeschreibung" />
+  <Localisation key="label_AbilityName" value="Fähigkeitsname" />
+  <Localisation key="label_AbilityGuid" value="Fähigkeits-GUID" />
+  <Localisation key="label_AbilityRange" value="Fähigkeitsbereich" />
+  <Localisation key="label_AbilityType" value="Fähigkeitstyp" />
+  <Localisation key="label_AbilityEffectOnAlly" value="Fähigkeitseffekt auf Verbündeten" />
+  <Localisation key="label_AbilityEffectOnEnemy" value="Fähigkeitseffekt auf den Feind" />
+  <Localisation key="label_AbilityResourceLogic" value="Fähigkeitsressourcenlogik" />
+  <Localisation key="label_AbilityRequiredResource" value="Fähigkeit Erforderliche Ressource" />
+  <Localisation key="label_AbilityObjectName" value="Name des Fähigkeitsobjekts" />
+  <Localisation key="label_AbilityBlueprintAssetGuid" value="Fähigkeit Blueprint AssetGuid" />
+  <Localisation key="label_CustomName" value="Benutzerdefinierter Name" />
+  <Localisation key="label_CurrentCustomName" value="Aktueller benutzerdefinierter Name" />
+  <Localisation key="label_CurrentCustomGender" value="Aktuelles benutzerdefiniertes Geschlecht" />
+  <Localisation key="label_CurrentDefaultGender" value="Aktuelles Standardgeschlecht" />
+  <Localisation key="label_BlueprintCharacterName" value="Name des Blaupausencharakters" />
+  <Localisation key="label_Spellbooks" value="Zauberbücher" />
+  <Localisation key="label_SpellListLevel" value="Zauberlistenstufe" />
+  <Localisation key="label_SpellLevel" value="Zauberstufe" />
+  <Localisation key="label_CurrentHitPoints" value="Aktuelle Trefferpunkte" />
+  <Localisation key="label_AdvanceGameTime" value="Spielzeit vorverlegen" />
+  <Localisation key="label_UI" value="Benutzeroberfläche" />
+  <Localisation key="label_NoAttacksOfOpportunity" value="Gelegenheitsangriffe &lt;b&gt; Targeting&lt; / b&gt; Die Auswahl wird verhindert." />
+  <Localisation key="label_SmartConsoleInfo" value="Geben Sie &lt;b&gt; 'help'&lt; / b&gt; in die Smart Console ein, um eine Liste aller Konsolenbefehle abzurufen." />
+  <Localisation key="label_Weather" value="Wetter" />
+  <Localisation key="label_Intensity" value="Intensität" />
+  <Localisation key="label_ItemModdingInfo" value="JSON-Dateien, die nach der AssetGUID des Elements benannt sind, das Sie bearbeiten möchten, müssen im Ordner ModifiedBlueprints abgelegt werden (z. B. 'efa6c2ee9e630384188a50b1ce6600fe.json'. &#xA; Einige Änderungen erfordern möglicherweise einen Neustart des Spiels oder manuelles Patchen (Schaltfläche unten). &#xA; Entweder entfernen Sie Werte Sie möchten sie nicht ändern oder auf null setzen. &#xA; Beispieldateien für jede unterstützte Kategorie sind im Ordner ModifiedBlueprints enthalten. &#xA; Die AsserGUIDs können aus dem JSON Blueprint Dump von spacehamster auf github bezogen werden oder Sie können die meisten Werte direkt über das Element bearbeiten Suche oder dieses Menü. &#xA; &lt;b&gt; Das Hinzufügen von Verzauberungen des falschen Typs kann zu Anzeigeproblemen im Inventar führen! &lt; / b&gt;" />
+  <Localisation key="label_CustomGender" value="Benutzerdefiniertes Geschlecht" />
+  <Localisation key="label_CurrentName" value="Aktueller Name" />
+  <Localisation key="label_CampingSpecialAbility" value="Camping besondere Fähigkeit" />
+  <Localisation key="label_SummonDurationMultiplier" value="Die Dauer der von der Auswahl beschworenen Kreaturen wird mit dem ausgewählten Wert multipliziert." />
+  <Localisation key="label_BuffDurationMultiplier" value="Die Dauer der von der Auswahl gewirkten Buffs wird mit dem ausgewählten Wert multipliziert." />
+  <Localisation key="label_SetSummonLevelTo20" value="Von der Auswahl beschworene Kreaturen haben immer Stufe 20." />
+  <Localisation key="label_CrisisPoints" value="Krisenpunkte" />
+  <Localisation key="label_CurrentCrisisPoints" value="Aktuelle Krisenpunkte" />
+  <Localisation key="label_CombatDifficulty" value="Kampfschwierigkeiten" />
+  <Localisation key="label_RegionREInformation" value="Zufällige Begegnungsinformationen der aktuellen Region" />
+  <Localisation key="label_EncounterChanceReduced" value="Begegnungschance reduziert" />
+  <Localisation key="label_EncounterChanceInformation" value="Beachten Sie, dass diese Einstellungen nicht die einzigen Parameter für die Berechnung der zufälligen Begegnungschance sind. &#xA; Die tatsächlichen Chancen für die aktuelle Region können Sie dem obigen Feld entnehmen." />
+  <Localisation key="label_DowngradeSettlements" value="Downgrade-Abrechnungen" />
+  <Localisation key="label_CopyToClipboard" value="In die Zwischenablage kopieren" />
+  <Localisation key="label_CopyItemInformationToClipboard" value="Objektinformationen in die Zwischenablage kopieren" />
+  <Localisation key="label_CopyAbilityInformationToClipboard" value="Kopieren von Fähigkeitsinformationen in die Zwischenablage" />
+  <Localisation key="label_CopyBuffInformationToClipboard" value="Kopieren Sie die Buff-Informationen in die Zwischenablage" />
+  <Localisation key="label_CopyFeatInformationToClipboard" value="Kopieren Sie Feat-Informationen in die Zwischenablage" />
+  <Localisation key="label_CopyUnitInformationToClipboard" value="Kopieren Sie die Geräteinformationen in die Zwischenablage" />
+  <Localisation key="label_SpellAbilityRangeMultiplier" value="Zauber &amp; Ability Range Multiplikator" />
+  <Localisation key="label_UnitSearchFiltersInfo" value="Wenn Sie mehrere Filter verwenden, trennen Sie diese durch ein Semikolon (z. B. cr: 20,19&lt;b&gt;; &lt; / b&gt; Geschlecht: m zeigt nur männliche Einheiten mit CR 20 oder 19 an). &#xA; Sie können ein Ausrufezeichen zum Negieren verwenden Ein Filter (zB &lt;b&gt;! &lt; / b&gt; Typ: Wolf; &lt;b&gt;! &lt; / b&gt; cr: 12 zeigt alle Ergebnisse an. &lt;b&gt; außer &lt; / b&gt; die des Wolfstyps oder CR 12. &#xA; &lt; b&gt; Herausforderungsbewertung (ganze Zahlen) - / b&gt; cr: 12 | cr: 5,7,8 | cr: 0-24 | cr: &lt;5 | cr:&gt; 8 &#xA; &lt;b&gt; Typ (vollständiger oder teilweiser Typ) Name) â &#xA; ž&lt; / b&gt; Typ: Wolf | Typ: wer | Typ: Hund, wo &#xA; &lt;b&gt; Rasse (vollständiger oder teilweiser Rassenname) â &#xA; ž&lt; / b&gt; Rasse: Mensch | Rasse: dwa | Rasse: Elf , hu &#xA; &lt;b&gt; Geschlecht (f / m) - &lt; / b&gt; Geschlecht: f | Geschlecht: m" />
+  <Localisation key="label_StoredUnits" value="Gespeicherte Einheiten" />
+  <Localisation key="label_ClearStoredUnits" value="Gespeicherte Einheiten löschen" />
+  <Localisation key="label_AddFavouritesToStoredUnits" value="Hinzufügen von Favoriten zu gespeicherten Einheiten" />
+  <Localisation key="label_AddResultsToStoredUnits" value="Ergebnisse zu gespeicherten Einheiten hinzufügen" />
+  <Localisation key="label_EnableActionKeyToSpawnHotkey" value="Aktivieren Sie die Aktionstaste, um Einheiten über einen Hotkey zu erzeugen" />
+  <Localisation key="label_ActionKeyNotSetToSpawnUnits" value="Der Aktionsschlüssel ist nicht auf Spawn-Einheiten eingestellt" />
+  <Localisation key="label_ActionKeyNotSetToSpawnUnitsFromUnitFavouritesStored" value="Einheiten von Einheitenfavoriten / gespeicherten Einheiten über die Aktionstaste erzeugen ist nicht aktiviert:" />
+  <Localisation key="label_SetToSpawnUnits" value="Auf Spawn-Einheiten setzen" />
+  <Localisation key="label_SpellAbilityRange" value="Setze benutzerdefinierte Zauber &amp; Fähigkeitsbereiche" />
+  <Localisation key="label_SpellAbilityCustomRangeTabletopWarning" value="Sowohl Set Custom Spell &amp; Ability Ranges als auch Tabletop Ranges sind aktiv!" />
+  <Localisation key="label_EnemyBaseHitPointsMultiplier" value="Multiplikator der Trefferpunkte der feindlichen Basis" />
+  <Localisation key="label_EnemyBaseHitPointsMultiplierCampEncounter" value="Zufällige Ruhe- / Camping-Begegnungen" />
+  <Localisation key="label_EnemyBaseHitPointsMultiplierUnitSpawner" value="Zufällige globale Kartenbegegnungen &amp; Lokale Kartenbegegnungen" />
+  <Localisation key="message_NotInGame" value="Der Mod kann nicht über das Hauptmenü aufgerufen werden. &#xA; Laden Sie entweder einen Spielstand oder starten Sie ein neues Spiel!" />
+  <Localisation key="message_ExitCombat" value="Beende den Kampf!" />
+  <Localisation key="message_NoEnemies" value="Es gibt keine offenbarten Feinde!" />
+  <Localisation key="message_NoKingdom" value="Kein Königreich gefunden!" />
+  <Localisation key="message_NoFavourites" value="Keine Favoriten gefunden!" />
+  <Localisation key="message_NoValidGuids" value="Geben Sie gültige Guids ein!" />
+  <Localisation key="message_NoValidGuid" value="Geben Sie eine gültige Guid ein!" />
+  <Localisation key="message_NoResult" value="Kein Ergebnis!" />
+  <Localisation key="message_NoUnitSelected" value="Keine Einheit ausgewählt!" />
+  <Localisation key="message_NoValidEntriesFound" value="Keine gültigen Einträge gefunden." />
+  <Localisation key="message_GameLoading" value="Bitte warte, während das Spiel lädt." />
+  <Localisation key="message_NoLockPicksLeft" value="Keine Lock Picks mehr!" />
+  <Localisation key="message_LockPickSaved" value="Lock Pick gespeichert!" />
+  <Localisation key="message_LockPickLost" value="Schloss Pick verloren!" />
+  <Localisation key="message_NoUnitFound" value="Keine Einheit gefunden - versuchen Sie eine andere Einstellung!" />
+  <Localisation key="message_RenamedTo" value="umbenannt in" />
+  <Localisation key="message_NoSpellbooksFound" value="Keine Zauberbücher gefunden!" />
+  <Localisation key="message_NoSpellsFound" value="Keine Zauber gefunden!" />
+  <Localisation key="message_AddAbilitiesAsSpells" value="Die Fähigkeiten werden dem aktuellen Zauberbuch auf der ausgewählten Zauberstufe hinzugefügt." />
+  <Localisation key="message_RecreateUnitDescriptor" value="Erfordert, dass Sie den Bereich neu laden (z. B. verlassen und erneut betreten)." />
+  <Localisation key="message_NoModItems" value="Keine modifizierten Blaupausen gefunden!" />
+  <Localisation key="message_NoRegion" value="Keine Region gefunden! &#xA; Versuchen Sie es erneut im Spiel oder auf der Weltkarte." />
+  <Localisation key="logMessage_Received" value="Empfangen:" />
+  <Localisation key="logMessage_Removed" value="Entfernt:" />
+  <Localisation key="logMessage_Gold" value="Gold" />
+  <Localisation key="logMessage_Enabled" value="aktiviert" />
+  <Localisation key="logMessage_Disabled" value="Behindert" />
+  <Localisation key="headerOption_MaxAbilityScoreAtCC" value="Maximaler Basisfähigkeitswert bei der Charaktererstellung" />
+  <Localisation key="headerOption_MinAbilityScoreAtCC" value="Minimaler Basisfähigkeitswert bei der Charaktererstellung" />
+  <Localisation key="headerOption_AbilityPointsAtCCPlayer" value="Fähigkeitspunkte bei der Charaktererstellung (Spieler [Standard: 25])" />
+  <Localisation key="headerOption_AbilityPointsAtCCmerc" value="Fähigkeitspunkte bei der Charaktererstellung (Söldner [Standard: 20])" />
+  <Localisation key="headerOption_AddCasterLevel" value="Caster Level einstellen (Standard: 1)" />
+  <Localisation key="headerOption_NoRationsRequired" value="Keine Rationen erforderlich" />
+  <Localisation key="headerOption_MercenaryCostMultiplier" value="Söldnerkostenmultiplikator" />
+  <Localisation key="headerOption_ShowFavourites" value="Favoriten anzeigen" />
+  <Localisation key="headerOption_ShowItemSets" value="Objektgruppen anzeigen" />
+  <Localisation key="headerOption_ShowUnitSets" value="Einheitensätze anzeigen" />
+  <Localisation key="headerOption_TravelSpeedMultiplier" value="Multiplikator der Reisezeitskala" />
+  <Localisation key="headerOption_SettingsValue" value="Einstellungswert" />
+  <Localisation key="headerOption_ChanceOnGlobalMap" value="Chance auf globaler Karte" />
+  <Localisation key="headerOption_HardEncounterChanceOnGlobalMap" value="Harte Begegnungschance auf globaler Karte" />
+  <Localisation key="headerOption_ChanceWhenCamping" value="Chance beim Camping" />
+  <Localisation key="headerOption_ChanceWhenCampingAfterAttackDuringRest" value="Chance beim Camping nach dem Angriff in der Ruhe" />
+  <Localisation key="headerOption_HardEncounterChance" value="Harte Begegnungschance" />
+  <Localisation key="headerOption_HardEncounterMaxChance" value="Harte Begegnung Maximale Chance" />
+  <Localisation key="headerOption_HardEncounterChanceIncreaseIncrements" value="Harte Begegnung Chance erhöht Inkremente" />
+  <Localisation key="headerOption_StalkerAmbushChances" value="Stalker Ambush Chance" />
+  <Localisation key="headerOption_MilesUntilNextEncounterRoll" value="Meilen bis zur nächsten Begegnung" />
+  <Localisation key="headerOption_SafeMilesAfterEncounter" value="Sichere Meilen nach der Begegnung" />
+  <Localisation key="headerOption_SafeZoneSize" value="Größe der sicheren Zone" />
+  <Localisation key="headerOption_EncounterPawnOffset" value="Begegnung mit Bauernversatz" />
+  <Localisation key="headerOption_EncounterPawnDistanceFromLocation" value="Begegnung mit Bauernentfernung vom Ort" />
+  <Localisation key="headerOption_AvoidanceFailMargin" value="Vermeidungsfehlergrenze" />
+  <Localisation key="headerOption_MinimalChallengeRatingBonus" value="Minimaler Challenge Rating Bonus" />
+  <Localisation key="headerOption_MaximalChallengeRatingBonus" value="Maximaler Challenge Rating Bonus" />
+  <Localisation key="headerOption_HardEncounterChallengeRatingBonus" value="Hard Encounter Challenge Bewertungsbonus" />
+  <Localisation key="headerOption_AdjustBy" value="Anpassen durch" />
+  <Localisation key="headerOption_OverrideKingdomAlignmentResult" value="Ergebnis der Königreichsausrichtung überschreiben" />
+  <Localisation key="headerOption_Community" value="Gemeinschaft" />
+  <Localisation key="headerOption_Loyalty" value="Loyalität" />
+  <Localisation key="headerOption_Military" value="Militär" />
+  <Localisation key="headerOption_Economy" value="Wirtschaft" />
+  <Localisation key="headerOption_Relations" value="Beziehungen" />
+  <Localisation key="headerOption_Divine" value="Göttlich" />
+  <Localisation key="headerOption_Arcane" value="Arkan" />
+  <Localisation key="headerOption_Stability" value="Stabilität" />
+  <Localisation key="headerOption_Culture" value="Kultur" />
+  <Localisation key="headerOption_Espionage" value="Spionage" />
+  <Localisation key="headerOption_CameraScrollSpeed" value="Bildlaufgeschwindigkeit der Kamera" />
+  <Localisation key="headerOption_SearchResultLimit" value="Suchergebnislimit" />
+  <Localisation key="headerOption_FlyingHeight" value="Flughöhe" />
+  <Localisation key="headerOption_UseSlider" value="Verwenden Sie den Schieberegler" />
+  <Localisation key="headerOption_VendorSellMultiplier" value="Vendor Sell Multiplikator" />
+  <Localisation key="headerOption_CrittersInsteadOfBloodChance" value="Critters statt Blood Chance" />
+  <Localisation key="toggle_AddItemIdentified" value="Identifizierte Elemente hinzufügen" />
+  <Localisation key="toggle_AddMultipleItems" value="Fügen Sie mehrere Elemente hinzu" />
+  <Localisation key="toggle_SearchCsvForCustomSets" value="Durchsuchen Sie CSV-Dateien nach benutzerdefinierten Sets" />
+  <Localisation key="toggle_SearchTxtForCustomSets" value="Durchsuchen Sie Textdateien nach benutzerdefinierten Sets" />
+  <Localisation key="toggle_RememberLastEnteredGuids" value="Denken Sie daran, zuletzt eingegebene Guid (s)" />
+  <Localisation key="toggle_RememberOpenCategories" value="Erinnere dich an offene Kategorien" />
+  <Localisation key="toggle_RememberOpenSubMenus" value="Denken Sie daran, offene Untermenüs und Sucheinstellungen zu öffnen" />
+  <Localisation key="toggle_CreateCharStatsBackup" value="Erstellen Sie ein Backup, bevor Sie Charakterstatistiken importieren" />
+  <Localisation key="toggle_ShowDebugInfo" value="Debug-Informationen anzeigen" />
+  <Localisation key="toggle_UpgradeSettlementsAndBuildings" value="Upgrade Siedlungen &amp; Gebäude" />
+  <Localisation key="toggle_ShowKnownSpells" value="Bekannte Zaubersprüche anzeigen" />
+  <Localisation key="toggle_ShowAllLearnableSpells" value="Alle lernbaren Zaubersprüche anzeigen" />
+  <Localisation key="toggle_AddAbilitiesAsSpells" value="Fügen Sie Fähigkeiten / Zauber aus Favoriten als Zauber hinzu" />
+  <Localisation key="toggle_AddSpellsbooks" value="Zauberbücher hinzufügen" />
+  <Localisation key="toggle_MoveFavourites" value="Lieblingsfunktionen neu anordnen" />
+  <Localisation key="toggle_ShowInventory" value="Inventar anzeigen" />
+  <Localisation key="toggle_SpawnRandomEnemy" value="Zufällige feindliche Einheit hervorbringen" />
+  <Localisation key="toggle_ShowModifiedItems" value="Geänderte Blaupausen anzeigen" />
+  <Localisation key="toggle_ShowItemTypes" value="Zeigen Sie &amp; Edit Item Type Blueprints an" />
+  <Localisation key="button_PartyExperience" value="Partyerfahrung" />
+  <Localisation key="button_Add6Rations" value="Fügen Sie 6 Campingbedarf und -rationen hinzu" />
+  <Localisation key="button_Money" value="Geld" />
+  <Localisation key="button_SetAlignment" value="Ausrichtung einstellen auf" />
+  <Localisation key="button_AlignmentCantBeSetTo" value="Ausrichtung kann nicht eingestellt werden" />
+  <Localisation key="button_AlignmentUseShiftInstead" value="Verwenden Sie stattdessen Shift!" />
+  <Localisation key="button_ShiftAlignmentTowards" value="Verschieben Sie die Ausrichtung in Richtung" />
+  <Localisation key="button_Apply" value="Anwenden" />
+  <Localisation key="button_SetTo" value="Einstellen" />
+  <Localisation key="button_SetRankTo" value="Rang setzen auf" />
+  <Localisation key="button_SetTo0" value="Auf 0 setzen" />
+  <Localisation key="button_SetAllTo0" value="Setzen Sie alle auf 0" />
+  <Localisation key="button_PressKey" value="Drücken Sie die Taste" />
+  <Localisation key="button_ExportCharInfo" value="Charakterinformationen exportieren (.txt)" />
+  <Localisation key="button_ImportStatsFrom" value="Statistiken importieren von" />
+  <Localisation key="button_Kill" value="Töten" />
+  <Localisation key="button_Panic" value="Panik" />
+  <Localisation key="button_Freeze" value="Einfrieren" />
+  <Localisation key="button_MakeCower" value="Mach Cower" />
+  <Localisation key="button_SetOnFire" value="Angezündet" />
+  <Localisation key="button_RevealFromStealth" value="Aus Stealth enthüllen" />
+  <Localisation key="button_KillAll" value="Alle töten" />
+  <Localisation key="button_PanicAll" value="Panik alle" />
+  <Localisation key="button_FreezeAll" value="Alle einfrieren" />
+  <Localisation key="button_MakeAllCower" value="Machen Sie alle kauern" />
+  <Localisation key="button_SetAllOnFire" value="Alles in Brand setzen" />
+  <Localisation key="button_RevealAllFromStealth" value="Enthülle alles aus Stealth" />
+  <Localisation key="button_AddGuid" value="Guid hinzufügen" />
+  <Localisation key="button_SetGuid" value="Set Guid" />
+  <Localisation key="button_Receive" value="Erhalten" />
+  <Localisation key="button_ExportItemInfo" value="Gegestandsinformationen exportieren (.txt)" />
+  <Localisation key="button_ExportAbilityInfo" value="Fähigkeitsinformationen exportieren (.txt)" />
+  <Localisation key="button_ExportFeatInfo" value="Export Feat Feature (.txt)" />
+  <Localisation key="button_ExportBuffInfo" value="Buff-Informationen exportieren (.txt)" />
+  <Localisation key="button_ExportUnitInfo" value="Einheiteninformationen exportieren (.txt)" />
+  <Localisation key="button_AddFavouritesToInventory" value="Favoriten zum Inventar hinzufügen" />
+  <Localisation key="button_ExportFavouritesGuids" value="Favoriten-Guids exportieren" />
+  <Localisation key="button_ExportFavouritesNames" value="Namen der Favoriten exportieren" />
+  <Localisation key="button_AddAllArmour" value="Alle Rüstungen hinzufügen" />
+  <Localisation key="button_AddAllBelts" value="Alle Gürtel hinzufügen" />
+  <Localisation key="button_AddAllFootwear" value="Alle Schuhe hinzufügen" />
+  <Localisation key="button_AddAllGloves" value="Alle Handschuhe hinzufügen" />
+  <Localisation key="button_AddAllHandSimple" value="Add All Hand Simple (Laterne der Ersten Welt)" />
+  <Localisation key="button_AddAllHeadwear" value="Alle Kopfbedeckungen hinzufügen" />
+  <Localisation key="button_AddAllKeys" value="Alle Schlüssel hinzufügen" />
+  <Localisation key="button_AddAllMiscellaneousItems" value="Alle verschiedenen Elemente hinzufügen" />
+  <Localisation key="button_AddAllArtifactsAndRelics" value="Fügen Sie alle Artefakte und Relikte hinzu" />
+  <Localisation key="button_AddAllNeckItems" value="Fügen Sie alle Halselemente hinzu" />
+  <Localisation key="button_AddAllNotes" value="Alle Notizen hinzufügen" />
+  <Localisation key="button_AddAllRings" value="Alle Ringe hinzufügen" />
+  <Localisation key="button_AddAllShields" value="Alle Schilde hinzufügen" />
+  <Localisation key="button_AddAllShoulderItems" value="Alle Schulterelemente hinzufügen" />
+  <Localisation key="button_AddAllUsableItems" value="Alle verwendbaren Elemente hinzufügen" />
+  <Localisation key="button_AddAllWeapons" value="Alle Waffen hinzufügen" />
+  <Localisation key="button_AddAllWristItems" value="Fügen Sie alle Handgelenkelemente hinzu" />
+  <Localisation key="button_CustomSets" value="Benutzerdefinierte Sets" />
+  <Localisation key="button_LoadRefresh" value="Laden / Aktualisieren" />
+  <Localisation key="button_LoadRefreshAvailableLanguages" value="Verfügbare Sprachen laden / aktualisieren" />
+  <Localisation key="button_Filters" value="Filter" />
+  <Localisation key="button_ResetFilters" value="Filter zurücksetzen" />
+  <Localisation key="button_AddCurrentSearchResults" value="Aktuelle Suchergebnisse hinzufügen" />
+  <Localisation key="button_ExportCurrentSearchResultGuids" value="Exportieren Sie aktuelle Suchergebnis-Guids" />
+  <Localisation key="button_ExportCurrentSearchResultNames" value="Exportieren Sie aktuelle Suchergebnisnamen" />
+  <Localisation key="button_RemoveAllBuffs" value="Entferne alle Buffs" />
+  <Localisation key="button_RemoveAllNegativeEffects" value="Entfernen Sie alle negativen Effekte" />
+  <Localisation key="button_AllBuffs" value="Alle Buffs" />
+  <Localisation key="button_AddToParty" value="Zur Party hinzufügen" />
+  <Localisation key="button_AddFavouritesTo" value="Favoriten hinzufügen zu" />
+  <Localisation key="button_Default" value="Standard" />
+  <Localisation key="button_BaseBPIncome" value="Basis-BP-Einkommen" />
+  <Localisation key="button_SetLowerZoomLimit" value="Stellen Sie die untere Zoomgrenze ein" />
+  <Localisation key="button_SetUpperZoomLimit" value="Stellen Sie die obere Zoomgrenze ein" />
+  <Localisation key="button_SetGlobalMapZoomLevel" value="Stellen Sie die globale Kartenzoomstufe ein" />
+  <Localisation key="button_CreateGameHistoryLog" value="Erstellen Sie ein Spielverlaufsprotokoll" />
+  <Localisation key="button_DumpKingdomState" value="Dump Kingdom State" />
+  <Localisation key="button_FeatSelectionMultiplier" value="Feat Auswahlmultiplikator" />
+  <Localisation key="button_SetToDefault" value="Auf Standard setzen" />
+  <Localisation key="button_SorcererSupreme" value="Sorcerer Supreme (Mix &amp; Match-Zauber)" />
+  <Localisation key="button_ResetToDefault" value="Zurücksetzen" />
+  <Localisation key="button_MinimalUnitSpeed" value="Minimale Geschwindigkeit der Einheit" />
+  <Localisation key="button_MinimalWeaponRange" value="Minimale Waffenreichweite" />
+  <Localisation key="button_StealthDCIncrement" value="Stealth DC Inkrement" />
+  <Localisation key="button_InstantRest" value="Sofortige Ruhe" />
+  <Localisation key="button_RestoreSpellsAbilites" value="Zauber wiederherstellen &amp; Fähigkeiten" />
+  <Localisation key="button_ResetCutsceneLock" value="Cutscene-Sperre zurücksetzen" />
+  <Localisation key="button_ReadyToLevel" value="Bereit zum Levelaufstieg!" />
+  <Localisation key="button_AddAllArmourAndWeaponProficiencies" value="Fügen Sie alle Rüstungs- und Waffenfähigkeiten hinzu" />
+  <Localisation key="button_SetSizeTo" value="Größe einstellen auf" />
+  <Localisation key="button_SetToOriginalSize" value="Auf Originalgröße einstellen" />
+  <Localisation key="button_CreateFallbackXML" value="Erstellen Sie Fallback-XML" />
+  <Localisation key="button_TeleportPartyToPlayer" value="Party zum Spieler teleportieren" />
+  <Localisation key="button_ChangePartyMembers" value="Parteimitglieder wechseln (nur auf lokalen Karten)" />
+  <Localisation key="button_ReloadArea" value="Bereich neu laden" />
+  <Localisation key="button_TeleportEveryoneToPlayer" value="Teleportiere alle zum Spieler" />
+  <Localisation key="button_PostPartyChange" value="Neue Gruppenmitglieder aktivieren und zum Spieler teleportieren" />
+  <Localisation key="button_Preview" value="Vorschau" />
+  <Localisation key="button_AddToFavourites" value="Zu Favoriten hinzufügen" />
+  <Localisation key="button_RemoveFromFavourites" value="Von den Favoriten entfernen" />
+  <Localisation key="button_LevelUp" value="Aufleveln" />
+  <Localisation key="button_Downgrade" value="Downgrade" />
+  <Localisation key="button_MakeClassSkills" value="Machen Sie Klassenfertigkeiten" />
+  <Localisation key="button_Confirm" value="Bestätigen" />
+  <Localisation key="button_AllFeats" value="Alle Kunststücke" />
+  <Localisation key="button_ResetCharacterLevel" value="Charakterstufe zurücksetzen" />
+  <Localisation key="button_SetCharacterLevel" value="Stellen Sie die Charakterstufe auf ein" />
+  <Localisation key="button_RestoreSpellsAbilitiesAfterCombat" value="Wiederherstellen von Zaubersprüchen &amp; Fähigkeiten nach dem Kampf" />
+  <Localisation key="button_RestoreItemChargesAfterCombat" value="Stelle die Gegenstandsgebühren nach dem Kampf wieder her" />
+  <Localisation key="button_Upgrade" value="Aktualisierung" />
+  <Localisation key="button_LearnAllCookingRecipes" value="Lernen Sie alle Kochrezepte" />
+  <Localisation key="button_AllAbilities" value="Alle Fähigkeiten" />
+  <Localisation key="button_SetPartysCurrentHitPointsTo" value="Setzen Sie die aktuellen Trefferpunkte der Partei auf" />
+  <Localisation key="button_SetPrimaryHandAttacksTo" value="Stellen Sie zusätzliche primäre Handangriffe auf ein" />
+  <Localisation key="button_SetSecondaryHandAttacksTo" value="Stellen Sie zusätzliche sekundäre Handangriffe auf ein" />
+  <Localisation key="button_SetSpeedOnSummon" value="Setze die Geschwindigkeit der Kreaturen, wenn sie beschworen werden" />
+  <Localisation key="button_AdvanceGameTimeBy" value="Advance Game Time By" />
+  <Localisation key="button_RemoveSpellbook" value="Zauberbuch entfernen" />
+  <Localisation key="button_AddCasterLevelTo" value="Caster Level hinzufügen zu" />
+  <Localisation key="button_RevealAllMapLocations" value="Alle Kartenstandorte" />
+  <Localisation key="button_RevealAllReachableMapLocations" value="Alle erreichbaren Kartenstandorte" />
+  <Localisation key="button_RevealAllMapLocationsXWaypointHidden" value="Alle Kartenstandorte außer Wegpunkten und versteckten Orten" />
+  <Localisation key="button_RevealAllRegularLocations" value="Alle regulären Standorte" />
+  <Localisation key="button_RevealAllLandmarks" value="Alle Sehenswürdigkeiten" />
+  <Localisation key="button_RevealAllWaypoints" value="Alle Wegpunkte" />
+  <Localisation key="button_RevealAllHiddenLocations" value="Alle versteckten Orte" />
+  <Localisation key="button_RevealAllSystemWaypoints" value="Alle Systemwegpunkte" />
+  <Localisation key="button_ChangeWeather" value="Wetter ändern" />
+  <Localisation key="button_RemoveItemModification" value="Elementänderung entfernen" />
+  <Localisation key="button_PatchManually" value="Manuell patchen" />
+  <Localisation key="button_RestoreAllItemCharges" value="Stellen Sie alle Gegenstandsverwendunge wieder her" />
+  <Localisation key="button_RemoveEquippedItems" value="Entfernen Sie alle ausgerüsteten Gegenstände" />
+  <Localisation key="button_Spawn" value="Laichen" />
+  <Localisation key="button_RunPerceptionTriggerActions" value="Perception Trigger Actions ausführen" />
+  <Localisation key="buttonToggle_PartyAlwaysRolls20" value="Party rollt immer 20" />
+  <Localisation key="buttonToggle_InfiniteSkillPoints" value="Unendliche Fähigkeitspunkte" />
+  <Localisation key="buttonToggle_IgnoreClassAlignment" value="Klassenausrichtungsbeschränkungen ignorieren" />
+  <Localisation key="buttonToggle_ExperienceMultiplier" value="Multiplikator erleben" />
+  <Localisation key="buttonToggle_UnlimitedItemCharges" value="Unbegrenzte Gegenstandsverwendunge" />
+  <Localisation key="buttonToggle_IgnoreEquipmentRestrictions" value="Geräteeinschränkungen ignorieren" />
+  <Localisation key="buttonToggle_ShowEnemies" value="Feinde zeigen" />
+  <Localisation key="buttonToggle_NoArcaneSpellFailure" value="Kein arkaner Zauberfehler" />
+  <Localisation key="buttonToggle_UnlimitedCasting" value="Unbegrenztes Casting" />
+  <Localisation key="buttonToggle_MetamagicZero" value="Setzen Sie die metamagischen Standardkosten auf Null" />
+  <Localisation key="buttonToggle_IgnoreMaterialComponents" value="Materialkomponenten ignorieren" />
+  <Localisation key="buttonToggle_SpontaneousCastersCopyScrolls" value="Spontane Rollen kopieren Schriftrollen" />
+  <Localisation key="buttonToggle_UnlimitedAbilities" value="Unbegrenzte Fähigkeiten" />
+  <Localisation key="buttonToggle_MostlyUndetectableDuringStealth" value="Meistens im Stealth nicht nachweisbar" />
+  <Localisation key="buttonToggle_NoFriendlyFireAOE" value="Kein freundliches Feuer AOE" />
+  <Localisation key="buttonToggle_NoFriendlyFireAny" value="Kein freundliches Feuer (irgendwelche)" />
+  <Localisation key="buttonToggle_NoCooldown" value="Kein Abkühlen" />
+  <Localisation key="buttonToggle_SetPartySpeedToFastestMember" value="Stellen Sie die Partygeschwindigkeit auf das schnellste Mitglied ein" />
+  <Localisation key="buttonToggle_PartyMovementSpeedMultiplier" value="Geschwindigkeitsmultiplikator für Partybewegungen" />
+  <Localisation key="buttonToggle_RevealMapLocations" value="Kartenpositionen anzeigen" />
+  <Localisation key="buttonToggle_EnableTeleport" value="Teleport aktivieren" />
+  <Localisation key="buttonToggle_RandomEncounterPossible" value="Zufällige Begegnungen möglich" />
+  <Localisation key="buttonToggle_EnableRandomEncounterSettings" value="Aktivieren Sie die Einstellungen für zufällige Begegnungen" />
+  <Localisation key="buttonToggle_AlwaysSucceedAtAvoidingEncounters" value="Vermeiden Sie immer Begegnungen" />
+  <Localisation key="buttonToggle_InstantKingdomEvents" value="Sofortige Königreichsereignisse" />
+  <Localisation key="buttonToggle_ForceSuccessTriumphs" value="Erfolg / Triumph erzwingen" />
+  <Localisation key="buttonToggle_IgnoreBuildingRestrictions" value="Gebäudeeinschränkungen ignorieren" />
+  <Localisation key="buttonToggle_EnableHotkey" value="Hotkey aktivieren" />
+  <Localisation key="buttonToggle_EnemiesAlwaysRoll1" value="Feinde würfeln immer 1" />
+  <Localisation key="buttonToggle_AlwaysRoll20ForInitiative" value="Immer 20 für Initiative würfeln" />
+  <Localisation key="buttonToggle_CameraRotation" value="Kameradrehung" />
+  <Localisation key="buttonToggle_CameraScrollSpeed" value="Bildlaufgeschwindigkeit der Kamera" />
+  <Localisation key="buttonToggle_CameraZoomUnlocked" value="Kamera-Zoom entsperrt" />
+  <Localisation key="buttonToggle_EnableFocusCamera" value="Fokuskamera aktivieren" />
+  <Localisation key="buttonToggle_DisableCameraBounds" value="Kamerabegrenzungen deaktivieren" />
+  <Localisation key="buttonToggle_MoveCameraToPlayer" value="Kamera zum Player bewegen" />
+  <Localisation key="buttonToggle_IgnoreDialogueRestrictions" value="Dialogbeschränkungen ignorieren" />
+  <Localisation key="buttonToggle_ReverseCasterAlignmentChecks" value="Reverse Caster Alignment Checks" />
+  <Localisation key="buttonToggle_PreventAlignmentChanges" value="Ausrichtungsänderungen verhindern" />
+  <Localisation key="buttonToggle_NoInactiveCampsite" value="Verlassen Sie keinen inaktiven Campingplatz" />
+  <Localisation key="buttonToggle_EnableDLCContent" value="Aktivieren Sie DLC-Inhalte (nur wenn sie auf Ihrem System verfügbar sind!)" />
+  <Localisation key="buttonToggle_FogOfWar" value="Nebel des Krieges (nur visuell)" />
+  <Localisation key="buttonToggle_FadeToBlack" value="Nach Schwarz verblassen" />
+  <Localisation key="buttonToggle_ActiveSceneName" value="Name der aktiven Szene" />
+  <Localisation key="buttonToggle_LogMessages" value="Nachrichten protokollieren" />
+  <Localisation key="buttonToggle_BoTScrollbar" value="Scrollleiste" />
+  <Localisation key="buttonToggle_FogOfWarFull" value="Nebel des Krieges" />
+  <Localisation key="buttonToggle_OverwriteFogOfWar" value="Einstellungen für Nebel des Krieges überschreiben" />
+  <Localisation key="buttonToggle_SkipSpellSelection" value="Zauberauswahl überspringen" />
+  <Localisation key="buttonToggle_VendorsSellFor0" value="Verkaufen Sie für 0 an Anbieter" />
+  <Localisation key="buttonToggle_VendorsBuyFor0" value="Kaufen Sie für 0 von Anbietern" />
+  <Localisation key="buttonToggle_IgnoreForbiddenFeatures" value="Ignorieren Sie verbotene Talente, wenn Sie eine Klasse auswählen" />
+  <Localisation key="buttonToggle_SearchOnlyCraftMagicItems" value="Suche nur nach Gegenständen, die von Craft Magic Items erstellt wurden" />
+  <Localisation key="buttonToggle_EveryoneExceptPlayerFactionRolls1" value="Jeder außer der Spielerfraktion würfelt immer 1" />
+  <Localisation key="buttonToggle_experimentalIUnderstand" value="Ich verstehe" />
+  <Localisation key="buttonToggle_LogInfoToFile" value="Informationen in Datei protokollieren" />
+  <Localisation key="buttonToggle_ShowOnlyClassSkills" value="Nur Klassenfertigkeiten anzeigen" />
+  <Localisation key="buttonToggle_ShowTooltips" value="Tooltips anzeigen" />
+  <Localisation key="buttonToggle_NoLevelUpRestirctions" value="Immer in der Lage sein, aufzusteigen" />
+  <Localisation key="buttonToggle_NeverRoll1" value="Niemals würfeln 1" />
+  <Localisation key="buttonToggle_NeverRoll20" value="Niemals 20 würfeln" />
+  <Localisation key="buttonToggle_InstantRestAfterCombat" value="Sofortige Ruhe nach dem Kampf" />
+  <Localisation key="buttonToggle_FullHitdiceEachLevel" value="Addiere Full Hit Die Value auf Level Up" />
+  <Localisation key="buttonToggle_RollHitDiceEachLevel" value="Roll Hit Die Value auf Level Up" />
+  <Localisation key="buttonToggle_RollWithAdvantage" value="Rolle mit Vorteil" />
+  <Localisation key="buttonToggle_RollWithDisadvantage" value="Rolle mit Nachteil" />
+  <Localisation key="buttonToggle_IgnorenFeaturePrerequisites" value="Ignorieren Sie die Feat-Voraussetzungen bei der Auswahl einer Klasse" />
+  <Localisation key="buttonToggle_IgnorenFeatureListPrerequisites" value="Ignorieren Sie Feat-Voraussetzungen (Liste) bei der Auswahl einer Klasse" />
+  <Localisation key="buttonToggle_FeaturesIgnorePrerequisites" value="Ignorieren Sie die Voraussetzungen bei der Auswahl von Kunststücken" />
+  <Localisation key="buttonToggle_ShowUnitInfoBox" value="Einheiteninfo-Feld anzeigen" />
+  <Localisation key="buttonToggle_StopGameTime" value="Hör auf, die Zeit zu vergehen" />
+  <Localisation key="buttonToggle_NoDamageFromEnemies" value="Feinde fügen der Partei keinen Schaden zu" />
+  <Localisation key="buttonToggle_PartyOneHitKills" value="Parteimitglieder töten Feinde mit einem Schlag" />
+  <Localisation key="buttonToggle_AllDoorContainersUnlocked" value="Schalte alle Container &amp; Doors frei" />
+  <Localisation key="buttonToggle_RepeatableLockPicking" value="Unbegrenzte Lock-Picking-Versuche" />
+  <Localisation key="buttonToggle_RepeatableLockPickingWeariness" value="Das Öffnen von Schlössern verursacht Müdigkeit" />
+  <Localisation key="buttonToggle_NoIngredientsRequired" value="Anforderungen an Kochzutaten ignorieren" />
+  <Localisation key="buttonToggle_RepeatableLockPickingLockPicks" value="Verwenden Sie Lock Picks (Proof Of Concept!)" />
+  <Localisation key="buttonToggle_UnityModManagerButton" value="Hinzufügen der Unity Mod Manager-Schaltfläche zum ESC-Menü" />
+  <Localisation key="buttonToggle_DamageDealtMultipliers" value="Schadensverursachte Multiplikatoren" />
+  <Localisation key="buttonToggle_PartyDamageDealtMultiplier" value="Vom Partymultiplikator verursachter Schaden" />
+  <Localisation key="buttonToggle_EnemiesDamageDealtMultiplier" value="Von feindlichen Multiplikatoren verursachter Schaden" />
+  <Localisation key="buttonToggle_ScaleInventoryMoney" value="Geldanzeige skalieren (Inventarbildschirm)" />
+  <Localisation key="buttonToggle_RepeatableLockPickingLockPicksInventoryText" value="Sperren im Inventar anzeigen" />
+  <Localisation key="buttonToggle_ShowClassDataOptions" value="Klassendatenoptionen (Set Level)" />
+  <Localisation key="buttonToggle_NoBurnKineticist" value="No Burn (Kinetiker)" />
+  <Localisation key="buttonToggle_MaximiseAcceptedBurnKineticist" value="Akzeptierte Verbrennung maximieren (Kinetiker)" />
+  <Localisation key="buttonToggle_NoTempHPKineticist" value="Keine vorübergehende Reduzierung der Trefferpunkte durch Verbrennung (Kinetiker)" />
+  <Localisation key="buttonToggle_MainCharacterAlwaysRolls20" value="Hauptfigur würfelt immer 20" />
+  <Localisation key="buttonToggle_ShowPetInventory" value="Tierinventar anzeigen" />
+  <Localisation key="buttonToggle_AnimationCloseUMM" value="Schließen Sie die Unity Mod Manager-Oberfläche, wenn Animationen abgespielt werden" />
+  <Localisation key="buttonToggle_InstantCooldownMainChar" value="Hauptfigur hat keine Abklingzeit" />
+  <Localisation key="buttonToggle_DexBonusLimit99" value="Setzen Sie das maximale Geschicklichkeitsbonuslimit auf 99" />
+  <Localisation key="buttonToggle_PassSkillChecksIndividual" value="Bestehen Sie immer die Fähigkeitsüberprüfungen" />
+  <Localisation key="buttonToggle_PassSkillChecksIndividualDC99" value="Stellen Sie DC auf -99 ein" />
+  <Localisation key="buttonToggle_ItemsWeighZero" value="Kein Gegenstandsgewicht" />
+  <Localisation key="buttonToggle_ExtraAttacksParty" value="Zusätzliche Angriffe pro Runde" />
+  <Localisation key="buttonToggle_AlignmentFix" value="Verschiebungen der neutralen Ausrichtung verursachen keine Bewegung auf der Gesetz- / Chaosachse" />
+  <Localisation key="buttonToggle_SpellbookAbilityAlignmentChecks" value="Ignorieren Sie die Rechtschreib- und Fähigkeitsausrichtungsprüfungen" />
+  <Localisation key="buttonToggle_TabletopSpellAbilityRange" value="Tabletop Spell &amp; Fähigkeitsbereiche (25 Fuß, 100 Fuß, 400 Fuß)" />
+  <Localisation key="buttonToggle_SetSpeedOnSummon" value="Setze die Geschwindigkeit der Kreatur, wenn sie beschworen wird" />
+  <Localisation key="buttonToggle_EnableFocusCameraSelectedUnit" value="Aktivieren Sie den Fokus auf das ausgewählte Porträt" />
+  <Localisation key="buttonToggle_ClaimResources" value="Fordern Sie alle offenbarten Ressourcen in Ihrem Land an" />
+  <Localisation key="buttonToggle_NoResourcesClaimCost" value="Keine Kosten für Ressourcenansprüche" />
+  <Localisation key="buttonToggle_FreezeTimedQuestAt90Days" value="Zeitgesteuerte Quest nach 90 Tagen einfrieren" />
+  <Localisation key="buttonToggle_PreventQuestFailure" value="Questfehler verhindern" />
+  <Localisation key="buttonToggle_AlwaysSucceedCastingDefensively" value="Niemals defensiv versagen" />
+  <Localisation key="buttonToggle_AlwaysSucceedConcentration" value="Konzentrationsprüfungen niemals nicht bestehen" />
+  <Localisation key="buttonToggle_SortSpellbooksAlphabetically" value="Zauberbücher alphabetisch sortieren (Zauberbuchbildschirm)" />
+  <Localisation key="buttonToggle_SortSpellsAlphabetically" value="Zauber alphabetisch sortieren (Zauberbuchbildschirm)" />
+  <Localisation key="buttonToggle_AllHitsAreCritical" value="Alle Angriffe sind kritische Treffer" />
+  <Localisation key="buttonToggle_PassSavingThrowIndividual" value="Speichern Sie immer Rettungswürfe" />
+  <Localisation key="buttonToggle_NoAttacksOfOpportunity" value="Keine Gelegenheitsangriffe" />
+  <Localisation key="buttonToggle_CookingAndHuntingInDungeons" value="Erlaube Kochen und Jagen in Dungeons" />
+  <Localisation key="buttonToggle_AllowCampingEverywhere" value="Camping überall zulassen" />
+  <Localisation key="buttonToggle_ArmourChecksPenalty0" value="Setze die Rüstungsprüfungsstrafe auf 0" />
+  <Localisation key="buttonToggle_SetEncumbrance" value="Belastung einstellen" />
+  <Localisation key="buttonToggle_InstantPartyChange" value="Tauschen Sie sofort die Parteimitglieder aus" />
+  <Localisation key="buttonToggle_LogToUMM" value="Bei Unity Mod Manager anmelden" />
+  <Localisation key="buttonToggle_EnableToggleHUD" value="Aktivieren Sie TUDgle HUD" />
+  <Localisation key="buttonToggle_DisplayObjectInfo" value="Objektinformationen anzeigen" />
+  <Localisation key="buttonToggle_ToggleHUD" value="HUD umschalten" />
+  <Localisation key="buttonToggle_NoNegativeLevels" value="Keine negativen Ebenen" />
+  <Localisation key="buttonToggle_AutoEquipConsumables" value="Verbrauchsmaterialien in Riemensolen automatisch nachfüllen" />
+  <Localisation key="buttonToggle_IgnorePrerequisites" value="Klassen- und Feat-Einschränkungen ignorieren" />
+  <Localisation key="buttonToggle_IgnoreCasterTypeSpellLevel" value="Ignorieren Sie Einschränkungen für Zaubernden-Typ und Zauberstufe" />
+  <Localisation key="buttonToggle_IgnoreForbiddenArchetype" value="Ignorieren Sie verbotene Archetypen" />
+  <Localisation key="buttonToggle_IgnorePrerequisiteStatValue" value="Erforderliche Statistikwerte ignorieren" />
+  <Localisation key="buttonToggle_SpiderBegone" value="Spinnen beginnen!" />
+  <Localisation key="buttonToggle_ShowAreaName" value="Bereichsnamen anzeigen" />
+  <Localisation key="buttonToggle_SummonDurationMultiplier" value="Beschwörungsdauer-Multiplikator" />
+  <Localisation key="buttonToggle_BuffDurationMultiplier" value="Buff Duration Multiplikator" />
+  <Localisation key="buttonToggle_SetSummonLevelTo20" value="Setze die Beschwörungsstufe auf 20" />
+  <Localisation key="buttonToggle_UberLogger" value="Aktivieren Sie UberLogger" />
+  <Localisation key="buttonToggle_UberLoggerForward" value="Aktivieren Sie die UberLogger-Weiterleitung an Unity" />
+  <Localisation key="buttonToggle_UberLoggerForwardPrefix" value="Hinzufügen eines Präfixes zu UberLogger-Protokollen" />
+  <Localisation key="buttonToggle_ExportToModFolder" value="In Mod-Ordner exportieren" />
+  <Localisation key="buttonToggle_ShowCombatDifficulty" value="Kampfschwierigkeiten anzeigen" />
+  <Localisation key="buttonToggle_OutOfCombatOnly" value="Nur außerhalb des Kampfes" />
+  <Localisation key="buttonToggle_MakeSummonsControllable" value="Beschwörungen kontrollierbar machen" />
+  <Localisation key="buttonToggle_DisableWarpaintedSkullAbilityForSummonedBarbarians" value="Deaktiviere die Fähigkeit von Warpainted Skull für beschworene Barbaren" />
+  <Localisation key="buttonToggle_RemoveSummonsGlow" value="Entferne das Glühen der Beschwörung" />
+  <Localisation key="buttonToggle_AutomaticallyLoadLastSave" value="Last Save automatisch laden" />
+  <Localisation key="buttonToggle_ActionKeySpawnUnitsFromUnitFavourites" value="Spawn-Einheiten aus Einheitenfavoriten / gespeicherten Einheiten" />
+  <Localisation key="buttonToggle_SetTargetFrameRate" value="Stellen Sie die Zielbildrate ein" />
+  <Localisation key="buttonToggle_CreateBattleLogFile" value="Erstellen Sie eine Battle Log-Datei" />
+  <Localisation key="buttonToggle_CreateBattleLogFileLog" value="Standardprotokolldatei verwenden" />
+  <Localisation key="buttonToggle_CreateBattleLogFileHTML" value="Verwenden Sie die HTML-Protokolldatei" />
+  <Localisation key="buttonToggle_CreateBattleLogFileBoT" value="Verwenden Sie die Bag of Tricks-Protokolldatei" />
+  <Localisation key="buttonToggle_RespecCostMultiplier" value="Respec-Kostenmultiplikator" />
+  <Localisation key="buttonToggle_toggleCustomTakeXAsMin" value="Verwenden Sie den benutzerdefinierten Wert als Mindestrolle" />
+  <Localisation key="buttonToggle_AccessRemoteCharacters" value="Zugriff Auf Entfernte Charakter" />
+  <Localisation key="arrayItem_Alignments_NoChange" value="Keine Änderung" />
+  <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotisches Böses" />
+  <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutrales Böses" />
+  <Localisation key="arrayItem_Alignments_LawfulEvil" value="Gesetzliches Böses" />
+  <Localisation key="arrayItem_Alignments_ChaoticNeutral" value="Chaotisch neutral" />
+  <Localisation key="arrayItem_Alignments_TrueNeutral" value="Wirklich neutral" />
+  <Localisation key="arrayItem_Alignments_LawfulNeutral" value="Rechtmäßig neutral" />
+  <Localisation key="arrayItem_Alignments_ChaoticGood" value="Chaotisch gut" />
+  <Localisation key="arrayItem_Alignments_NeutralGood" value="Neutral gut" />
+  <Localisation key="arrayItem_Alignments_LawfulGood" value="Gesetzliches Gut" />
+  <Localisation key="arrayItem_Alignments_Good" value="Gut" />
+  <Localisation key="arrayItem_Alignments_Evil" value="Böse" />
+  <Localisation key="arrayItem_Alignments_Lawful" value="Rechtmäßig" />
+  <Localisation key="arrayItem_Alignments_Chaotic" value="Chaotisch" />
+  <Localisation key="arrayItem_takeX_TakeCustomValue" value="Nehmen Sie benutzerdefinierten Wert" />
+  <Localisation key="arrayItem_takeX_Take20" value="Nimm 20" />
+  <Localisation key="arrayItem_takeX_Take10" value="Nimm 10" />
+  <Localisation key="arrayItem_takeX_Off" value="aus" />
+  <Localisation key="arrayItem_Size_Fine" value="Fein" />
+  <Localisation key="arrayItem_Size_Diminutive" value="Diminutiv" />
+  <Localisation key="arrayItem_Size_Tiny" value="Sehr klein" />
+  <Localisation key="arrayItem_Size_Small" value="Klein" />
+  <Localisation key="arrayItem_Size_Medium" value="Mittel" />
+  <Localisation key="arrayItem_Size_Large" value="Groß" />
+  <Localisation key="arrayItem_Size_Huge" value="Enorm" />
+  <Localisation key="arrayItem_Size_Gargantuan" value="Gargantuan" />
+  <Localisation key="arrayItem_Size_Colossal" value="Kolossal" />
+  <Localisation key="arrayItem_ActionKeyMain_None" value="Keiner" />
+  <Localisation key="arrayItem_ActionKeyMain_GetInfo" value="Informationen bekommen" />
+  <Localisation key="arrayItem_ActionKeyMain_ResurrectAndFullyRestore" value="Wiederbelebung und vollständige Wiederherstellung" />
+  <Localisation key="arrayItem_ActionKeyMain_BuffFromFavourites" value="Buff von Favoriten" />
+  <Localisation key="arrayItem_ActionKeyMain_EditStats" value="Statistiken bearbeiten" />
+  <Localisation key="arrayItem_ActionKeyMain_MakeControllable" value="Kontrollierbar machen" />
+  <Localisation key="arrayItem_ActionKeyMain_SpawnCritters" value="Spawn Critters" />
+  <Localisation key="arrayItem_ActionKeyMain_AddToParty" value="Zur Party hinzufügen" />
+  <Localisation key="arrayItem_ActionKeyMain_SpawnUnit" value="Spawn-Einheit" />
+  <Localisation key="arrayItem_ActionKeyMain_RotateUnit" value="Einheit drehen" />
+  <Localisation key="arrayItem_ActionKeyMain_RecreateUnitDescriptor" value="Unit Descriptor neu erstellen" />
+  <Localisation key="arrayItem_ActionKeyKill_Kill" value="Töten" />
+  <Localisation key="arrayItem_ActionKeyKill_ForceKill" value="Force Kill" />
+  <Localisation key="arrayItem_FeatParam_FencingGrace" value="Grace fechten" />
+  <Localisation key="arrayItem_FeatParam_ImprovedCritical" value="Kritisch verbessert" />
+  <Localisation key="arrayItem_FeatParam_SlashingGrace" value="Grace aufschlitzen" />
+  <Localisation key="arrayItem_FeatParam_SwordSaintChosenWeapon" value="Schwert Heilige gewählte Waffe" />
+  <Localisation key="arrayItem_FeatParam_WeaponFocus" value="Waffenfokus" />
+  <Localisation key="arrayItem_FeatParam_WeaponFocusGreater" value="Größerer Waffenfokus" />
+  <Localisation key="arrayItem_FeatParam_WeaponMastery" value="Waffenbeherrschung" />
+  <Localisation key="arrayItem_FeatParam_WeaponSpecialization" value="Waffenspezialisierung" />
+  <Localisation key="arrayItem_FeatParam_WeaponSpecializationGreater" value="Größere Waffenspezialisierung" />
+  <Localisation key="arrayItem_FeatParam_SpellFocus" value="Zauberfokus" />
+  <Localisation key="arrayItem_FeatParam_GreaterSpellFocus" value="Größerer Zauberfokus" />
+  <Localisation key="arrayItem_NeverRollX_Everyone" value="Jeder" />
+  <Localisation key="arrayItem_NeverRollX_OnlyParty" value="Nur die Partei" />
+  <Localisation key="arrayItem_NeverRollX_OnlyEnemies" value="Nur Feinde" />
+  <Localisation key="arrayItem_NeverRollX_OnlyMainChar" value="Nur die Hauptfigur" />
+  <Localisation key="arrayItem_UnityEntityData_Party" value="Aktive Partei" />
+  <Localisation key="arrayItem_UnityEntityData_ControllableCharacters" value="Steuerbare Charakter" />
+  <Localisation key="arrayItem_UnityEntityData_ActiveCompanions" value="Aktive Begleiter" />
+  <Localisation key="arrayItem_UnityEntityData_AllCharacters" value="Alle Charaktere" />
+  <Localisation key="arrayItem_UnityEntityData_Mercenaries" value="Söldner (benutzerdefinierte Begleiter)" />
+  <Localisation key="arrayItem_UnityEntityData_Pets" value="Haustiere" />
+  <Localisation key="arrayItem_UnityEntityData_Enemies" value="Feinde" />
+  <Localisation key="arrayItem_Weather_Normal" value="Normal" />
+  <Localisation key="arrayItem_Weather_Rain" value="Regen" />
+  <Localisation key="arrayItem_Weather_Snow" value="Schnee" />
+  <Localisation key="charStat_Strength" value="Stärke" />
+  <Localisation key="charStat_Dexterity" value="Geschicklichkeit" />
+  <Localisation key="charStat_Constitution" value="Verfassung" />
+  <Localisation key="charStat_Intelligence" value="Intelligenz" />
+  <Localisation key="charStat_Wisdom" value="Weisheit" />
+  <Localisation key="charStat_Charisma" value="Charisma" />
+  <Localisation key="charStat_Athletics" value="Leichtathletik" />
+  <Localisation key="charStat_KnowledgeArcana" value="Wissen (Arcana)" />
+  <Localisation key="charStat_KnowledgeWorld" value="Wissen (Welt)" />
+  <Localisation key="charStat_LoreNature" value="Überlieferung (Natur)" />
+  <Localisation key="charStat_LoreReligion" value="Überlieferung (Religion)" />
+  <Localisation key="charStat_Mobility" value="Mobilität" />
+  <Localisation key="charStat_Perception" value="Wahrnehmung" />
+  <Localisation key="charStat_Persuasion" value="Überzeugung" />
+  <Localisation key="charStat_Stealth" value="Stealth" />
+  <Localisation key="charStat_Thievery" value="Trickery" />
+  <Localisation key="charStat_UseMagicDevice" value="Verwenden Sie Magic Device" />
+  <Localisation key="charStat_Bluff" value="Bluff" />
+  <Localisation key="charStat_Diplomacy" value="Diplomatie" />
+  <Localisation key="charStat_Intimidate" value="Einschüchtern" />
+  <Localisation key="charStat_Fortitude" value="Kraft" />
+  <Localisation key="charStat_Reflex" value="Reflex" />
+  <Localisation key="charStat_Will" value="Wille" />
+  <Localisation key="charStat_Initiative" value="Initiative" />
+  <Localisation key="charStat_BaseAttackBonus" value="Basisangriffsbonus" />
+  <Localisation key="charStat_AdditionalAttackBonus" value="Zusätzlicher Angriffsbonus" />
+  <Localisation key="charStat_NumberOfAttacksOfOpportunity" value="Anzahl der Gelegenheitsangriffe" />
+  <Localisation key="charStat_SneakAttack" value="Überraschungsangriff" />
+  <Localisation key="charStat_AdditionalDamage" value="Zusätzlicher Schaden" />
+  <Localisation key="charStat_AdditionalCombatManeuverBonus" value="Zusätzlicher Kampfmanöver-Bonus" />
+  <Localisation key="charStat_AdditionalCombatManeuverDefense" value="Zusätzliche Kampfmanöverabwehr" />
+  <Localisation key="charStat_ArmourClass" value="Rüstungsklasse" />
+  <Localisation key="charStat_Reach" value="Erreichen" />
+  <Localisation key="charStat_HitPoints" value="Trefferpunkte" />
+  <Localisation key="charStat_MaxHitPoints" value="Maximale Trefferpunkte" />
+  <Localisation key="charStat_Speed" value="Geschwindigkeit" />
+  <Localisation key="warning_FilterPatternError1" value="Ihr Eintrag stimmt nicht mit dem Filtermuster überein!" />
+  <Localisation key="warning_FilterPatternError2" value="Überprüfen Sie das Protokoll auf weitere Informationen." />
+  <Localisation key="warning_Buffs" value="Stellen Sie sicher, dass Sie speichern, bevor Sie unbekannte Buffs hinzufügen oder entfernen!" />
+  <Localisation key="warning_Experimental" value="Stellen Sie sicher, dass Sie Backups speichern und erstellen, bevor Sie eine dieser Optionen verwenden!" />
+  <Localisation key="warning_Alignment" value="Seien Sie vorsichtig beim Ändern der Ausrichtung!" />
+  <Localisation key="warning_TakeXAndPartyRoll20" value="Beide Party Always Rolls 20 und Take X sind aktiv! Party Always Rolls 20 überschreibt die Ergebnisse von Take X!" />
+  <Localisation key="warning_InfiniteSkillPoints" value="Muss nach dem Ausgeben der Fertigkeitspunkte deaktiviert werden, um Fortschritte zu erzielen" />
+  <Localisation key="warning_UnresposiveAddingItems" value="Das Spiel reagiert möglicherweise nicht mehr, während die Gegenstände hinzugefügt werden!" />
+  <Localisation key="warning_EkunQ2" value="Dieser Gegenstand verursacht Fehler und kann daher nicht hinzugefügt werden." />
+  <Localisation key="warning_SpellsPerDay" value="Beachten Sie, dass zu hohe Werte die Zauberbuch-Benutzeroberfläche vorbereiteter Zauberwirker beschädigen können!" />
+  <Localisation key="warning_ZoomLimits_0" value="ist größer als die obere Zoomgrenze" />
+  <Localisation key="warning_ZoomLimits_1" value="Ihre aktuelle untere Zoomgrenze" />
+  <Localisation key="warning_ZoomLimits_2" value="Infolgedessen werden die Bildlaufrichtungen beim Zoomen umgedreht!" />
+  <Localisation key="warning_FeatSelectionMultiplier_0" value="Kann Probleme mit der Benutzeroberfläche verursachen." />
+  <Localisation key="warning_FeatSelectionMultiplier_1" value="Um diese zu beheben, müssen Sie die Datei party.json bearbeiten und alle Einträge in m_selectionsByLevel-Einträgen entfernen, die über die ersten hinausgehen." />
+  <Localisation key="warning_FeatSelectionMultiplier_2" value="Eine ausführliche Anleitung zur Behebung finden Sie auf der Mod-Seite unter Ressourcen." />
+  <Localisation key="warning_SorcererSupreme_0" value="Kann verhindern, dass Charaktere mit niedriger Stufe die Zauberauswahl überschreiten." />
+  <Localisation key="warning_SorcererSupreme_1" value="Sie können die Schaltfläche unten verwenden, um vorübergehend daran vorbeizukommen." />
+  <Localisation key="warning_IgnoreClassAlignment" value="Deaktiviert nicht die Ausrichtungsbeschränkungen für Fähigkeiten und Talente! &#xA; Verwenden Sie &lt;b&gt; Rechtschreib- und Fähigkeitsausrichtungsprüfungen ignorieren&lt; / b&gt;, um die Fähigkeits- / Zauberbuchbeschränkungen zu umgehen (-&gt; Zauber &amp; Fähigkeitsoptionen)" />
+  <Localisation key="warning_CustomGender" value="Das Ändern des Geschlechts verursacht visuelle Störungen!" />
+  <Localisation key="warning_XPAndScaleXPActive" value="Es wird empfohlen, den XP-Multiplikator von Bag Of Tricks während der Verwendung von ScaleXP ausgeschaltet zu lassen!" />
+  <Localisation key="warning_ActionKeyExperimentalMode" value="Der experimentelle Modus enthält Funktionen, die das Spiel unterbrechen und Abstürze verursachen können!" />
+  <Localisation key="warning_GameVersion" value="Spielversion" />
+  <Localisation key="warning_Mod" value="Mod" />
+  <Localisation key="warning_Feats_0" value="Stellen Sie sicher, dass Sie speichern, bevor Sie unbekannte Talente hinzufügen oder entfernen!" />
+  <Localisation key="warning_Feats_1" value="Das Hinzufügen zu vieler Waffenfähigkeiten kann zu Problemen mit der Benutzeroberfläche führen!" />
+  <Localisation key="warning_toggleNoLevelUpRestirctions" value="Eine Charakterstufe über 20 führt dazu, dass die Benutzeroberfläche des Zauberbuchs unterbrochen wird. &#xA; Sie können die Option Charakterstufe zurücksetzen verwenden, um sie wieder verwendbar zu machen." />
+  <Localisation key="warning_SetCharacterLevel" value="Ihre Erfahrungspunkte werden auf den niedrigsten Wert für das gewählte Level gesetzt!" />
+  <Localisation key="warning_SettingsXML_0" value="Wenn du den Mod zum ersten Mal benutzt, kannst du diese Nachricht ignorieren." />
+  <Localisation key="warning_SettingsXML_1" value="Da die Settings.xml &#xA; stark geändert wurde, wird dringend empfohlen, die Datei Settings.xml &#xA; in Ihrem Ordner 'Pathfinder Kingmaker \ Mods \ BagOfTricks' zu löschen, bevor Sie den Mod weiter verwenden!" />
+  <Localisation key="warning_NeverRoll1AndPartyRoll20" value="Party Always Rolls 20 ist aktiv, entweder deaktivieren oder Never Roll 1." />
+  <Localisation key="warning_NeverRoll20AndPartyRoll20" value="Party Always Rolls 20 ist aktiv, entweder deaktivieren oder Never Roll 20." />
+  <Localisation key="warning_AlsoEnabled" value="ist auch aktiviert!" />
+  <Localisation key="warning_CurrentlyNotReversible" value="Derzeit nicht umkehrbar!" />
+  <Localisation key="warning_CreatedForVersion_0" value="Dieser Mod wurde für die Spielversion erstellt" />
+  <Localisation key="warning_CreatedForVersion_1" value="Sie verwenden die Spielversion" />
+  <Localisation key="warning_CreatedForVersion_2" value="Speichern Sie häufig und überprüfen Sie die Mod-Seite und das Forum auf Informationen zur Kompatibilität!" />
+  <Localisation key="warning_CantripsRemoval" value="Auch wenn entfernte Cantrips entfernt bleiben, bleiben sie verwendbar!" />
+  <Localisation key="warning_NewSpellsAdded" value="Um neu hinzugefügte Zaubersprüche zu verwenden, müssen Sie sich entweder ausruhen oder verwenden" />
+  <Localisation key="warning_NewSpellsAddedAlt" value="Um neu hinzugefügte Zaubersprüche zu verwenden, müssen Sie sich möglicherweise entweder ausruhen oder verwenden" />
+  <Localisation key="warning_UpgradeSetllement" value="Das Aktualisieren von Siedlungen über dieses Menü zählt nicht für Questziele! &#xA; Eine Herabstufungsoption ist im experimentellen Bereich verfügbar (-&gt; Sonstiges)." />
+  <Localisation key="warning_RandomEncounterPossible" value="Wenn Sie zufällige Begegnungen vollständig ausschalten, verpassen Sie bestimmte Begegnungen, die für Quests erforderlich sind, und brechen sie somit ab!" />
+  <Localisation key="warning_StopGameTime" value="Kann Probleme mit Beschwörungen, Buffs und Debuffs verursachen! &#xA; Um die Zeitleiste des Königreichs ohne eines dieser Probleme anzuhalten, verwenden Sie den Mod 'KingdomResolution''." />
+  <Localisation key="warning_AddSpellsbooks" value="Der Zauberbuchbildschirm im Spiel kann nicht mehr als fünf Zauberbücher anzeigen! &#xA; Über dieses Menü hinzugefügte Zauberbücher sind nicht voll funktionsfähig (z. B. keine Cantrips)!" />
+  <Localisation key="warning_TakeX" value="Kampfbezogene Würfe, die vor Beginn des Kampfes ausgeführt wurden, sind weiterhin von TakeX betroffen (z. B. ein Angriff auf einen ahnungslosen Feind)." />
+  <Localisation key="warning_UnlimitedCasting" value="Es ist bekannt, dass Unlimited Casting das Spiel nach dem letzten Kampf dieser Szene zum Absturz bringt / einfriert. &#xA; Es wird daher dringend empfohlen, es vorübergehend zu deaktivieren!" />
+  <Localisation key="warning_NoDamageFromEnemies" value="Wenn Sie nicht alle Kampfbegegnungen in diesem Bereich abgeschlossen haben, wird dringend empfohlen, 'Feinde fügen der Gruppe keinen Schaden zu' in diesem Bereich vorübergehend zu deaktivieren! &#xA; Andernfalls kann eine Begleitquest abgebrochen werden!" />
+  <Localisation key="warning_PreventAlignmentChanges" value="Ausrichtungsänderungen verhindern ist aktiv!" />
+  <Localisation key="warning_RevealLocations" value="Aufschlussreiche Orte können nicht rückgängig gemacht werden!" />
+  <Localisation key="warning_SpawnRandomHostileUnit_ActionKeySpawnEnemiesFromUnitFavourites" value="Spawn Random Hostile Unit (Experimental) und Spawn Enemies From Unit Favourites / Stored Units sind gleichzeitig aktiv!" />
+  <Localisation key="tooltip_RespecCostMultiplier" value="Legt einen Multiplikator für die jeweiligen Kosten fest. Werte unter eins führen zu einem Preisverfall." />
+  <Localisation key="tooltip_BuffDurationMultiplier" value="Die Dauer der von der Auswahl gewirkten Buffs wird mit dem ausgewählten Wert multipliziert. &#xA; Beachten Sie, dass extrem hohe Multiplikatoren möglicherweise verhindern, dass sie auf sehr lange laufende Buffs angewendet werden. &#xA; In diesem Fall wird ein Fehler in der angezeigt log (System.OverflowException)." />
+  <Localisation key="tooltip_SetEncumbrance" value="Legt die Belastung für einzelne Charaktere und die Gruppe als Ganzes auf den gewählten Wert fest." />
+  <Localisation key="tooltip_MaxAbilityScoreAtCC" value="Verwenden Sie das Eingabefeld, um die maximale Fähigkeitsbewertung bei der Charaktererstellung festzulegen." />
+  <Localisation key="tooltip_MinAbilityScoreAtCC" value="Verwenden Sie das Eingabefeld, um die minimale Fähigkeitsbewertung bei der Charaktererstellung festzulegen." />
+  <Localisation key="tooltip_AbilityPointsAtCCPlayer" value="Verwenden Sie das Eingabefeld, um die Fähigkeitspunkte bei der Charaktererstellung für den Spieler festzulegen." />
+  <Localisation key="tooltip_AbilityPointsAtCCmerc" value="Verwenden Sie das Eingabefeld, um die Fähigkeitspunkte bei der Charaktererstellung für Söldner festzulegen." />
+  <Localisation key="tooltip_FullHitdiceEachLevel" value="Entfernt die Halbierung des Trefferwürfelwerts durch das Spiel, wenn ein Trefferpunkt auf Stufe 1 hinzugefügt wird." />
+  <Localisation key="tooltip_RollHitDiceEachLevel" value="Anstatt die Hälfte des Trefferwürfelwerts in jedem Level zu addieren, wird der Mehrwert durch einen Wurf bestimmt." />
+  <Localisation key="tooltip_AddCasterLevel" value="Verwenden Sie das Eingabefeld, um den Nachlaufpegel einzustellen." />
+  <Localisation key="tooltip_NoLevelUpRestirctions" value="Sie können ein Level aufsteigen, auch wenn Sie die Erfahrungsanforderungen nicht erfüllen oder bereits Level 20 sind. &#xA; Die UI-Indikatoren werden nicht sofort aktualisiert, um anzuzeigen, dass ein Level-Up verfügbar / nicht verfügbar ist." />
+  <Localisation key="tooltip_InfiniteSkillPoints" value="Erhalte unendliche Fertigkeitspunkte." />
+  <Localisation key="tooltip_IgnorePrerequisites" value="Ignoriere Einschränkungen bei der Auswahl von Klassen und Talenten. &#xA; Wenn du bei der Charaktererstellung eine Prestige-Klasse auswählst, fängst du ohne Ausrüstung an &#xA; und es fehlen dir möglicherweise wichtige Waffenfähigkeiten!" />
+  <Localisation key="tooltip_IgnoreCasterTypeSpellLevel" value="Ignoriere Einschränkungen hinsichtlich Zauberertyp und Zauberstufe." />
+  <Localisation key="tooltip_IgnoreForbiddenArchetype" value="Ignoriere verbotene Archetypen." />
+  <Localisation key="tooltip_IgnorePrerequisiteStatValue" value="Erforderliche Statistikwerte ignorieren." />
+  <Localisation key="tooltip_IgnoreClassAlignment" value="Ignorieren Sie Ausrichtungsbeschränkungen für Klassen." />
+  <Localisation key="tooltip_IgnoreForbiddenFeatures" value="Ignorieren Sie verbotene Leistungen, wenn Sie eine Klasse auswählen, z. Atheismus beim Versuch, Kleriker zu werden." />
+  <Localisation key="tooltip_IgnorenFeaturePrerequisites" value="Ignorieren Sie die Voraussetzungen für die Auswahl einer Klasse (z. B. können Sie ein Kleriker von Groetus werden). &#xA; Wenn diese Option nicht funktioniert, versuchen Sie, die Voraussetzungen (Liste) bei der Auswahl einer Klasse zu ignorieren" />
+  <Localisation key="tooltip_IgnorenFeatureListPrerequisites" value="Ignorieren Sie bei der Auswahl einer Klasse feat-Voraussetzungen aus Listen. &#xA; Wenn diese Option nicht funktioniert, versuchen Sie, Feat-Voraussetzungen bei der Auswahl einer Klasse zu ignorieren" />
+  <Localisation key="tooltip_FeaturesIgnorePrerequisites" value="Ignorieren Sie die Voraussetzungen bei der Auswahl von Kunststücken." />
+  <Localisation key="tooltip_ExperienceMultiplier" value="Aktiviert einen Multiplikator für alle gewonnenen Erfahrungspunkte." />
+  <Localisation key="tooltip_Multiplier" value="Verwenden Sie den Schieberegler, um einen Multiplikator festzulegen." />
+  <Localisation key="tooltip_CustomMultiplier" value="Ermöglicht das Festlegen eines benutzerdefinierten Multiplikators." />
+  <Localisation key="tooltip_LearnAllCookingRecipes" value="Bringt der Party alle Kochrezepte bei." />
+  <Localisation key="tooltip_NoIngredientsRequired" value="Anforderungen an behinderte Kochzutaten." />
+  <Localisation key="tooltip_InstantRest" value="Wendet alle Auswirkungen einer Pause sofort auf die Partei an." />
+  <Localisation key="tooltip_InstantRestAfterCombat" value="Wendet nach jedem Kampf automatisch alle Effekte einer Pause an." />
+  <Localisation key="tooltip_CookingAndHuntingInDungeons" value="Ermöglicht das Jagen und Kochen während Pausen in Dungeons." />
+  <Localisation key="tooltip_AllowCampingEverywhere" value="Ermöglicht Camping überall. &#xA; Beachten Sie, dass Sie so Zeit an Orten verbringen können, an denen dies nicht möglich sein sollte! &#xA; Zum Deaktivieren ist ein Neustart des Spiels erforderlich, um wirksam zu werden!" />
+  <Localisation key="tooltip_NoRationsRequired" value="Deaktiviert, um beim Ausruhen Rationen zu benötigen." />
+  <Localisation key="tooltip_Add6Rations" value="Fügt dem Inventar der Partei sechs Rationen hinzu." />
+  <Localisation key="tooltip_MercenaryCostMultiplier" value="Verwenden Sie das Eingabefeld, um einen Multiplikator für die Kosten für die Rekrutierung eines Söldners festzulegen." />
+  <Localisation key="tooltip_VendorSellMultiplier" value="Aktiviert einen Multiplikator für Waren, die an Lieferanten verkauft werden." />
+  <Localisation key="tooltip_VendorsSellFor0" value="Alle verkauften Gegenstände sind 0 wert." />
+  <Localisation key="tooltip_VendorsBuyFor0" value="Alle gekauften Gegenstände sind 0 wert." />
+  <Localisation key="tooltip_AccessRemoteCharacters" value="Ermöglicht den Zugriff auf Inventare, Charakterbildschirme und Zauberbücher entfernter Charaktere außerhalb der Hauptstadt" />
+  <Localisation key="tooltip_RepeatableLockPicking" value="Schlösser können wiederholt geöffnet werden. &#xA; Erforderlich für das Öffnen von Schlössern Verursacht Müdigkeit und verwendet das Öffnen von Schlössern" />
+  <Localisation key="tooltip_RepeatableLockPickingWeariness" value="Jeder Versuch, ein Schloss zu öffnen, führt zu Müdigkeit. &#xA; Unterhalb des Wertes kann angepasst werden (1,0 = 1 Stunde Müdigkeit pro Versuch)." />
+  <Localisation key="tooltip_1EqualsHourWeariness" value="1,0 = 1 Stunde Müdigkeit pro Versuch." />
+  <Localisation key="tooltip_RepeatableLockPickingLockPicks" value="Dies ist ein einfacher Proof of Concept eines Lock-Pick-Systems. &#xA; Ihre Gruppe verfügt über eine begrenzte Anzahl von Lock-Picks, die auf ihren Tricks basieren. &#xA; Während der Pausen (derzeit nur Camping) erstellen die in Trickery erfahrenen Gruppenmitglieder neue Lock-Picks. Der Betrag basiert auf Skill Rolls. &#xA; Wenn Sie diese Funktion nutzen, geben Sie bitte Feedback!" />
+  <Localisation key="tooltip_RepeatableLockPickingLockPicksInventoryText" value="Zeigen Sie die Anzahl der Sperren im Inventarbildschirm an. &#xA; Erfordert das Laden eines Speichers oder das Ändern des Bereichs, um wirksam zu werden." />
+  <Localisation key="tooltip_CustomName" value="Erfordert das Laden eines Speichers oder das Ändern des Bereichs, um die volle Wirkung zu erzielen." />
+  <Localisation key="tooltip_CustomGender" value="Ermöglicht das Einstellen eines Schalters für das Geschlecht eines Charakters. &#xA; Verursacht visuelle Störungen!" />
+  <Localisation key="tooltip_ShowClassDataOptions" value="Ermöglicht das Ändern der Klassenstufe unabhängig von der Stufe und das Hinzufügen von normalerweise nicht verfügbaren Klassen. &#xA; Sparen Sie häufig und verwenden Sie sie mit Vorsicht!" />
+  <Localisation key="tooltip_RemoveEquippedItems" value="Entfernt alle ausgerüsteten Gegenstände aus dem ausgewählten Charakter." />
+  <Localisation key="tooltip_ResetCharacterLevel" value="Setzt die Charakterstufe zurück, um Ihren aktuellen Erfahrungspunkten zu entsprechen (höchstens Stufe 20)." />
+  <Localisation key="tooltip_SetCharacterLevel" value="Setzt die Charakterstufe auf den gewählten Wert." />
+  <Localisation key="tooltip_SetAlignment" value="Set the selected character's alignment to the one chosen from the selection grid.&#xA;&quot;You've performed a [x] action.&quot; will be displayed irregardless of the unit affected." />
+  <Localisation key="tooltip_ShiftAlignmentTowards" value="Verschiebt die Ausrichtung des ausgewählten Charakters um den eingestellten Wert zu dem aus dem Auswahlraster ausgewählten." />
+  <Localisation key="tooltip_SetSize" value="Stellen Sie die Größe des ausgewählten Charakter auf die im Auswahlraster ausgewählte ein." />
+  <Localisation key="tooltip_SetToOriginalSize" value="Setzen Sie den ausgewählten Charakter wieder auf seine ursprüngliche Größe zurück." />
+  <Localisation key="tooltip_Statistics" value="Verwenden Sie das Eingabefeld oder die +/- Tasten, um die Statistik zu ändern." />
+  <Localisation key="tooltip_ShowOnlyClassSkills" value="Wechseln Sie zwischen der Anzeige aller Fähigkeiten oder nur der Klassenfähigkeiten." />
+  <Localisation key="tooltip_PartyMultipliers" value="Verwenden Sie den Schieberegler, um einen Multiplikator für die Statistik der ausgewählten Partei festzulegen." />
+  <Localisation key="tooltip_ExportCharInfo" value="Erstellt eine TXT-Datei mit allen Statistiken des ausgewählten Charakters im Ordner 'Characters'. &#xA; Diese Datei kann bearbeitet und importiert werden." />
+  <Localisation key="tooltip_ImportStatsFrom" value="Importiert alle Statistiken für den ausgewählten Charakter aus einer TXT-Datei." />
+  <Localisation key="tooltip_ItemsWeighZero" value="Das Gewicht aller Elemente wird auf 0 gesetzt." />
+  <Localisation key="tooltip_DexBonusLimit99" value="Setzt das maximale Geschicklichkeitsbonuslimit aller Rüstungen auf 99." />
+  <Localisation key="tooltip_ArmourChecksPenalty0" value="Setzt die Rüstungsprüfungsstrafe aller Rüstungen auf 0." />
+  <Localisation key="tooltip_UnlimitedItemCharges" value="Verwendbare Gegenstände sind unbegrenzt kostenpflichtig." />
+  <Localisation key="tooltip_IgnoreEquipmentRestrictions" value="Einschränkungen für behinderte Geräte (Ausrichtung, Klasse, Statistik und Kenntnisse)." />
+  <Localisation key="tooltip_AddItemIdentified" value="Über dieses Menü hinzugefügte Elemente werden in einem identifizierten Status hinzugefügt." />
+  <Localisation key="tooltip_AssetGuid" value="Wenn Sie die Guid eines Gegestands nicht kennen, können Sie die unten stehende Suchfunktion verwenden." />
+  <Localisation key="tooltip_AddMultipleItems" value="Ermöglicht das Einfügen mehrerer durch Kommas getrennter Guid." />
+  <Localisation key="tooltip_ShowEnemies" value="Zeigen Sie Feinde anstelle von Gruppenmitgliedern an." />
+  <Localisation key="tooltip_ShowAllWeaponCategories" value="Wenn Sie diese Optionen aktivieren, können Sie Versionen von Talenten hinzufügen, die das Spiel normalerweise nicht enthält, z. Fechten Grace (Greatclub)." />
+  <Localisation key="tooltip_SpellAbilityRangeMultiplier" value="Verwenden Sie den Schieberegler oder einen benutzerdefinierten Multiplikator, um die Zauber- und Fähigkeitsbereiche anzupassen.#xA;Durch Erhöhen der Reichweite können Feinde wichtige Charaktere töten, auf die sie normalerweise nicht zielen können!" />
+  <Localisation key="tooltip_EnemyBaseHitPointsMultiplier" value="Verwenden Sie den Schieberegler oder einen benutzerdefinierten Multiplikator, um die Trefferpunkte der feindlichen Basis anzupassen. &#xA; Betrifft nur zufällige Begegnungen und Feinde, die noch nicht erzeugt wurden (z. B. nicht besuchte Gebiete)!" />
+  <Localisation key="tooltip_EnemyBaseHitPointsMultiplierCampEncounter" value="Aktiviert den Trefferpunktmultiplikator für feindliche Begegnungen während / nach Pausen." />
+  <Localisation key="tooltip_EnemyBaseHitPointsMultiplierUnitSpawner" value="Aktiviert den Trefferpunktmultiplikator für feindliche Begegnungen in nicht besuchten lokalen Gebieten und zufällige Begegnungen mit Feinden auf der Weltkarte." />
+  <Localisation key="tooltip_SpellAbilityRange" value="Ermöglicht das Festlegen benutzerdefinierter Werte für den Nah-, Mittel- und Fernbereich." />
+  <Localisation key="tooltip_RestoreSpellsAbilites" value="Stelle die Zauber und Fähigkeiten deiner Gruppe wieder her. Betrifft Burn nicht - benutze stattdessen Instant Rest." />
+  <Localisation key="tooltip_SpellbookAbilityAlignmentChecks" value="Deaktivieren Sie die Ausrichtungsprüfungen für den Zugriff auf Zauberbücher und bei Verwendung der Fähigkeit &#xA;, z. So kannst du Paladin-Fähigkeiten einsetzen, während du chaotisch böse bist." />
+  <Localisation key="tooltip_TabletopSpellAbilityRange" value="Setzt die Zauber &amp; Fähigkeitsbereiche auf 25 Fuß (nah), 100 Fuß (mittel), 400 Fuß (lang). &#xA; Zauberwirkerstufe wird nicht berücksichtigt!" />
+  <Localisation key="tooltip_NoArcaneSpellFailure" value="Deaktiviert das Versagen arkaner Zauber für Ihre Gruppe." />
+  <Localisation key="tooltip_AlwaysSucceedCastingDefensively" value="Verhindert, dass Parteimitglieder nicht defensiv wirken." />
+  <Localisation key="tooltip_AlwaysSucceedConcentration" value="Verhindert, dass Parteimitglieder Konzentrationsprüfungen nicht bestehen." />
+  <Localisation key="tooltip_UnlimitedCasting" value="Unbegrenzte Zauber für Ihre Gruppe." />
+  <Localisation key="tooltip_MetamagicZero" value="Setzt die Standardkosten für Metamagic auf Null." />
+  <Localisation key="tooltip_IgnoreMaterialComponents" value="Anforderungen an deaktivierte Materialkomponenten." />
+  <Localisation key="tooltip_SpontaneousCastersCopyScrolls" value="Ermöglicht spontanen Zauberern, Zauber von Schriftrollen zu kopieren." />
+  <Localisation key="tooltip_UnlimitedAbilities" value="Unbegrenzte Fähigkeitsverwendungen für Ihre Gruppe." />
+  <Localisation key="tooltip_RestoreSpellsAbilitiesAfterCombat" value="Alle Zauber und Fähigkeiten werden nach jedem Kampf automatisch wiederhergestellt." />
+  <Localisation key="tooltip_RestoreItemChargesAfterCombat" value="Alle Gegenstände werden nach jedem Kampf automatisch aufgeladen." />
+  <Localisation key="tooltip_MostlyUndetectableDuringStealth" value="Bleiben Sie (meistens) im Verborgenen nicht nachweisbar." />
+  <Localisation key="tooltip_NoFriendlyFireAOE" value="Deaktiviertes Friendly Fire bei Verwendung von Zaubersprüchen oder Fähigkeiten im Wirkungsbereich." />
+  <Localisation key="tooltip_NoFriendlyFireAny" value="Behindertenfreundliches Feuer jeglicher Art." />
+  <Localisation key="tooltip_NoCooldown" value="Deaktiviert die Abklingzeiten (bestimmte Verzögerungen treten weiterhin auf)." />
+  <Localisation key="tooltip_InstantCooldownMainChar" value="Deaktiviert die Abklingzeiten nur für den Hauptcharakter (bestimmte Verzögerungen treten weiterhin auf)." />
+  <Localisation key="tooltip_NoBurnKineticist" value="Die Brennkosten werden entweder vollständig entfernt oder nicht angewendet." />
+  <Localisation key="tooltip_MaximiseAcceptedBurnKineticist" value="Setzt den akzeptierten Brennwert auf seinen Maximalwert und hält ihn bis zur Deaktivierung auf diesem Wert. &#xA; Änderungen am Brennmaximum oder an der Partyzusammensetzung / an neuen Levels, die Kinetiker möglicherweise benötigen, um diese Option aus- und einzuschalten oder eine Pause einzulegen." />
+  <Localisation key="tooltip_NoTempHPKineticist" value="Entfernt die durch Brennen verursachte vorübergehende Reduzierung der Trefferpunkte. &#xA; Sie müssen zum Hauptmenü zurückkehren und Ihr gespeichertes Spiel neu laden!" />
+  <Localisation key="tooltip_SpellsPerDay" value="Verwenden Sie den Schieberegler oder einen benutzerdefinierten Multiplikator, um die Anzahl der Zauber pro Tag / gespeicherter Zauber festzulegen." />
+  <Localisation key="tooltip_InstantPartyChange" value="Das Austauschen von Gruppenmitgliedern auf der Weltkarte erfolgt sofort." />
+  <Localisation key="tooltip_SetPartySpeedToFastestMember" value="Legt die Geschwindigkeit der gesamten Gruppe so fest, dass sie der Geschwindigkeit des schnellsten Gruppenmitglieds entspricht." />
+  <Localisation key="tooltip_PartyMovementSpeedMultiplier" value="Multipliziert die Bewegungsgeschwindigkeit aller Gruppenmitglieder mit dem eingestellten Wert." />
+  <Localisation key="tooltip_ClaimResources" value="Fordert alle aufgedeckten Ressourcen in Ihrem Land an. &#xA; Beachten Sie, dass die Ansprüche Sie immer noch BP kosten!" />
+  <Localisation key="tooltip_NoResourcesClaimCost" value="Setzt die Kosten für die Inanspruchnahme von Ressourcen auf 0." />
+  <Localisation key="tooltip_EnableTeleport" value="Teleportieren Sie die Gruppe mit einem Tastendruck (zu Fuß und auf der Weltkarte) an die aktuelle Mausposition." />
+  <Localisation key="tooltip_TeleportPartyToPlayer" value="Teleportiert die Gruppe zum Spielercharakter." />
+  <Localisation key="tooltip_TravelSpeedMultiplier" value="Verwenden Sie das Eingabefeld, um einen Multiplikator für die globale Kartenlaufzeitskala festzulegen." />
+  <Localisation key="tooltip_RandomEncounterSettings" value="Verwenden Sie die Umschalt-, Schieberegler- und Eingabedateien, um zufällige Begegnungen nach Ihren Wünschen zu konfigurieren." />
+  <Localisation key="tooltip_RandomEncounterPossible" value="Deaktiviert zufällige Begegnungen auf der globalen Karte." />
+  <Localisation key="tooltip_AlwaysSucceedAtAvoidingEncounters" value="Das Vermeiden von zufälligen Begegnungen wird immer erfolgreich sein." />
+  <Localisation key="tooltip_EnableRandomEncounterSettings" value="Ermöglicht das Ändern der Einstellungen für zufällige Begegnungen." />
+  <Localisation key="tooltip_UpgradeSettlementsAndBuildings" value="Werte Siedlungen und einzelne Gebäude auf." />
+  <Localisation key="tooltip_SetKingdomAlignment" value="Stellen Sie die Ausrichtung des Königreichs auf die aus dem Auswahlraster ausgewählte ein." />
+  <Localisation key="tooltip_OverrideKingdomAlignmentResult" value="Überschreibt das Ergebnis der Ausrichtung des Königreichs." />
+  <Localisation key="tooltip_InstantKingdomEvents" value="Beende sofort die Ereignisse im Königreich." />
+  <Localisation key="tooltip_ForceSuccessTriumphs" value="Erfolg / Triumph für das Ergebnis von Ereignissen im Königreich erzwingen." />
+  <Localisation key="tooltip_IgnoreBuildingRestrictions" value="Ignorieren Sie Einschränkungen beim Aufbau des Königreichs." />
+  <Localisation key="tooltip_PassSkillChecksIndividual" value="Ermöglicht die Auswahl individueller Fähigkeiten, die bei Prüfung immer bestanden werden." />
+  <Localisation key="tooltip_PassSkillChecksIndividualDC99" value="Setzt den DC aller Fähigkeitsüberprüfungen auf -99." />
+  <Localisation key="tooltip_PassSavingThrowIndividual" value="Ermöglicht die Auswahl einzelner Rettungswürfe, die bei Auswahl immer bestanden werden." />
+  <Localisation key="tooltip_AllHitsAreCritical" value="Alle Angriffe der Gruppe führen zu kritischen Treffern." />
+  <Localisation key="tooltip_MainCharacterRolls20" value="Jeder Wurf des Hauptcharakters auf einem W20 führt zu einem natürlichen 20." />
+  <Localisation key="tooltip_PartyAlwaysRolls20" value="Jeder Wurf der Gruppe auf einem W20 ergibt eine natürliche 20." />
+  <Localisation key="tooltip_EnablePartyAlwaysRoll20Hotkey" value="Aktivieren Sie einen Hotkey, um Party Always Rolls 20 umzuschalten." />
+  <Localisation key="tooltip_EnemiesAlwaysRoll1" value="Jeder Wurf der Feinde auf einem W20 führt zu einer natürlichen 1." />
+  <Localisation key="tooltip_EveryoneExceptPlayerFactionRolls1" value="Jeder Wurf auf einem W20 von irgendjemandem außer den Mitgliedern der Spielerfraktion führt zu einer natürlichen 1." />
+  <Localisation key="tooltip_NeverRoll1" value="Ein Wurf von 1 auf einem W20 kommt nie vor. &#xA; Kann so eingestellt werden, dass er jeden betrifft, nur die Gruppe oder nur Feinde." />
+  <Localisation key="tooltip_NeverRoll20" value="Ein Wurf von 20 auf einem W20 kommt nie vor. &#xA; Kann so eingestellt werden, dass er jeden betrifft, nur die Gruppe oder nur Feinde." />
+  <Localisation key="tooltip_RollWithAdvantage" value="Es werden zwei d20s anstelle von einem gewürfelt und der höchste wird als Ergebnis genommen. &#xA; Kann so eingestellt werden, dass er jeden betrifft, nur die Gruppe oder nur Feinde." />
+  <Localisation key="tooltip_RollWithDisadvantage" value="Es werden zwei d20s anstelle von einem gewürfelt und der niedrigste wird als Ergebnis genommen. &#xA; Kann so eingestellt werden, dass er jeden betrifft, nur die Gruppe oder nur Feinde." />
+  <Localisation key="tooltip_AlwaysRoll20ForInitiative" value="Würfelt immer 20 für Initiative. Kann so eingestellt werden, dass alle betroffen sind, nur die Gruppe oder nur Feinde." />
+  <Localisation key="tooltip_TakeX" value="D20-Würfe außerhalb des Kampfes führen zu dem eingestellten Wert, d. H. 10, 20 oder einem benutzerdefinierten Wert." />
+  <Localisation key="tooltip_toggleCustomTakeXAsMin" value="Der eingestellte benutzerdefinierte Wert wird als Mindestrolle verwendet, d. H. Ihre Rollen sind immer gleich oder höher als der benutzerdefinierte Wert." />
+  <Localisation key="tooltip_CameraRotation" value="Aktiviert die Kameradrehung." />
+  <Localisation key="tooltip_CameraScrollSpeed" value="Aktiviert die Option zum Ändern der Bildlaufgeschwindigkeit der Kamera." />
+  <Localisation key="tooltip_CameraZoomUnlocked" value="Ermöglicht das Bearbeiten der Kamera-Zoomgrenzen." />
+  <Localisation key="tooltip_EnableFocusCamera" value="Ermöglicht das Fokussieren der Kamera auf Gruppenmitglieder und das Durchfahren mit einem Hotkey." />
+  <Localisation key="tooltip_EnableFocusCameraSelectedUnit" value="Wenn Sie das Porträt eines Charakters auswählen, fokussiert die Kamera auf ihn." />
+  <Localisation key="tooltip_DisableCameraBounds" value="Deaktiviert die Kamerabegrenzungen und ermöglicht das freie Bewegen der Kamera." />
+  <Localisation key="tooltip_MoveCameraToPlayer" value="Zentriert die Kamera auf den Spielercharakter." />
+  <Localisation key="tooltip_ResetCutsceneLock" value="Ermöglicht es Ihnen, sich während Zwischensequenzen zu bewegen. &#xA; Am besten zusammen mit der Fokuskamera, um den Fokus des Spiels zu überschreiben." />
+  <Localisation key="tooltip_EnableResetCutsceneLockHotkey" value="Ermöglicht das Umschalten der Option 'Cutscene-Sperre zurücksetzen' über den Hotkey." />
+  <Localisation key="tooltip_AnimationCloseUMM" value="Schließt die Unity Mod Manager-Oberfläche, sobald eine Wiedergabetaste gedrückt wird." />
+  <Localisation key="tooltip_ShowAreaName" value="Zeigt den Namen des aktuellen Bereichs oben auf dem Bildschirm an." />
+  <Localisation key="tooltip_ShowCombatDifficulty" value="Zeigt die Kampfschwierigkeiten und die CR an, sobald der Kampf beginnt. &#xA; Wenn die Entwicklungstools aktiviert sind, wird stattdessen die Anzeige der Kampfschwierigkeiten verwendet. &#xA; Zum Deaktivieren ist ein Neustart des Spiels erforderlich, um wirksam zu werden!" />
+  <Localisation key="tooltip_UnityModManagerButton" value="Fügt dem ESC-Menü eine Schaltfläche hinzu, mit der die Unity Mod Manager-Benutzeroberfläche geöffnet wird. &#xA; Erfordert das Laden eines Speichers oder das Ändern des Bereichs, um wirksam zu werden." />
+  <Localisation key="tooltip_UnityModManagerButtonIndex" value="Passt die Position der Schaltfläche an (0 = unten, 6 = oben). &#xA; Erfordert das Laden eines Speichers oder das Ändern des Bereichs, um wirksam zu werden." />
+  <Localisation key="tooltip_AlignmentFix" value="Z.B. Wenn Sie rechtmäßig neutral sind, bringt Sie eine Verschiebung der Ausrichtung von neutralem Gut zu legalem Gut anstelle von neutralem Gut" />
+  <Localisation key="tooltip_AutoEquipConsumables" value="Die Gürtelschlitze werden automatisch nachgefüllt, nachdem ein Gegenstand verwendet wurde. &#xA; Aber nur, wenn ein anderer Gegenstand des gleichen Typs im Inventar der Gruppe verfügbar ist. &#xA; Einen Gegenstand (z. B. Alchemist's Fire) mehrmals im Gürtel ausrüsten, während er gleichzeitig auf dem Gegenstand ist Schnell- / Aktionsleiste &#xA; führt dazu, dass 0 Ladungsgegenstände zurückbleiben, wenn sie vom Gürtel verwendet werden." />
+  <Localisation key="tooltip_ShowPetInventory" value="Ermöglicht das Anzeigen des Inventars eines Haustieres, indem Sie es auswählen und die Inventartaste drücken." />
+  <Localisation key="tooltip_ScaleInventoryMoney" value="Skaliert die Größe der Geldanzeige dynamisch, um größere Beträge richtig anzupassen." />
+  <Localisation key="tooltip_SortSpellbooksAlphabetically" value="Sortiert die Zauberbücher auf dem Zauberbuchbildschirm alphabetisch." />
+  <Localisation key="tooltip_SortSpellsAlphabetically" value="Sortiert die Zauber auf dem Zauberbuchbildschirm alphabetisch." />
+  <Localisation key="tooltip_NoNegativeLevels" value="Verhindert, dass Gruppenmitglieder negative Level erreichen. &#xA; Das Spiel zeigt weiterhin Level-Drain-Meldungen im Kampfprotokoll an." />
+  <Localisation key="tooltip_MakeSummonsControllable" value="Ermöglicht die Kontrolle von Vorladungen, die von Gruppenmitgliedern beschworen wurden. Gilt nur für diejenigen, die nach Aktivierung dieser Option beschworen wurden. &#xA; Wenn die Beschwörungsdauer abläuft, während die Bewegungsreihenfolge einer Beschwörung ausgeführt wird, bleibt die grüne Vorschau-Markierung sichtbar." />
+  <Localisation key="tooltip_DisableWarpaintedSkullAbilityForSummonedBarbarians" value="Barbaren, die vom Warpainted Skull of Duthica beschworen wurden, können die Fähigkeiten des Warpainted Skull of Duthica nicht selbst einsetzen." />
+  <Localisation key="tooltip__RemoveSummonsGlow" value="Entfernt das permanente Leuchten von Beschwörungen. &#xA; Gilt nicht für bereits beschworene Einheiten." />
+  <Localisation key="tooltip_RunPerceptionTriggerActions" value="Führt die Aktionen aus, die allen Wahrnehmungsauslösern im aktuellen Bereich zugeordnet sind. versteckte Passagen aufdecken / zuvor fehlerhafte Passagen reparieren." />
+  <Localisation key="tooltip_FreezeTimedQuestAt90Days" value="Friert die verbleibende Zeit für eine zeitgesteuerte Quest nach 90 Tagen ein. &#xA; Nach dem Deaktivieren der zeitgesteuerten Quest kehren sie in ihren normalen Zustand zurück, dh sie reagieren so, als ob die Zeit abgelaufen wäre, während die Option aktiv war. &#xA; Es wird daher empfohlen, die zeitgesteuerte Quest vor dem Einschalten abzuschließen aus oder sicherstellen, dass noch Zeit übrig ist." />
+  <Localisation key="tooltip_ActionKey" value="Die Aktionstaste kann so eingestellt werden, dass eine Reihe von Aktionen über einen Hotkey ausgeführt werden." />
+  <Localisation key="tooltip_NoAttacksOfOpportunity" value="Die ausgewählte Gruppe ist nicht das Ziel von Gelegenheitsangriffen." />
+  <Localisation key="tooltip_SummonDurationMultiplier" value="Multipliziert die Dauer der Beschwörung mit dem gewählten Wert." />
+  <Localisation key="tooltip_SetSummonLevelTo20" value="Setzt die Stufe aller Beschwörungen auf 20." />
+  <Localisation key="tooltip_ExtraAttacksParty" value="Alle Gruppenmitglieder erhalten die festgelegte Anzahl zusätzlicher Hauptangriffe für die primäre und sekundäre Hand." />
+  <Localisation key="tooltip_SetSpeedOnSummon" value="Die Geschwindigkeit aller von der Gruppe beschworenen Kreaturen wird auf den gewählten Wert eingestellt. &#xA; Gilt nicht für bereits beschworene!" />
+  <Localisation key="tooltip_TimeScale" value="Ändert die Zeitskala des gesamten Spiels." />
+  <Localisation key="tooltip_StopGameTime" value="Stoppt den Zeitablauf auf lokalen Karten, auf der globalen Karte und durch Aktionen (z. B. Ausruhen). &#xA; Quest-Timer werden nicht vorgerückt." />
+  <Localisation key="tooltip_NoDamageFromEnemies" value="Feinde fügen der Gruppe keinen Schaden zu." />
+  <Localisation key="tooltip_PartyOneHitKill" value="Gruppenmitglieder töten ihr Ziel mit einem einzigen Schlag (wenn sie treffen und die richtige Schadensart verwenden)." />
+  <Localisation key="tooltip_DamageDealtMultipliers" value="Ermöglicht die Einstellung von Multiplikatoren für den von der Gruppe und den Feinden verursachten Schaden." />
+  <Localisation key="tooltip_PartyDamageDealtMultiplier" value="Aktiviert den vom Gruppenmultiplikator verursachten Schaden." />
+  <Localisation key="tooltip_EnemiesDamageDealtMultiplier" value="Aktiviert den durch den Multiplikator des Gegners verursachten Schaden." />
+  <Localisation key="tooltip_AllDoorContainersUnlocked" value="Sie werden weiterhin so angezeigt, als wären sie gesperrt, aber jeder Charakter kann sie öffnen. &#xA; Dies kann Ihnen Zugang zu Orten gewähren, die Sie nicht erreichen sollten!" />
+  <Localisation key="tooltip_ActionKeyEnableExperimental" value="Der experimentelle Modus enthält Funktionen, die das Spiel unterbrechen und Abstürze verursachen können!" />
+  <Localisation key="tooltip_LogInfoToFile" value="Aktiviert die Protokollierung der gesammelten Informationen in der Datei BagOfTricks.log im Ordner BagOfTricks." />
+  <Localisation key="tooltip_ShowUnitInfoBox" value="Zeigt eine Infobox mit Einheitenstatistiken an." />
+  <Localisation key="tooltip_OverwriteFogOfWar" value="Ermöglicht das vollständige Deaktivieren des Kriegsnebels oder nur seiner visuellen Elemente." />
+  <Localisation key="tooltip_IgnoreDialogueRestrictions" value="Entfernt Dialogbeschränkungen." />
+  <Localisation key="tooltip_ReverseCasterAlignmentChecks" value="Kehrt die Nachlaufausrichtungsprüfungen um, z. Wenn du Monster mit einem bösen Charakter beschwörst, beschwörst du die gute Variante." />
+  <Localisation key="tooltip_PreventAlignmentChanges" value="Verhindert Änderungen an der Ausrichtung eines Charakters." />
+  <Localisation key="tooltip_NoInactiveCampsite" value="Deaktiviert das Verlassen eines inaktiven Campingplatzes." />
+  <Localisation key="tooltip_SpiderBegone" value="Tauschen Sie die Modelle von Spinnen gegen Wölfe und Spinnenschwärme gegen Rattenschwärme aus. &#xA; Beachten Sie, dass dies keine Auswirkungen auf die kleinen nicht interaktiven Spinnen hat! &#xA; Nach dem Ändern der Einstellung wird ein Neustart / Neuladen des Spiels dringend empfohlen!" />
+  <Localisation key="tooltip_PreventQuestFailure" value="Während aktive Quests nicht scheitern." />
+  <Localisation key="tooltip_DevTools" value="Aktiviert die integrierten Entwicklungstools (z. B. Konsole) und fügt neue Befehle hinzu. &#xA; Erfordert einen Neustart, um vollständig wirksam zu werden." />
+  <Localisation key="tooltip_LogToUMM" value="Schreibt alle Smartconsole-Protokolle in das Unity Mod Manager-Protokoll." />
+  <Localisation key="tooltip_UberLogger" value="Aktiviert den integrierten Logger." />
+  <Localisation key="tooltip_UberLoggerForward" value="Leitet die Nachrichten von UberLogger an das Ausgabeprotokoll von Unity weiter." />
+  <Localisation key="tooltip_UberLoggerForwardPrefix" value="Fügt [UberLogger] zu den Nachrichten hinzu, die an das Ausgabeprotokoll von Unity weitergeleitet werden." />
+  <Localisation key="tooltip_BlueprintModding" value="Ermöglicht das Ändern vorhandener Blaupausen durch Laden von Dateien aus dem Verzeichnis ModifiedBlueprints." />
+  <Localisation key="tooltip_PatchManually" value="Wendet die Gegenstandsänderung sofort an." />
+  <Localisation key="tooltip_ToggleHUD" value="Ermöglicht das Umschalten des HUD über einen Hotkey." />
+  <Localisation key="tooltip_DisplayObjectInfo" value="Zeigt den Namen und die GUID eines Objekts an, wenn Sie den Mauszeiger darüber bewegen." />
+  <Localisation key="tooltip_SetTargetFrameRate" value="Weist das Spiel an, zu versuchen, mit der angegebenen Bildrate zu rendern. &#xA; Erfordert einen Neustart des Spiels, um wirksam zu werden!" />
+  <Localisation key="tooltip_AutomaticallyLoadLastSave" value="Lädt automatisch den letzten beim Spielstart." />
+  <Localisation key="tooltip_CreateBattleLogFile" value="Protokolliert alle Schlachtprotokolleinträge in einer Datei (Standard ist BattleLog.log)." />
+  <Localisation key="tooltip_CreateBattleLogFileLog" value="Protokolliert alle Schlachtprotokolleinträge in der Datei BattleLog.log." />
+  <Localisation key="tooltip_CreateBattleLogFileHTML" value="Protokolliert alle Schlachtprotokolleinträge in der Datei BattleLog.html." />
+  <Localisation key="tooltip_CreateBattleLogFileBoT" value="Fügt der Datei BagOfTrick.log alle Schlachtprotokolleinträge mit dem Präfix [BattleLog] hinzu." />
+  <Localisation key="tooltip_TaxCollector" value="Der Steuereintreiber sammelt für Sie Baupunkte und Geld (basierend auf Ihrem Charakter und Ihren Königreichsstatistiken), während Sie fort sind." />
+  <Localisation key="tooltip_ShowTooltips" value="Deaktiviert die Anzeige von Tooltips durch den Mod." />
+  <Localisation key="tooltip_LogMessages" value="Deaktiviert die vom Mod erstellten Protokollnachrichten im Spiel." />
+  <Localisation key="tooltip_ExportToModFolder" value="Dateien werden nach \ Pathfinder Kingmaker \ Mods \ BagOfTricks \ Export exportiert." />
+  <Localisation key="tooltip_BoTScrollbar" value="Aktiviert eine Bildlaufleiste im Mod-Menü, sodass die Kategorietasten jederzeit sichtbar sind. &#xA; Aktivieren Sie diese Option nicht, wenn Sie viele Mods installiert haben!" />
+  <Localisation key="tooltip_CreateFallbackXML" value="Erstellt eine XML-Datei der Fallback-Lokalisierung." />
+  <Localisation key="tooltip_SnakeMode" value="sssSsssSssssSSsssssSSSsssssSSssssSsssssssave" />
+  <Localisation key="tooltip_SpellFavourites" value="Zaubersprüche werden zu den Favoriten der Fähigkeiten hinzugefügt" />
+  <Localisation key="tooltip_ArrowUp" value="Klicken Sie, um das Element nach oben zu verschieben, oder klicken Sie bei gedrückter Umschalttaste, um es nach oben zu verschieben." />
+  <Localisation key="tooltip_ArrowDown" value="Klicken Sie, um das Element nach unten zu verschieben, oder klicken Sie bei gedrückter Umschalttaste, um es nach unten zu verschieben." />
+  <Localisation key="tooltip_OutOfCombatOnly_ArmourChecksPenalty0" value="Die Rüstungsprüfungsstrafe auf 0 setzen ist nur außerhalb von Kampfbegegnungen aktiv. &#xA; Bei nicht ausgerüsteten Gegenständen wird immer eine Rüstungsprüfungsstrafe von 0 angezeigt." />
+  <Localisation key="tooltip_OutOfCombatOnly_ArcaneSpellFailureRoll" value="Kein arkaner Zauberfehler ist nur außerhalb von Kampfbegegnungen aktiv." />
+  <Localisation key="tooltip_ActionKeySpawnUnitsFromUnitFavourites" value="Ermöglicht das Auswählen von Feinden aus den Favoriten / gespeicherten Einheiten der Einheit." />
+  <Localisation key="tooltip_AddMultipleToStorage" value="Klicken Sie, um das Gerät aus dem Speicher zu entfernen, oder klicken Sie bei gedrückter Umschalttaste, um es erneut hinzuzufügen." />
+  <Localisation key="misc_Close" value="Schließen" />
+  <Localisation key="misc_Medium" value="Mittel" />
+  <Localisation key="misc_Long" value="Lange" />
+  <Localisation key="misc_Friendly" value="Freundlich" />
+  <Localisation key="misc_Passive" value="Passiv" />
+  <Localisation key="misc_Hostile" value="Feindlich" />
+  <Localisation key="misc_items" value="Gegenstände" />
+  <Localisation key="misc_times" value="mal" />
+  <Localisation key="misc_item" value="Gegenstand" />
+  <Localisation key="misc_time" value="Zeit" />
+  <Localisation key="misc_Enable" value="Aktivieren" />
+  <Localisation key="misc_Disable" value="Deaktivieren" />
+  <Localisation key="misc_Hide" value="Ausblenden" />
+  <Localisation key="misc_Display" value="Anzeige" />
+  <Localisation key="misc_Add" value="Hinzufügen" />
+  <Localisation key="misc_To" value="Zu" />
+  <Localisation key="misc_Play" value="abspielen" />
+  <Localisation key="misc_Yes" value="Ja" />
+  <Localisation key="misc_No" value="Nein" />
+  <Localisation key="misc_Next" value="Nächster" />
+  <Localisation key="misc_None" value="Keiner" />
+  <Localisation key="misc_Left" value="links" />
+  <Localisation key="misc_UnityModManager" value="Unity Mod Manager" />
+  <Localisation key="misc_Bandit" value="Bandit" />
+  <Localisation key="misc_SnakeMode" value="Schlangenmodus" />
+  <Localisation key="misc_BagOfSnakeModes" value="Tasche der Schlangenmodi" />
+  <Localisation key="misc_Learn" value="Lernen" />
+  <Localisation key="misc_AtLevel" value="Auf Ebene" />
+  <Localisation key="misc_AlwaysPass" value="Immer bestehen" />
+  <Localisation key="misc_Checks" value="Schecks" />
+  <Localisation key="misc_Saves" value="Speichert" />
+  <Localisation key="misc_Days" value="Tage" />
+  <Localisation key="misc_Sell" value="Verkaufen" />
+  <Localisation key="misc_Unlock" value="Freischalten" />
+  <Localisation key="misc_UnlockAll" value="Alle freischalten" />
+  <Localisation key="misc_By" value="Durch" />
+  <Localisation key="misc_All" value="Alles" />
+  <Localisation key="misc_Other" value="Andere" />
+  <Localisation key="misc_RequiresRestart" value="Erfordert einen Neustart, um vollständig wirksam zu werden." />
+  <Localisation key="misc_True" value="Wahr" />
+  <Localisation key="misc_False" value="Falsch" />
+  <Localisation key="misc_NumberOfRolls" value="Anzahl der Rollen" />
+  <Localisation key="encumbrance_Light" value="Licht" />
+  <Localisation key="encumbrance_Medium" value="Mittel" />
+  <Localisation key="encumbrance_Heavy" value="Schwer" />
+  <Localisation key="encumbrance_Overload" value="Überlast" />
+  <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) verursacht Fehler und wird daher nicht hinzugefügt." />
+  <Localisation key="error_NotFound" value="nicht gefunden!" />
+  <Localisation key="taxCollector_Lord" value="Herr" />
+  <Localisation key="taxCollector_Lady" value="Dame" />
+  <Localisation key="taxCollector_Excellence" value="Exzellenz" />
+  <Localisation key="taxCollector_GreetingInitial_0_0" value="Grüße mein" />
+  <Localisation key="taxCollector_GreetingInitial_0_1" value="Grüße dein" />
+  <Localisation key="taxCollector_GreetingInitial_1" value="Oder möchten Sie anders angesprochen werden?" />
+  <Localisation key="taxCollector_GreetingInitial_2" value="Bitte sagen Sie mir, wie ich Sie in Zukunft ansprechen werde." />
+  <Localisation key="taxCollector_ButtonAddresseMe" value="Sprechen Sie mich an als" />
+  <Localisation key="taxCollector_GreetingInitial_3" value="Brillant! Lass uns anfangen!" />
+  <Localisation key="taxCollector_GreetingReturn_0_0" value="Willkommen zurück" />
+  <Localisation key="taxCollector_GreetingReturn_0_1" value="Herzlich willkommen" />
+  <Localisation key="taxCollector_GreetingReturn_1_0" value="Was möchtest du tun" />
+  <Localisation key="taxCollector_ButtonCollectTaxes" value="Steuern sammeln" />
+  <Localisation key="taxCollector_NothingToCollect_0_0" value="Ich entschuldige mich, die Steuereintreiber sind noch nicht zurückgekehrt. Versuchen Sie es später noch einmal!" />
+  <Localisation key="taxCollector_Money" value="Geld" />
+  <Localisation key="taxCollector_BuildPoints" value="Punkte bauen" />
+  <Localisation key="taxCollector_Collected_0_0" value="Bitte schön" />
+  <Localisation key="taxCollector_EmployTaxCollector" value="Mitarbeiter Steuereintreiber" />
+  <Localisation key="taxCollector_Approach" value="Ansatz" />
+  <Localisation key="about_KingmakerModsPW" value="Enthält Code von KingmakerMods.pw - Copyright (c) 2018 fireundubh &lt;fireundubh@gmail.com&gt;, MIT-Lizenz (MIT)" />
+</resources>

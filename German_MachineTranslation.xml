@@ -1063,6 +1063,7 @@
   <Localisation key="encumbrance_Overload" value="Überlast" />
   <Localisation key="error_EkunQ2" value="c5d4962385e0e9c439ab935d83361947 (EkunQ2_rewardArmor) verursacht Fehler und wird daher nicht hinzugefügt." />
   <Localisation key="error_NotFound" value="nicht gefunden!" />
+  <Localisation key="error_InvalidGUID" value="ist eine ungültige GUID!" />
   <Localisation key="taxCollector_Lord" value="Herr" />
   <Localisation key="taxCollector_Lady" value="Dame" />
   <Localisation key="taxCollector_Excellence" value="Exzellenz" />

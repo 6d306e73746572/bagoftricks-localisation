@@ -439,7 +439,7 @@
   <Localisation key="button_RemoveAllBuffs" value="Entferne alle Buffs" />
   <Localisation key="button_RemoveAllNegativeEffects" value="Entfernen Sie alle negativen Effekte" />
   <Localisation key="button_AllBuffs" value="Alle Buffs" />
-  <Localisation key="button_AddToParty" value="Zur Party hinzufügen" />
+  <Localisation key="button_AddRemoteCompanionToParty" value="Remote-Begleiter zur Party hinzufügen" />
   <Localisation key="button_AddFavouritesTo" value="Favoriten hinzufügen zu" />
   <Localisation key="button_Default" value="Standard" />
   <Localisation key="button_BaseBPIncome" value="Basis-BP-Einkommen" />
@@ -657,6 +657,7 @@
   <Localisation key="buttonToggle_RespecCostMultiplier" value="Respec-Kostenmultiplikator" />
   <Localisation key="buttonToggle_toggleCustomTakeXAsMin" value="Verwenden Sie den benutzerdefinierten Wert als Mindestrolle" />
   <Localisation key="buttonToggle_AccessRemoteCharacters" value="Zugriff Auf Entfernte Charakter" />
+   <Localisation key="buttonToggle_ShowAllPartyPortraits" value="Zeige Porträts Aller Gruppenmitglieder" />
   <Localisation key="arrayItem_Alignments_NoChange" value="Keine Änderung" />
   <Localisation key="arrayItem_Alignments_ChaoticEvil" value="Chaotisches Böses" />
   <Localisation key="arrayItem_Alignments_NeutralEvil" value="Neutrales Böses" />
@@ -719,6 +720,7 @@
   <Localisation key="arrayItem_UnityEntityData_Mercenaries" value="Söldner (benutzerdefinierte Begleiter)" />
   <Localisation key="arrayItem_UnityEntityData_Pets" value="Haustiere" />
   <Localisation key="arrayItem_UnityEntityData_Enemies" value="Feinde" />
+  <Localisation key="arrayItem_UnityEntityData_RemoteCharacters" value="Remote Characters" />
   <Localisation key="arrayItem_Weather_Normal" value="Normal" />
   <Localisation key="arrayItem_Weather_Rain" value="Regen" />
   <Localisation key="arrayItem_Weather_Snow" value="Schnee" />
@@ -808,6 +810,8 @@
   <Localisation key="warning_PreventAlignmentChanges" value="Ausrichtungsänderungen verhindern ist aktiv!" />
   <Localisation key="warning_RevealLocations" value="Aufschlussreiche Orte können nicht rückgängig gemacht werden!" />
   <Localisation key="warning_SpawnRandomHostileUnit_ActionKeySpawnEnemiesFromUnitFavourites" value="Spawn Random Hostile Unit (Experimental) und Spawn Enemies From Unit Favourites / Stored Units sind gleichzeitig aktiv!" />
+  <Localisation key="warning_SelectRemoteCharacters" value="Wählen Sie Remote-Charaktere aus, um Ihrer Gruppe Gefährten hinzuzufügen. &#xA; Das Gruppenlimit von sechs gilt nicht, wenn Sie über dieses Menü hinzufügen!" />
+  <Localisation key="warning_PartyLimitShowAllPartyPortraits" value="Ihre Gruppengröße überschreitet das Spiellimit. Es wird empfohlen, Alle Party-Porträts anzeigen zu aktivieren." />
   <Localisation key="tooltip_RespecCostMultiplier" value="Legt einen Multiplikator für die jeweiligen Kosten fest. Werte unter eins führen zu einem Preisverfall." />
   <Localisation key="tooltip_BuffDurationMultiplier" value="Die Dauer der von der Auswahl gewirkten Buffs wird mit dem ausgewählten Wert multipliziert. &#xA; Beachten Sie, dass extrem hohe Multiplikatoren möglicherweise verhindern, dass sie auf sehr lange laufende Buffs angewendet werden. &#xA; In diesem Fall wird ein Fehler in der angezeigt log (System.OverflowException)." />
   <Localisation key="tooltip_SetEncumbrance" value="Legt die Belastung für einzelne Charaktere und die Gruppe als Ganzes auf den gewählten Wert fest." />
@@ -845,6 +849,8 @@
   <Localisation key="tooltip_VendorsSellFor0" value="Alle verkauften Gegenstände sind 0 wert." />
   <Localisation key="tooltip_VendorsBuyFor0" value="Alle gekauften Gegenstände sind 0 wert." />
   <Localisation key="tooltip_AccessRemoteCharacters" value="Ermöglicht den Zugriff auf Inventare, Charakterbildschirme und Zauberbücher entfernter Charaktere außerhalb der Hauptstadt" />
+  <Localisation key="tooltip_ShowAllPartyPortraits" value="Zeigt die Porträts aller aktiven Gruppenmitglieder einschließlich Haustiere an. Funktioniert mit Partygrößen größer als sechs!" />
+  <Localisation key="tooltip_AddRemoteCompanionToParty" value="Fügt den ausgewählten Remote-Begleiter zu Ihrer Gruppe hinzu. &#xA; Das Gruppenlimit von sechs gilt nicht, wenn Sie über dieses Menü hinzufügen" />
   <Localisation key="tooltip_RepeatableLockPicking" value="Schlösser können wiederholt geöffnet werden. &#xA; Erforderlich für das Öffnen von Schlössern Verursacht Müdigkeit und verwendet das Öffnen von Schlössern" />
   <Localisation key="tooltip_RepeatableLockPickingWeariness" value="Jeder Versuch, ein Schloss zu öffnen, führt zu Müdigkeit. &#xA; Unterhalb des Wertes kann angepasst werden (1,0 = 1 Stunde Müdigkeit pro Versuch)." />
   <Localisation key="tooltip_1EqualsHourWeariness" value="1,0 = 1 Stunde Müdigkeit pro Versuch." />
@@ -961,6 +967,7 @@
   <Localisation key="tooltip_DisableWarpaintedSkullAbilityForSummonedBarbarians" value="Barbaren, die vom Warpainted Skull of Duthica beschworen wurden, können die Fähigkeiten des Warpainted Skull of Duthica nicht selbst einsetzen." />
   <Localisation key="tooltip__RemoveSummonsGlow" value="Entfernt das permanente Leuchten von Beschwörungen. &#xA; Gilt nicht für bereits beschworene Einheiten." />
   <Localisation key="tooltip_RunPerceptionTriggerActions" value="Führt die Aktionen aus, die allen Wahrnehmungsauslösern im aktuellen Bereich zugeordnet sind. versteckte Passagen aufdecken / zuvor fehlerhafte Passagen reparieren." />
+  <Localisation key="button_AddToParty" value="Zur Party hinzufügen" />
   <Localisation key="tooltip_FreezeTimedQuestAt90Days" value="Friert die verbleibende Zeit für eine zeitgesteuerte Quest nach 90 Tagen ein. &#xA; Nach dem Deaktivieren der zeitgesteuerten Quest kehren sie in ihren normalen Zustand zurück, dh sie reagieren so, als ob die Zeit abgelaufen wäre, während die Option aktiv war. &#xA; Es wird daher empfohlen, die zeitgesteuerte Quest vor dem Einschalten abzuschließen aus oder sicherstellen, dass noch Zeit übrig ist." />
   <Localisation key="tooltip_ActionKey" value="Die Aktionstaste kann so eingestellt werden, dass eine Reihe von Aktionen über einen Hotkey ausgeführt werden." />
   <Localisation key="tooltip_NoAttacksOfOpportunity" value="Die ausgewählte Gruppe ist nicht das Ziel von Gelegenheitsangriffen." />
@@ -1084,4 +1091,5 @@
   <Localisation key="taxCollector_EmployTaxCollector" value="Mitarbeiter Steuereintreiber" />
   <Localisation key="taxCollector_Approach" value="Ansatz" />
   <Localisation key="about_KingmakerModsPW" value="Enthält Code von KingmakerMods.pw - Copyright (c) 2018 fireundubh &lt;fireundubh@gmail.com&gt;, MIT-Lizenz (MIT)" />
+  <Localisation key="about_KingmakerUIExtensionsMod" value="Enthält Code von  KingmakerUIExtensionsMod - Copyright (c) 2019 Hsinyu Chan, MIT-Lizenz (MIT)" />
 </resources>

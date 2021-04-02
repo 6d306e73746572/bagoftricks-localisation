@@ -440,6 +440,7 @@
   <Localisation key="button_RemoveAllNegativeEffects" value="Entfernen Sie alle negativen Effekte" />
   <Localisation key="button_AllBuffs" value="Alle Buffs" />
   <Localisation key="button_AddRemoteCompanionToParty" value="Remote-Begleiter zur Party hinzufügen" />
+  <Localisation key="button_AddAllRemoteCompanionsToParty" value="Alle Remote-Begleiter zur Party hinzufügen" />
   <Localisation key="button_AddFavouritesTo" value="Favoriten hinzufügen zu" />
   <Localisation key="button_Default" value="Standard" />
   <Localisation key="button_BaseBPIncome" value="Basis-BP-Einkommen" />
@@ -812,6 +813,7 @@
   <Localisation key="warning_SpawnRandomHostileUnit_ActionKeySpawnEnemiesFromUnitFavourites" value="Spawn Random Hostile Unit (Experimental) und Spawn Enemies From Unit Favourites / Stored Units sind gleichzeitig aktiv!" />
   <Localisation key="warning_SelectRemoteCharacters" value="Wählen Sie Remote-Charaktere aus, um Ihrer Gruppe Gefährten hinzuzufügen. &#xA; Das Gruppenlimit von sechs gilt nicht, wenn Sie über dieses Menü hinzufügen!" />
   <Localisation key="warning_PartyLimitShowAllPartyPortraits" value="Ihre Gruppengröße überschreitet das Spiellimit. Es wird empfohlen, Alle Party-Porträts anzeigen zu aktivieren." />
+  <Localisation key="warning_SpawnUnitsAddToParty" value="Stellen Sie sicher, dass Sie Backups speichern und erstellen, bevor Sie 'Zur Party hinzufügen' verwenden!" />
   <Localisation key="tooltip_RespecCostMultiplier" value="Legt einen Multiplikator für die jeweiligen Kosten fest. Werte unter eins führen zu einem Preisverfall." />
   <Localisation key="tooltip_BuffDurationMultiplier" value="Die Dauer der von der Auswahl gewirkten Buffs wird mit dem ausgewählten Wert multipliziert. &#xA; Beachten Sie, dass extrem hohe Multiplikatoren möglicherweise verhindern, dass sie auf sehr lange laufende Buffs angewendet werden. &#xA; In diesem Fall wird ein Fehler in der angezeigt log (System.OverflowException)." />
   <Localisation key="tooltip_SetEncumbrance" value="Legt die Belastung für einzelne Charaktere und die Gruppe als Ganzes auf den gewählten Wert fest." />
@@ -851,6 +853,7 @@
   <Localisation key="tooltip_AccessRemoteCharacters" value="Ermöglicht den Zugriff auf Inventare, Charakterbildschirme und Zauberbücher entfernter Charaktere außerhalb der Hauptstadt" />
   <Localisation key="tooltip_ShowAllPartyPortraits" value="Zeigt die Porträts aller aktiven Gruppenmitglieder einschließlich Haustiere an. Funktioniert mit Partygrößen größer als sechs!" />
   <Localisation key="tooltip_AddRemoteCompanionToParty" value="Fügt den ausgewählten Remote-Begleiter zu Ihrer Gruppe hinzu. &#xA; Das Gruppenlimit von sechs gilt nicht, wenn Sie über dieses Menü hinzufügen" />
+  <Localisation key="tooltip_AddAllRemoteCompanionsToParty" value="Fügt alle Remote-Begleiter zu Ihrer Gruppe hinzu. &#xA; Das Gruppenlimit von sechs gilt nicht, wenn Sie über dieses Menü hinzufügen"  />
   <Localisation key="tooltip_RepeatableLockPicking" value="Schlösser können wiederholt geöffnet werden. &#xA; Erforderlich für das Öffnen von Schlössern Verursacht Müdigkeit und verwendet das Öffnen von Schlössern" />
   <Localisation key="tooltip_RepeatableLockPickingWeariness" value="Jeder Versuch, ein Schloss zu öffnen, führt zu Müdigkeit. &#xA; Unterhalb des Wertes kann angepasst werden (1,0 = 1 Stunde Müdigkeit pro Versuch)." />
   <Localisation key="tooltip_1EqualsHourWeariness" value="1,0 = 1 Stunde Müdigkeit pro Versuch." />
@@ -1021,6 +1024,7 @@
   <Localisation key="tooltip_OutOfCombatOnly_ArmourChecksPenalty0" value="Die Rüstungsprüfungsstrafe auf 0 setzen ist nur außerhalb von Kampfbegegnungen aktiv. &#xA; Bei nicht ausgerüsteten Gegenständen wird immer eine Rüstungsprüfungsstrafe von 0 angezeigt." />
   <Localisation key="tooltip_OutOfCombatOnly_ArcaneSpellFailureRoll" value="Kein arkaner Zauberfehler ist nur außerhalb von Kampfbegegnungen aktiv." />
   <Localisation key="tooltip_ActionKeySpawnUnitsFromUnitFavourites" value="Ermöglicht das Auswählen von Feinden aus den Favoriten / gespeicherten Einheiten der Einheit." />
+  <Localisation key="tooltip_SpawnUnitsAddToParty" value="Fügt ausgewählte Einheiten Ihrer Party hinzu. Stellen Sie sicher, dass Sie Backups speichern und erstellen, bevor Sie eine dieser Optionen verwenden!" />
   <Localisation key="tooltip_AddMultipleToStorage" value="Klicken Sie, um das Gerät aus dem Speicher zu entfernen, oder klicken Sie bei gedrückter Umschalttaste, um es erneut hinzuzufügen." />
   <Localisation key="misc_Close" value="Schließen" />
   <Localisation key="misc_Medium" value="Mittel" />
